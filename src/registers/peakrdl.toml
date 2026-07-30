@@ -1,0 +1,9 @@
+[peakrdl]
+
+# Paths for Python to search for importable modules
+python_search_paths = [
+    "./plugins"
+]
+
+# Define entry-point spec for the exporter
+plugins.exporters.sv_const_exporter = "sv_const_exporter:SVConstExporter"

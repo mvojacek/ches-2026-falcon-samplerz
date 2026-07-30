@@ -1,0 +1,9 @@
+Tests left after filtering with bounds on BerExp input: 43947
+-x_min = -0.000000000000000000, -x_max = 44.3291725697516199
+Absolute error max = 9.68173863520019630e-17
+Relative error max = 1.28090617050508407e-16
+Relative error max (log2) = -52.7936847195712256
+Needed bound on relative error: 2^-43.5 = 8.03887338846092885e-14
+Renyi error bound is satisfied
+Achieved precision is 627.592681928533352 times better than needed
+Wrote data CSV to flopoco5-exp-testcases.csv

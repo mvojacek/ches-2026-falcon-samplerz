@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+settings=/opt/Xilinx/2025.1/Vivado/settings64.sh
+project=/home/vagrant/Desktop/samplerz
+target=$1
+
+test -r "$settings" || { echo "Vivado 2025.1 is not installed."; exit 1; }
+. "$settings"
+cd "$project"
+just "$target"
+just gui

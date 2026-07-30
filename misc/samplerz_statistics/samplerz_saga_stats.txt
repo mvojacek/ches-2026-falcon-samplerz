@@ -1,0 +1,722 @@
+
+Testing a Gaussian sampler with center = -451.052234752546 and sigma = 1.316190642568771
+Number of samples: 238514
+
+Moments  |   Expected     Empiric
+---------+----------------------
+Mean:    |   -451.05223      -451.05404
+St. dev. |   1.31619      1.31456
+Skewness |   0.00000      -0.00007
+Kurtosis |   0.00000      -0.01944
+
+Chi-2 statistic:   10.46240735099697
+Chi-2 p-value:     0.400902794594357   (should be > 0.001)
+
+How many outliers? 0
+
+Is the sample valid? True
+
+===============
+
+Testing a Gaussian sampler with center = -122.38427297989216 and sigma = 1.316190642568771
+Number of samples: 239068
+
+Moments  |   Expected     Empiric
+---------+----------------------
+Mean:    |   -122.38427      -122.38833
+St. dev. |   1.31619      1.31557
+Skewness |   0.00000      0.00450
+Kurtosis |   0.00000      0.00781
+
+Chi-2 statistic:   9.467955474023134
+Chi-2 p-value:     0.48834153485129506   (should be > 0.001)
+
+How many outliers? 0
+
+Is the sample valid? True
+
+===============
+
+Testing a Gaussian sampler with center = -20.65235532507815 and sigma = 1.4175269030626214
+Number of samples: 85904
+
+Moments  |   Expected     Empiric
+---------+----------------------
+Mean:    |   -20.65236      -20.65862
+St. dev. |   1.41753      1.41595
+Skewness |   0.00000      0.01028
+Kurtosis |   0.00000      -0.02776
+
+Chi-2 statistic:   12.475655682206874
+Chi-2 p-value:     0.25448254706800033   (should be > 0.001)
+
+How many outliers? 0
+
+Is the sample valid? True
+
+===============
+
+Testing a Gaussian sampler with center = 21.130555096196492 and sigma = 1.4175269030626214
+Number of samples: 85947
+
+Moments  |   Expected     Empiric
+---------+----------------------
+Mean:    |   21.13056      21.12156
+St. dev. |   1.41753      1.41003
+Skewness |   0.00000      -0.00427
+Kurtosis |   0.00000      0.00022
+
+Chi-2 statistic:   11.981450539527392
+Chi-2 p-value:     0.2862998662453581   (should be > 0.001)
+
+How many outliers? 0
+
+Is the sample valid? True
+
+===============
+
+Testing a Gaussian sampler with center = 7.689207767341648 and sigma = 1.4294283709177311
+Number of samples: 233994
+
+Moments  |   Expected     Empiric
+---------+----------------------
+Mean:    |   7.68921      7.68833
+St. dev. |   1.42943      1.42714
+Skewness |   0.00000      -0.00497
+Kurtosis |   0.00000      0.00535
+
+Chi-2 statistic:   7.748004544894267
+Chi-2 p-value:     0.7356835926589793   (should be > 0.001)
+
+How many outliers? 0
+
+Is the sample valid? True
+
+===============
+
+Testing a Gaussian sampler with center = 25.530080210283884 and sigma = 1.4294283709177311
+Number of samples: 234644
+
+Moments  |   Expected     Empiric
+---------+----------------------
+Mean:    |   25.53008      25.53709
+St. dev. |   1.42943      1.42952
+Skewness |   0.00000      -0.00599
+Kurtosis |   0.00000      0.00519
+
+Chi-2 statistic:   13.429529659371756
+Chi-2 p-value:     0.26618052452968516   (should be > 0.001)
+
+How many outliers? 0
+
+Is the sample valid? True
+
+===============
+
+Testing a Gaussian sampler with center = 23.3516446158352 and sigma = 1.4793031630055682
+Number of samples: 97490
+
+Moments  |   Expected     Empiric
+---------+----------------------
+Mean:    |   23.35164      23.35501
+St. dev. |   1.47930      1.47809
+Skewness |   0.00000      0.00408
+Kurtosis |   0.00000      -0.00095
+
+Chi-2 statistic:   4.4434073008740445
+Chi-2 p-value:     0.9551093897435878   (should be > 0.001)
+
+How many outliers? 0
+
+Is the sample valid? True
+
+===============
+
+Testing a Gaussian sampler with center = 327.8741281266712 and sigma = 1.4793031630055682
+Number of samples: 97045
+
+Moments  |   Expected     Empiric
+---------+----------------------
+Mean:    |   327.87413      327.87620
+St. dev. |   1.47930      1.47798
+Skewness |   0.00000      0.00002
+Kurtosis |   0.00000      -0.02623
+
+Chi-2 statistic:   10.98502967669241
+Chi-2 p-value:     0.4445183018266893   (should be > 0.001)
+
+How many outliers? 0
+
+Is the sample valid? True
+
+===============
+
+Testing a Gaussian sampler with center = 19.960247109319013 and sigma = 1.5261451518675448
+Number of samples: 243730
+
+Moments  |   Expected     Empiric
+---------+----------------------
+Mean:    |   19.96025      19.96017
+St. dev. |   1.52615      1.52382
+Skewness |   0.00000      -0.00195
+Kurtosis |   0.00000      -0.00300
+
+Chi-2 statistic:   3.0309102939217443
+Chi-2 p-value:     0.9953218304078806   (should be > 0.001)
+
+How many outliers? 0
+
+Is the sample valid? True
+
+===============
+
+Testing a Gaussian sampler with center = 34.5905486354154 and sigma = 1.5261451518675448
+Number of samples: 243468
+
+Moments  |   Expected     Empiric
+---------+----------------------
+Mean:    |   34.59055      34.59619
+St. dev. |   1.52615      1.52612
+Skewness |   0.00000      -0.00203
+Kurtosis |   0.00000      0.00346
+
+Chi-2 statistic:   16.08190996837087
+Chi-2 p-value:     0.13811714144061685   (should be > 0.001)
+
+How many outliers? 0
+
+Is the sample valid? True
+
+===============
+
+Testing a Gaussian sampler with center = -50.518349175372585 and sigma = 1.5688164657685573
+Number of samples: 96786
+
+Moments  |   Expected     Empiric
+---------+----------------------
+Mean:    |   -50.51835      -50.51149
+St. dev. |   1.56882      1.57170
+Skewness |   0.00000      -0.00145
+Kurtosis |   0.00000      -0.02078
+
+Chi-2 statistic:   10.683204411648104
+Chi-2 p-value:     0.4701722778117895   (should be > 0.001)
+
+How many outliers? 0
+
+Is the sample valid? True
+
+===============
+
+Testing a Gaussian sampler with center = 41.174142007145605 and sigma = 1.5688164657685573
+Number of samples: 97019
+
+Moments  |   Expected     Empiric
+---------+----------------------
+Mean:    |   41.17414      41.18318
+St. dev. |   1.56882      1.56812
+Skewness |   0.00000      0.00414
+Kurtosis |   0.00000      -0.00236
+
+Chi-2 statistic:   9.295053158603519
+Chi-2 p-value:     0.6775437154365399   (should be > 0.001)
+
+How many outliers? 0
+
+Is the sample valid? True
+
+===============
+
+Testing a Gaussian sampler with center = -108.84777247525024 and sigma = 1.6052984212787245
+Number of samples: 108195
+
+Moments  |   Expected     Empiric
+---------+----------------------
+Mean:    |   -108.84777      -108.84277
+St. dev. |   1.60530      1.60457
+Skewness |   0.00000      0.02082
+Kurtosis |   0.00000      -0.00174
+
+Chi-2 statistic:   18.24332711489578
+Chi-2 p-value:     0.10849954477536841   (should be > 0.001)
+
+How many outliers? 0
+
+Is the sample valid? True
+
+===============
+
+Testing a Gaussian sampler with center = 161.24972783423146 and sigma = 1.6052984212787245
+Number of samples: 108384
+
+Moments  |   Expected     Empiric
+---------+----------------------
+Mean:    |   161.24973      161.25285
+St. dev. |   1.60530      1.59848
+Skewness |   0.00000      0.00067
+Kurtosis |   0.00000      0.00045
+
+Chi-2 statistic:   11.21048225898568
+Chi-2 p-value:     0.5109717118068517   (should be > 0.001)
+
+How many outliers? 0
+
+Is the sample valid? True
+
+===============
+
+Testing a Gaussian sampler with center = 15.76479951152708 and sigma = 1.6358231324679886
+Number of samples: 153576
+
+Moments  |   Expected     Empiric
+---------+----------------------
+Mean:    |   15.76480      15.76762
+St. dev. |   1.63582      1.63293
+Skewness |   0.00000      0.00425
+Kurtosis |   0.00000      -0.00886
+
+Chi-2 statistic:   11.941439393121271
+Chi-2 p-value:     0.4503941361266842   (should be > 0.001)
+
+How many outliers? 0
+
+Is the sample valid? True
+
+===============
+
+Testing a Gaussian sampler with center = 26.534156746606968 and sigma = 1.6358231324679886
+Number of samples: 153765
+
+Moments  |   Expected     Empiric
+---------+----------------------
+Mean:    |   26.53416      26.53642
+St. dev. |   1.63582      1.63090
+Skewness |   0.00000      -0.00213
+Kurtosis |   0.00000      0.00805
+
+Chi-2 statistic:   17.935695644685325
+Chi-2 p-value:     0.1599763611375512   (should be > 0.001)
+
+How many outliers? 0
+
+Is the sample valid? True
+
+===============
+
+Testing a Gaussian sampler with center = -33.881602831907955 and sigma = 1.7080961495533917
+Number of samples: 162276
+
+Moments  |   Expected     Empiric
+---------+----------------------
+Mean:    |   -33.88160      -33.88096
+St. dev. |   1.70810      1.70744
+Skewness |   0.00000      0.00911
+Kurtosis |   0.00000      0.00901
+
+Chi-2 statistic:   14.896167633245636
+Chi-2 p-value:     0.31387960239546187   (should be > 0.001)
+
+How many outliers? 0
+
+Is the sample valid? True
+
+===============
+
+Testing a Gaussian sampler with center = 21.20983713406124 and sigma = 1.7080961495533917
+Number of samples: 162736
+
+Moments  |   Expected     Empiric
+---------+----------------------
+Mean:    |   21.20984      21.21575
+St. dev. |   1.70810      1.70767
+Skewness |   0.00000      -0.00335
+Kurtosis |   0.00000      0.02264
+
+Chi-2 statistic:   13.530580686700429
+Chi-2 p-value:     0.4077124592607152   (should be > 0.001)
+
+How many outliers? 0
+
+Is the sample valid? True
+
+===============
+
+Testing a Gaussian sampler with center = -12.831292971257412 and sigma = 1.7619413406162074
+Number of samples: 12211
+
+Moments  |   Expected     Empiric
+---------+----------------------
+Mean:    |   -12.83129      -12.85390
+St. dev. |   1.76194      1.77013
+Skewness |   0.00000      -0.03384
+Kurtosis |   0.00000      0.08042
+
+Chi-2 statistic:   15.543955603948925
+Chi-2 p-value:     0.1589233789550649   (should be > 0.001)
+
+How many outliers? 0
+
+Is the sample valid? True
+
+===============
+
+Testing a Gaussian sampler with center = 28.53081311221446 and sigma = 1.7619413406162074
+Number of samples: 12130
+
+Moments  |   Expected     Empiric
+---------+----------------------
+Mean:    |   28.53081      28.52399
+St. dev. |   1.76194      1.73945
+Skewness |   0.00000      0.01925
+Kurtosis |   0.00000      0.09411
+
+Chi-2 statistic:   13.713403183189824
+Chi-2 p-value:     0.24925964705027961   (should be > 0.001)
+
+How many outliers? 0
+
+Is the sample valid? True
+
+===============
+
+Testing a Gaussian sampler with center = -19.35193223204291 and sigma = 1.7625794584689674
+Number of samples: 12108
+
+Moments  |   Expected     Empiric
+---------+----------------------
+Mean:    |   -19.35193      -19.36199
+St. dev. |   1.76258      1.76788
+Skewness |   0.00000      -0.01475
+Kurtosis |   0.00000      -0.03706
+
+Chi-2 statistic:   19.079013685827764
+Chi-2 p-value:     0.05968985141167193   (should be > 0.001)
+
+How many outliers? 0
+
+Is the sample valid? True
+
+===============
+
+Testing a Gaussian sampler with center = -8.900465516067484 and sigma = 1.7625794584689674
+Number of samples: 12241
+
+Moments  |   Expected     Empiric
+---------+----------------------
+Mean:    |   -8.90047      -8.89952
+St. dev. |   1.76258      1.77885
+Skewness |   0.00000      -0.03075
+Kurtosis |   0.00000      -0.01943
+
+Chi-2 statistic:   20.08044383557412
+Chi-2 p-value:     0.044249583188836095   (should be > 0.001)
+
+How many outliers? 0
+
+Is the sample valid? True
+
+===============
+
+Testing a Gaussian sampler with center = -34.800194690021975 and sigma = 1.762677899102633
+Number of samples: 12142
+
+Moments  |   Expected     Empiric
+---------+----------------------
+Mean:    |   -34.80019      -34.80769
+St. dev. |   1.76268      1.75946
+Skewness |   0.00000      0.02464
+Kurtosis |   0.00000      0.12124
+
+Chi-2 statistic:   10.268362905515758
+Chi-2 p-value:     0.5064216110076241   (should be > 0.001)
+
+How many outliers? 0
+
+Is the sample valid? True
+
+===============
+
+Testing a Gaussian sampler with center = 8.085793567983794 and sigma = 1.762677899102633
+Number of samples: 12086
+
+Moments  |   Expected     Empiric
+---------+----------------------
+Mean:    |   8.08579      8.07761
+St. dev. |   1.76268      1.78176
+Skewness |   0.00000      0.03348
+Kurtosis |   0.00000      0.01332
+
+Chi-2 statistic:   13.527822844335436
+Chi-2 p-value:     0.260229970685879   (should be > 0.001)
+
+How many outliers? 0
+
+Is the sample valid? True
+
+===============
+
+Testing a Gaussian sampler with center = 2.873705926035017 and sigma = 1.7630705378724352
+Number of samples: 12067
+
+Moments  |   Expected     Empiric
+---------+----------------------
+Mean:    |   2.87371      2.88605
+St. dev. |   1.76307      1.75679
+Skewness |   0.00000      -0.00581
+Kurtosis |   0.00000      0.00459
+
+Chi-2 statistic:   4.602165647954793
+Chi-2 p-value:     0.9488943629457648   (should be > 0.001)
+
+How many outliers? 0
+
+Is the sample valid? True
+
+===============
+
+Testing a Gaussian sampler with center = 58.37417635069777 and sigma = 1.7630705378724352
+Number of samples: 12167
+
+Moments  |   Expected     Empiric
+---------+----------------------
+Mean:    |   58.37418      58.34873
+St. dev. |   1.76307      1.74610
+Skewness |   0.00000      -0.00898
+Kurtosis |   0.00000      -0.01113
+
+Chi-2 statistic:   17.621731225671525
+Chi-2 p-value:     0.09078304731793826   (should be > 0.001)
+
+How many outliers? 0
+
+Is the sample valid? True
+
+===============
+
+Testing a Gaussian sampler with center = -10.81440560936328 and sigma = 1.764022083652821
+Number of samples: 12162
+
+Moments  |   Expected     Empiric
+---------+----------------------
+Mean:    |   -10.81441      -10.81738
+St. dev. |   1.76402      1.77262
+Skewness |   0.00000      0.02563
+Kurtosis |   0.00000      0.01432
+
+Chi-2 statistic:   7.811047565733911
+Chi-2 p-value:     0.730123309903468   (should be > 0.001)
+
+How many outliers? 0
+
+Is the sample valid? True
+
+===============
+
+Testing a Gaussian sampler with center = 37.37092973365196 and sigma = 1.764022083652821
+Number of samples: 12146
+
+Moments  |   Expected     Empiric
+---------+----------------------
+Mean:    |   37.37093      37.37288
+St. dev. |   1.76402      1.76595
+Skewness |   0.00000      0.00169
+Kurtosis |   0.00000      -0.00530
+
+Chi-2 statistic:   3.8252924948698386
+Chi-2 p-value:     0.9747515975587324   (should be > 0.001)
+
+How many outliers? 0
+
+Is the sample valid? True
+
+===============
+
+Testing a Gaussian sampler with center = -6.2744239214521835 and sigma = 1.7643591634061362
+Number of samples: 255717
+
+Moments  |   Expected     Empiric
+---------+----------------------
+Mean:    |   -6.27442      -6.27625
+St. dev. |   1.76436      1.76557
+Skewness |   0.00000      0.00153
+Kurtosis |   0.00000      -0.00265
+
+Chi-2 statistic:   4.2180023642606015
+Chi-2 p-value:     0.9940054811483006   (should be > 0.001)
+
+How many outliers? 0
+
+Is the sample valid? True
+
+===============
+
+Testing a Gaussian sampler with center = 18.895072974517813 and sigma = 1.7643591634061362
+Number of samples: 256632
+
+Moments  |   Expected     Empiric
+---------+----------------------
+Mean:    |   18.89507      18.89646
+St. dev. |   1.76436      1.75836
+Skewness |   0.00000      -0.01016
+Kurtosis |   0.00000      0.02098
+
+Chi-2 statistic:   24.506123421277785
+Chi-2 p-value:     0.03976783324755823   (should be > 0.001)
+
+How many outliers? 0
+
+Is the sample valid? True
+
+===============
+
+Testing a Gaussian sampler with center = -38.44210563507413 and sigma = 1.7645859149486813
+Number of samples: 236048
+
+Moments  |   Expected     Empiric
+---------+----------------------
+Mean:    |   -38.44211      -38.44563
+St. dev. |   1.76459      1.76439
+Skewness |   0.00000      0.00528
+Kurtosis |   0.00000      0.00408
+
+Chi-2 statistic:   12.633134763591686
+Chi-2 p-value:     0.47653171520438475   (should be > 0.001)
+
+How many outliers? 0
+
+Is the sample valid? True
+
+===============
+
+Testing a Gaussian sampler with center = 15.397964657667156 and sigma = 1.7645859149486813
+Number of samples: 235833
+
+Moments  |   Expected     Empiric
+---------+----------------------
+Mean:    |   15.39796      15.40353
+St. dev. |   1.76459      1.76352
+Skewness |   0.00000      0.00182
+Kurtosis |   0.00000      -0.00428
+
+Chi-2 statistic:   9.439469396344167
+Chi-2 p-value:     0.7390019569573087   (should be > 0.001)
+
+How many outliers? 0
+
+Is the sample valid? True
+
+===============
+
+Testing a Gaussian sampler with center = 4.522176027775572 and sigma = 1.7659333379592692
+Number of samples: 228335
+
+Moments  |   Expected     Empiric
+---------+----------------------
+Mean:    |   4.52218      4.52292
+St. dev. |   1.76593      1.76549
+Skewness |   0.00000      -0.00393
+Kurtosis |   0.00000      -0.00548
+
+Chi-2 statistic:   6.0227595123012625
+Chi-2 p-value:     0.9453207125895112   (should be > 0.001)
+
+How many outliers? 0
+
+Is the sample valid? True
+
+===============
+
+Testing a Gaussian sampler with center = 54.9644617264131 and sigma = 1.7659333379592692
+Number of samples: 228392
+
+Moments  |   Expected     Empiric
+---------+----------------------
+Mean:    |   54.96446      54.96379
+St. dev. |   1.76593      1.76631
+Skewness |   0.00000      -0.00634
+Kurtosis |   0.00000      0.01545
+
+Chi-2 statistic:   19.5538626481298
+Chi-2 p-value:     0.14484616361092306   (should be > 0.001)
+
+How many outliers? 0
+
+Is the sample valid? True
+
+===============
+
+Testing a Gaussian sampler with center = -1.9578009402976746 and sigma = 1.7663846448294307
+Number of samples: 43851
+
+Moments  |   Expected     Empiric
+---------+----------------------
+Mean:    |   -1.95780      -1.95836
+St. dev. |   1.76638      1.75800
+Skewness |   0.00000      0.00947
+Kurtosis |   0.00000      -0.06246
+
+Chi-2 statistic:   15.095146981082605
+Chi-2 p-value:     0.23627433113065177   (should be > 0.001)
+
+How many outliers? 0
+
+Is the sample valid? True
+
+===============
+
+Testing a Gaussian sampler with center = 56.172871211098006 and sigma = 1.7663846448294307
+Number of samples: 43503
+
+Moments  |   Expected     Empiric
+---------+----------------------
+Mean:    |   56.17287      56.14840
+St. dev. |   1.76638      1.76142
+Skewness |   0.00000      -0.02195
+Kurtosis |   0.00000      -0.01158
+
+Chi-2 statistic:   22.35714230480824
+Chi-2 p-value:     0.0337066731240769   (should be > 0.001)
+
+How many outliers? 0
+
+Is the sample valid? True
+
+===============
+
+Testing a Gaussian sampler with center = -44.301977378143064 and sigma = 1.767660377221966
+Number of samples: 172211
+
+Moments  |   Expected     Empiric
+---------+----------------------
+Mean:    |   -44.30198      -44.30457
+St. dev. |   1.76766      1.77230
+Skewness |   0.00000      0.00490
+Kurtosis |   0.00000      -0.00355
+
+Chi-2 statistic:   9.810167086533813
+Chi-2 p-value:     0.7093791130756488   (should be > 0.001)
+
+How many outliers? 0
+
+Is the sample valid? True
+
+===============
+
+Testing a Gaussian sampler with center = 23.440800716087555 and sigma = 1.767660377221966
+Number of samples: 172255
+
+Moments  |   Expected     Empiric
+---------+----------------------
+Mean:    |   23.44080      23.44281
+St. dev. |   1.76766      1.76478
+Skewness |   0.00000      0.00028
+Kurtosis |   0.00000      -0.00643
+
+Chi-2 statistic:   14.280883862730601
+Chi-2 p-value:     0.3543644166102395   (should be > 0.001)
+
+How many outliers? 0
+
+Is the sample valid? True
+
+===============

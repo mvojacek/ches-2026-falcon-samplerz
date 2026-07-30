@@ -1,0 +1,179 @@
+addrmap samplerz_axi {
+    name = "SamplerZ accelerator";
+
+    default regwidth = 32;
+    default accesswidth = 32;
+    default sw = rw;
+    default hw = r;
+
+    reg sw2hw32 {
+        regwidth = 32;
+        field {
+            sw = rw;
+            hw = r;
+        } data [31:0];
+    };
+
+    reg sw2hw64 {
+        regwidth = 64;
+        field {
+            sw = rw;
+            hw = r;
+        } low [31:0];
+        field {
+            sw = rw;
+            hw = r;
+        } high [63:32];
+    };
+
+    reg hw2sw32 {
+        regwidth = 32;
+        field {
+            sw = r;
+            hw = w;
+        } data [31:0];
+    };
+
+    reg hw2sw64 {
+        regwidth = 64;
+        field {
+            sw = r;
+            hw = w;
+        } low [31:0];
+        field {
+            sw = r;
+            hw = w;
+        } high [63:32];
+    };
+
+    reg {
+        name = "Marker Register";
+        field {
+            sw = r;
+            hw = na;
+        } data [31:0] = 0x6663737a; // "fcsz"
+    } marker;
+
+    reg {
+        name = "Control Register";
+
+        field {
+            desc = "This bit enables Falcon-1024 instead of Falcon-512";
+        } falcon1024 = 0;
+
+        field {
+            desc = "The computation is done";
+            sw = r;
+            hw = w;
+        } done = 0;
+
+        field {
+            desc = "Start the computation";
+            singlepulse;
+        } start = 0;
+
+        field {
+            desc = "Stop the module";
+            singlepulse;
+        } stop = 0;
+
+        field {
+            desc = "Continuous sample generation";
+        } continuous = 0;
+
+        field {
+            desc = "Reset the module";
+            singlepulse;
+        } reset = 0;
+
+        field {
+            desc = "The module is busy";
+            sw = r;
+            hw = w;
+        } busy = 0;
+
+        field {
+            desc = "The module is fully filled with random bits";
+            sw = r;
+            hw = w;
+        } rand_full = 0;
+    } control;
+
+    reg {
+        regwidth = 64;
+        name = "Cycle Counter Register";
+        desc = "The number of cycles the module has been active since the last start";
+        field {
+            sw = rw;
+            hw = na;
+            counter;
+            reset = 1;
+        } low [31:0] = 0;
+        signal { activehigh; } reset_busy_cycles;
+        low->resetsignal = reset_busy_cycles;
+        field {
+            sw = rw;
+            hw = na;
+            counter;
+            reset = 0;
+        } high [63:32] = 0;
+        high->incr = low->overflow;
+        high->resetsignal = reset_busy_cycles;
+    } busy_cycles;
+
+    reg {
+        regwidth = 64;
+        name = "Random Bits Counter Register";
+        field {
+            desc = "The number of random bits consumed since the last start";
+            sw = rw;
+            hw = na;
+            counter;
+            we = 0;
+            incrwidth = 32;
+            reset = 0;
+        } low [31:0] = 0;
+        signal { activehigh; } reset_consumed_bits;
+        low->resetsignal = reset_consumed_bits;
+        field {
+            sw = rw;
+            hw = na;
+            counter;
+            reset = 0;
+        } high [63:32] = 0;
+        high->incr = low->overflow;
+        high->resetsignal = reset_consumed_bits;
+    } consumed_bits;
+    
+    sw2hw64 sginv;
+    sw2hw64 mu1;
+    sw2hw64 mu2;
+
+    hw2sw32 z1;
+    hw2sw32 z2;
+
+    regfile {
+        sw2hw32 seed[11];
+
+        reg {
+            regwidth = 64;
+            field {
+                sw = rw;
+                hw = r;
+                counter;
+            } low [31:0];
+            field {
+                sw = rw;
+                hw = r;
+                counter;
+            } high [63:32];
+            high->incr = low->overflow;
+        } counter;
+    } prng;
+
+    regfile sample_histogram {
+        hw2sw64 histogram [40];
+        hw2sw32 pivot_value;
+        hw2sw32 pivot_index;
+    } sample_histograms [2];
+};

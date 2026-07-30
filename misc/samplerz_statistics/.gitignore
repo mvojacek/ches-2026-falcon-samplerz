@@ -1,0 +1,8 @@
+samples/
+samples_sim/
+samples_hw/
+samples_hw_hist/
+
+__pycache__/
+qqplot_test.eps
+histogram.eps

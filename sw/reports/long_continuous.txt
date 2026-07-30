@@ -1,0 +1,158 @@
+Marker: 0x6663737A
+== SAMPLERZ_AXI Status ===
+Control Register: 0x00000091
+Falcon1024: 1
+Done: 0
+Start: 0
+Continuous: 1
+Reset: 0
+Busy: 0
+Full: 1
+Busy Cycles: 584577417
+Consumed Bits: 5436886504
+PRNG Counter: 0x0000000000003072
+===========================================
+Getting samples with sigma_inv = 0.625526, mu1 = -530.366074, mu2 = -549.889926
+Write time: 1680 ns
+Compute time: 560 ns
+Read time: 1060 ns
+Total time: 3300 ns
+Generated samples: z1 = -527, z2 = -550
+== SAMPLERZ_AXI Status ===
+Control Register: 0x00000083
+Falcon1024: 1
+Done: 1
+Start: 0
+Continuous: 0
+Reset: 0
+Busy: 0
+Full: 1
+Busy Cycles: 26
+Consumed Bits: 192
+PRNG Counter: 0x000000000000B715
+===========================================
+Running continuous mode for -1 seconds...
+Press any key to stop...
+
+== SAMPLERZ_AXI Status ===
+Control Register: 0x000000D1
+Falcon1024: 1
+Done: 0
+Start: 0
+Continuous: 1
+Reset: 0
+Busy: 1
+Full: 1
+Busy Cycles: 39401813053849
+Consumed Bits: 354098286604928
+PRNG Counter: 0x000023D5F312EF98
+===========================================
+== SAMPLERZ_AXI Status ===
+Control Register: 0x00000091
+Falcon1024: 1
+Done: 0
+Start: 0
+Continuous: 1
+Reset: 0
+Busy: 0
+Full: 1
+Busy Cycles: 39401813069859
+Consumed Bits: 354098286711432
+PRNG Counter: 0x000023D5F313A414
+===========================================
+== SAMPLERZ_AXI Histogram for z1 ===
+-553:             0
+-552:             0
+-551:             0
+-550:             0
+-549:             0
+-548:             0
+-547:             0
+-546:             0
+-545:             0
+-544:             0
+-543:             0
+-542:            11
+-541:           705
+-540:         36604
+-539:       1311698
+-538:      31628892
+-537:     515578825
+-536:    5684091595
+-535:   42373064512
+-534:  213586606553
+-533:  727994525221
+-532: 1677839322435
+-531: 2614808343491
+-530: 2755488535301
+-529: 1963471296924
+-528:  946059810459
+-527:  308235357140
+-526:   67906456831
+-525:   10116087733
+-524:    1019064070
+-523:      69413061
+-522:       3194882
+-521:         99429
+-520:          2135
+-519:            34
+-518:             0
+-517:             0
+-516:             0
+-515:             0
+-514:             0
+Sum: 11335203828541
+================================
+== SAMPLERZ_AXI Histogram for z2 ===
+-571:             0
+-570:             0
+-569:             0
+-568:             0
+-567:             0
+-566:             0
+-565:             0
+-564:             0
+-563:             0
+-562:             0
+-561:            90
+-560:          5914
+-559:        250658
+-558:       7292584
+-557:     143281611
+-556:    1903439965
+-555:   17095582521
+-554:  103819538973
+-553:  426329463001
+-552: 1183809226422
+-551: 2222717250228
+-550: 2821985568008
+-549: 2422668672535
+-548: 1406378856211
+-547:  552047781892
+-546:  146528236086
+-545:   26298551494
+-544:    3191648809
+-543:     261936844
+-542:      14529411
+-541:        545073
+-540:         14061
+-539:           237
+-538:             0
+-537:             0
+-536:             0
+-535:             0
+-534:             0
+-533:             0
+-532:             0
+Sum: 11335201672628
+================================
+===== Continuous =====
+Continuous busy cycles: 39401813069859
+Continuous bits used: 354098286711432
+Continuous samples z1: 11335203828541
+Continuous samples z2: 11335201672628
+Continuous total samples: 22670405501169
+Average busy cycles per continuous sample: 1.738029
+Average bits used per continuous sample: 15.619407
+Average bits used per busy cycle: 8.986853
+

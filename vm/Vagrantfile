@@ -1,0 +1,188 @@
+require "base64"
+require "etc"
+require "fileutils"
+require "tempfile"
+
+DOTENV = File.join(__dir__, ".env")
+dotenv = {}
+if File.file?(DOTENV)
+  File.foreach(DOTENV) do |line|
+    line = line.strip
+    next if line.empty? || line.start_with?("#")
+    key, value = line.split("=", 2)
+    next unless value
+    value = value.strip
+    if value.length >= 2 && value[0] == value[-1] && ["'", '"'].include?(value[0])
+      quote = value[0]
+      value = value[1...-1]
+      value = value.gsub(/\\([\\"$`])/, '\\1') if quote == '"'
+    end
+    dotenv[key.strip] = value
+  end
+end
+
+dotenv.each { |key, value| ENV[key] ||= value }
+
+credentials = {
+  "XILINX_USERNAME" => ENV.fetch("XILINX_USERNAME", ""),
+  "XILINX_PASSWORD" => ENV.fetch("XILINX_PASSWORD", ""),
+}
+credential_file = nil
+unless credentials.values.any?(&:empty?)
+  credential_file = Tempfile.new("vivado-credentials")
+  credential_file.chmod(0600)
+  credentials.each do |key, value|
+    credential_file.puts "#{key}_BASE64=#{Base64.strict_encode64(value)}"
+  end
+  credential_file.flush
+end
+
+HOST_UID = Process.uid
+HOST_GID = Process.gid
+HOST_PHYSICAL_CORES = Dir.glob("/sys/devices/system/cpu/cpu[0-9]*/topology/core_id").filter_map do |core_id_path|
+  package_id_path = File.join(File.dirname(core_id_path), "physical_package_id")
+  [File.read(package_id_path).strip, File.read(core_id_path).strip] if File.file?(package_id_path)
+end.uniq.count
+HOST_PHYSICAL_CORES = Etc.nprocessors if HOST_PHYSICAL_CORES.zero?
+XILINX_DISK = File.join(__dir__, "vm-vivado.vdi")
+XILINX_DISK_SIZE_MB = Integer(ENV.fetch("VIVADO_XILINX_DISK_GB", "100")) * 1024
+XILINX_DISK_CONTROLLER = "SATA Controller"
+XILINX_DISK_PORT = "1"
+ROOT_DISK = File.join(__dir__, "vm-root.vmdk")
+
+
+Vagrant.configure("2") do |config|
+  config.vm.box = "gusztavvargadr/ubuntu-desktop-2404-lts"
+  config.vm.box_version = "2601.0.0"
+  config.vm.hostname = "vivado-2025-1"
+  config.vm.boot_timeout = 1200
+  config.trigger.after(
+    :"VagrantPlugins::ProviderVirtualBox::Action::Import",
+    type: :action
+  ) do |trigger|
+    trigger.name = "Move root disk into project directory"
+    trigger.ruby do |_env, machine|
+      next unless machine.provider_name == :virtualbox
+      primary = machine.provider.driver.read_storage_controllers.get_primary_attachment
+      current = File.expand_path(primary[:location])
+      next if current == ROOT_DISK
+      if File.exist?(ROOT_DISK)
+        raise Vagrant::Errors::VagrantError,
+          "#{ROOT_DISK} already exists but is not this VM's root disk; remove it before vagrant up"
+      end
+      machine.provider.driver.execute(
+        "modifymedium", "disk", primary[:uuid], "--move", ROOT_DISK,
+        retryable: true
+      )
+    end
+  end
+
+  config.trigger.before :up do |trigger|
+    trigger.name = "Prepare persistent Xilinx disk"
+    trigger.ruby do |_env, machine|
+      unless File.exist?(XILINX_DISK)
+        if machine.id
+          machine.provider.driver.execute(
+            "storageattach", machine.id,
+            "--storagectl", XILINX_DISK_CONTROLLER,
+            "--port", XILINX_DISK_PORT,
+            "--device", "0",
+            "--type", "hdd",
+            "--medium", "none",
+            retryable: true
+          )
+        end
+        machine.provider.driver.execute("closemedium", "disk", XILINX_DISK, retryable: true) rescue nil
+        machine.provider.driver.execute(
+          "createmedium", "disk", "--filename", XILINX_DISK,
+          "--size", XILINX_DISK_SIZE_MB.to_s, "--format", "VDI", "--variant", "Standard",
+          retryable: true
+        )
+      end
+    end
+  end
+
+  config.vm.synced_folder ".", "/vagrant", disabled: true
+  config.vm.synced_folder File.expand_path("..", __dir__), "/home/vagrant/Desktop/samplerz",
+    type: "rsync",
+    owner: "vagrant",
+    group: "vagrant",
+    rsync__chown: true,
+    rsync__rsync_ownership: true,
+    rsync__args: ["--archive", "--compress", "--copy-links"],
+    rsync__exclude: ["vm/", "vivado/", "vivado_*/", "vitis/", "misc/"]
+
+  config.vm.provider "virtualbox" do |vb|
+    vb.name = "falcon-ches-vivado-2025.1"
+    vb.gui = true
+    vb.memory = ENV.fetch("VIVADO_VM_MEMORY", "24576")
+    vb.cpus = ENV.fetch("VIVADO_VM_CPUS", HOST_PHYSICAL_CORES.to_s)
+    vb.customize ["modifyvm", :id, "--graphicscontroller", "vmsvga"]
+    vb.customize ["modifyvm", :id, "--vram", "128"]
+    vb.customize ["modifyvm", :id, "--accelerate-3d", "off"]
+    vb.customize ["modifyvm", :id, "--clipboard-mode", "bidirectional"]
+    vb.customize ["modifyvm", :id, "--drag-and-drop", "bidirectional"]
+    vb.customize [
+      "storageattach", :id,
+      "--storagectl", XILINX_DISK_CONTROLLER,
+      "--port", "0",
+      "--device", "0",
+      "--type", "hdd",
+      "--discard", "off",
+      "--nonrotational", "on"
+    ]
+    vb.customize [
+      "storageattach", :id,
+      "--storagectl", XILINX_DISK_CONTROLLER,
+      "--port", XILINX_DISK_PORT,
+      "--device", "0",
+      "--type", "hdd",
+      "--medium", XILINX_DISK,
+      "--mtype", "writethrough",
+      "--discard", "on",
+      "--nonrotational", "on"
+    ]
+  end
+
+  config.trigger.before(
+    :"VagrantPlugins::ProviderVirtualBox::Action::Destroy",
+    type: :action
+  ) do |trigger|
+    trigger.name = "Detach persistent Xilinx disk"
+    trigger.ruby do |_env, machine|
+      next unless machine.provider_name == :virtualbox && machine.id
+      controller = machine.provider.driver.read_storage_controllers.find do |candidate|
+        candidate.name == XILINX_DISK_CONTROLLER
+      end
+      attachment = controller&.get_attachment(port: XILINX_DISK_PORT, device: "0")
+      next unless attachment
+      machine.provider.driver.execute(
+        "storageattach", machine.id,
+        "--storagectl", XILINX_DISK_CONTROLLER,
+        "--port", XILINX_DISK_PORT,
+        "--device", "0",
+        "--type", "hdd",
+        "--medium", "none",
+        retryable: true
+      )
+    end
+  end
+
+  if credential_file
+    config.vm.provision "file", source: credential_file.path, destination: "/home/vagrant/.vivado-credentials"
+  end
+  config.vm.provision "file", source: File.join(__dir__, "scripts/install-vivado"), destination: "/home/vagrant/install-vivado"
+  config.vm.provision "file", source: File.join(__dir__, "scripts/download-vivado-installer.py"), destination: "/home/vagrant/download-vivado-installer.py"
+  config.vm.provision "file", source: File.join(__dir__, "scripts/project-gui"), destination: "/home/vagrant/project-gui"
+  config.vm.provision "setup", type: "shell",
+    path: File.join(__dir__, "scripts/provision.sh"),
+    args: [HOST_UID, HOST_GID]
+  config.vm.provision "project-kria", type: "shell",
+    path: File.join(__dir__, "scripts/provision-project.sh"),
+    args: [HOST_UID, "kria-project"],
+    run: "never"
+  config.vm.provision "project-zcu", type: "shell",
+    path: File.join(__dir__, "scripts/provision-project.sh"),
+    args: [HOST_UID, "zcu-project"],
+    run: "never"
+end

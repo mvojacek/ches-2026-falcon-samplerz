@@ -1,0 +1,1103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="samplerz_axi_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="axi_vip_pkg" />
+            <top_module name="fp_pkg" />
+            <top_module name="glbl" />
+            <top_module name="samplerz_axi_map_pkg" />
+            <top_module name="samplerz_axi_pkg" />
+            <top_module name="samplerz_axi_tb" />
+            <top_module name="samplerz_pkg" />
+            <top_module name="std" />
+            <top_module name="xil_common_vip_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,096.001 ns"></ZoomEndTime>
+      <Cursor1Time time="634.918 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="168"></NameColumnWidth>
+      <ValueColumnWidth column_width="60"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wave_markers>
+      <marker label="" time="264000" />
+      <marker label="" time="426000" />
+      <marker label="" time="547000" />
+      <marker label="" time="616000" />
+      <marker label="" time="678000" />
+      <marker label="" time="724000" />
+      <marker label="" time="974000" />
+   </wave_markers>
+   <wvobject type="logic" fp_name="/samplerz_axi_tb/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/samplerz_axi_tb/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="protoinst" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/axi_vip_0/M_AXI">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="children_use_element_short_name">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+      <obj_property name="EnumTransactionColorTable">0=blank 1=#D399FF 2=pink</obj_property>
+      <obj_property name="EnumTransactionValueTable">0=blank;1=Read;2=Write;3=Read/Write</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">turquoise</obj_property>
+      <obj_property name="Render_Data">/samplerz_axi_tb/design_inst/design_axi_test_i/axi_vip_0/M_AXI.readWriteSummary</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CellHeight">36</obj_property>
+      <obj_property name="ElementShortName">M_AXI</obj_property>
+      <obj_property name="ObjectShortName">M_AXI</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group2866">
+      <obj_property name="label">samplerz_brief</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/start">
+         <obj_property name="ElementShortName">start</obj_property>
+         <obj_property name="ObjectShortName">start</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/sigma_inv_valid">
+         <obj_property name="ElementShortName">sigma_inv_valid</obj_property>
+         <obj_property name="ObjectShortName">sigma_inv_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/stop">
+         <obj_property name="ElementShortName">stop</obj_property>
+         <obj_property name="ObjectShortName">stop</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/continuous">
+         <obj_property name="ElementShortName">continuous</obj_property>
+         <obj_property name="ObjectShortName">continuous</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/busy">
+         <obj_property name="ElementShortName">busy</obj_property>
+         <obj_property name="ObjectShortName">busy</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/done">
+         <obj_property name="ElementShortName">done</obj_property>
+         <obj_property name="ObjectShortName">done</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/full">
+         <obj_property name="ElementShortName">full</obj_property>
+         <obj_property name="ObjectShortName">full</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/sample_z1">
+         <obj_property name="ElementShortName">sample_z1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_z1[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/sample_z2">
+         <obj_property name="ElementShortName">sample_z2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_z2[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/sample_z1_valid">
+         <obj_property name="ElementShortName">sample_z1_valid</obj_property>
+         <obj_property name="ObjectShortName">sample_z1_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/sample_z2_valid">
+         <obj_property name="ElementShortName">sample_z2_valid</obj_property>
+         <obj_property name="ObjectShortName">sample_z2_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/exp_x_success">
+         <obj_property name="ElementShortName">exp_x_success</obj_property>
+         <obj_property name="ObjectShortName">exp_x_success</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/ccs_success_reg">
+         <obj_property name="ElementShortName">ccs_success_reg</obj_property>
+         <obj_property name="ObjectShortName">ccs_success_reg</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/success">
+         <obj_property name="ElementShortName">success</obj_property>
+         <obj_property name="ObjectShortName">success</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/exp_x_success_valid">
+         <obj_property name="ElementShortName">exp_x_success_valid</obj_property>
+         <obj_property name="ObjectShortName">exp_x_success_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/ccs_success_valid">
+         <obj_property name="ElementShortName">ccs_success_valid</obj_property>
+         <obj_property name="ObjectShortName">ccs_success_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/basesampler_z0_valid">
+         <obj_property name="ElementShortName">basesampler_z0_valid</obj_property>
+         <obj_property name="ObjectShortName">basesampler_z0_valid</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group321">
+      <obj_property name="label">prng</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="group" fp_name="group355">
+         <obj_property name="label">refill0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\refills[0] /refill">
+            <obj_property name="ElementShortName">refill[7:0]</obj_property>
+            <obj_property name="ObjectShortName">refill[7:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\refills[0] /refill_valid">
+            <obj_property name="ElementShortName">refill_valid</obj_property>
+            <obj_property name="ObjectShortName">refill_valid</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\refills[0] /refill_req">
+            <obj_property name="ElementShortName">refill_req</obj_property>
+            <obj_property name="ObjectShortName">refill_req</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\refills[0] /full">
+            <obj_property name="ElementShortName">full</obj_property>
+            <obj_property name="ObjectShortName">full</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\refills[0] /REFILL_W">
+            <obj_property name="ElementShortName">REFILL_W[31:0]</obj_property>
+            <obj_property name="ObjectShortName">REFILL_W[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group361">
+         <obj_property name="label">refill1</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\refills[1] /refill">
+            <obj_property name="ElementShortName">refill[7:0]</obj_property>
+            <obj_property name="ObjectShortName">refill[7:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\refills[1] /refill_valid">
+            <obj_property name="ElementShortName">refill_valid</obj_property>
+            <obj_property name="ObjectShortName">refill_valid</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\refills[1] /refill_req">
+            <obj_property name="ElementShortName">refill_req</obj_property>
+            <obj_property name="ObjectShortName">refill_req</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\refills[1] /full">
+            <obj_property name="ElementShortName">full</obj_property>
+            <obj_property name="ObjectShortName">full</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\refills[1] /REFILL_W">
+            <obj_property name="ElementShortName">REFILL_W[31:0]</obj_property>
+            <obj_property name="ObjectShortName">REFILL_W[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group367">
+         <obj_property name="label">refill2</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\refills[2] /refill">
+            <obj_property name="ElementShortName">refill[7:0]</obj_property>
+            <obj_property name="ObjectShortName">refill[7:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\refills[2] /refill_valid">
+            <obj_property name="ElementShortName">refill_valid</obj_property>
+            <obj_property name="ObjectShortName">refill_valid</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\refills[2] /refill_req">
+            <obj_property name="ElementShortName">refill_req</obj_property>
+            <obj_property name="ObjectShortName">refill_req</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\refills[2] /full">
+            <obj_property name="ElementShortName">full</obj_property>
+            <obj_property name="ObjectShortName">full</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\refills[2] /REFILL_W">
+            <obj_property name="ElementShortName">REFILL_W[31:0]</obj_property>
+            <obj_property name="ObjectShortName">REFILL_W[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/prng/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/prng/rst">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/prng/seed">
+         <obj_property name="ElementShortName">seed[351:0]</obj_property>
+         <obj_property name="ObjectShortName">seed[351:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/prng/counter">
+         <obj_property name="ElementShortName">counter[63:0]</obj_property>
+         <obj_property name="ObjectShortName">counter[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/prng/counter_use">
+         <obj_property name="ElementShortName">counter_use</obj_property>
+         <obj_property name="ObjectShortName">counter_use</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/prng/key">
+         <obj_property name="ElementShortName">key[255:0]</obj_property>
+         <obj_property name="ObjectShortName">key[255:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/prng/iv">
+         <obj_property name="ElementShortName">iv[63:0]</obj_property>
+         <obj_property name="ObjectShortName">iv[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/prng/chacha_init">
+         <obj_property name="ElementShortName">chacha_init</obj_property>
+         <obj_property name="ObjectShortName">chacha_init</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/prng/chacha_valid">
+         <obj_property name="ElementShortName">chacha_valid</obj_property>
+         <obj_property name="ObjectShortName">chacha_valid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/prng/chacha_out">
+         <obj_property name="ElementShortName">chacha_out[511:0]</obj_property>
+         <obj_property name="ObjectShortName">chacha_out[511:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/prng/state">
+         <obj_property name="ElementShortName">state[31:0]</obj_property>
+         <obj_property name="ObjectShortName">state[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/prng/next_state">
+         <obj_property name="ElementShortName">next_state[31:0]</obj_property>
+         <obj_property name="ObjectShortName">next_state[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/prng/random_buf">
+         <obj_property name="ElementShortName">random_buf[511:0]</obj_property>
+         <obj_property name="ObjectShortName">random_buf[511:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/prng/random_buf_valid">
+         <obj_property name="ElementShortName">random_buf_valid</obj_property>
+         <obj_property name="ObjectShortName">random_buf_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/prng/random_buf_used">
+         <obj_property name="ElementShortName">random_buf_used</obj_property>
+         <obj_property name="ObjectShortName">random_buf_used</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/prng/do_refill">
+         <obj_property name="ElementShortName">do_refill</obj_property>
+         <obj_property name="ObjectShortName">do_refill</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/prng/needs_refill">
+         <obj_property name="ElementShortName">needs_refill[2:0]</obj_property>
+         <obj_property name="ObjectShortName">needs_refill[2:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/prng/\refill_block[0].refill_data ">
+         <obj_property name="ElementShortName">\refill_block[0].refill_data [20:0][7:0]</obj_property>
+         <obj_property name="ObjectShortName">\refill_block[0].refill_data [20:0][7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/prng/\refill_block[0].refill_count ">
+         <obj_property name="ElementShortName">\refill_block[0].refill_count [4:0]</obj_property>
+         <obj_property name="ObjectShortName">\refill_block[0].refill_count [4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/prng/\refill_block[1].refill_data ">
+         <obj_property name="ElementShortName">\refill_block[1].refill_data [20:0][7:0]</obj_property>
+         <obj_property name="ObjectShortName">\refill_block[1].refill_data [20:0][7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/prng/\refill_block[1].refill_count ">
+         <obj_property name="ElementShortName">\refill_block[1].refill_count [4:0]</obj_property>
+         <obj_property name="ObjectShortName">\refill_block[1].refill_count [4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/prng/\refill_block[2].refill_data ">
+         <obj_property name="ElementShortName">\refill_block[2].refill_data [20:0][7:0]</obj_property>
+         <obj_property name="ObjectShortName">\refill_block[2].refill_data [20:0][7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/prng/\refill_block[2].refill_count ">
+         <obj_property name="ElementShortName">\refill_block[2].refill_count [4:0]</obj_property>
+         <obj_property name="ObjectShortName">\refill_block[2].refill_count [4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/prng/REFILL_W">
+         <obj_property name="ElementShortName">REFILL_W[31:0]</obj_property>
+         <obj_property name="ObjectShortName">REFILL_W[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/prng/REFILL_PORTS">
+         <obj_property name="ElementShortName">REFILL_PORTS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">REFILL_PORTS[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/prng/BITS_PER_REFILL">
+         <obj_property name="ElementShortName">BITS_PER_REFILL[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BITS_PER_REFILL[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/prng/REFILL_WORDS">
+         <obj_property name="ElementShortName">REFILL_WORDS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">REFILL_WORDS[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/prng/REFILL_WORDS_BITS">
+         <obj_property name="ElementShortName">REFILL_WORDS_BITS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">REFILL_WORDS_BITS[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group368">
+      <obj_property name="label">axi_reg</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/axi/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/axi/field_storage">
+         <obj_property name="ElementShortName">field_storage</obj_property>
+         <obj_property name="ObjectShortName">field_storage</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/axi/hwif_in">
+         <obj_property name="ElementShortName">hwif_in</obj_property>
+         <obj_property name="ObjectShortName">hwif_in</obj_property>
+         <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/axi/hwif_in.control">
+            <obj_property name="ElementShortName">.control</obj_property>
+            <obj_property name="ObjectShortName">.control</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/axi/hwif_in.busy_cycles">
+            <obj_property name="ElementShortName">.busy_cycles</obj_property>
+            <obj_property name="ObjectShortName">.busy_cycles</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/axi/hwif_in.consumed_bits">
+            <obj_property name="ElementShortName">.consumed_bits</obj_property>
+            <obj_property name="ObjectShortName">.consumed_bits</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/axi/hwif_in.z1">
+            <obj_property name="ElementShortName">.z1</obj_property>
+            <obj_property name="ObjectShortName">.z1</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/axi/hwif_in.z2">
+            <obj_property name="ElementShortName">.z2</obj_property>
+            <obj_property name="ObjectShortName">.z2</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/axi/hwif_in.prng">
+            <obj_property name="ElementShortName">.prng</obj_property>
+            <obj_property name="ObjectShortName">.prng</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/axi/hwif_in.sample_histograms">
+            <obj_property name="ElementShortName">.sample_histograms[0:1]</obj_property>
+            <obj_property name="ObjectShortName">.sample_histograms[0:1]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/axi/hwif_out">
+         <obj_property name="ElementShortName">hwif_out</obj_property>
+         <obj_property name="ObjectShortName">hwif_out</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group386">
+      <obj_property name="label">samplerz</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/rst">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/falcon1024">
+         <obj_property name="ElementShortName">falcon1024</obj_property>
+         <obj_property name="ObjectShortName">falcon1024</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/mu">
+         <obj_property name="ElementShortName">mu[63:0]</obj_property>
+         <obj_property name="ObjectShortName">mu[63:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">53</obj_property>
+         <obj_property name="radix_otherWidth">11</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/start">
+         <obj_property name="ElementShortName">start</obj_property>
+         <obj_property name="ObjectShortName">start</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/continuous">
+         <obj_property name="ElementShortName">continuous</obj_property>
+         <obj_property name="ObjectShortName">continuous</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/stop">
+         <obj_property name="ElementShortName">stop</obj_property>
+         <obj_property name="ObjectShortName">stop</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/sigma_inv">
+         <obj_property name="ElementShortName">sigma_inv[63:0]</obj_property>
+         <obj_property name="ObjectShortName">sigma_inv[63:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">53</obj_property>
+         <obj_property name="radix_otherWidth">11</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/sigma_inv_valid">
+         <obj_property name="ElementShortName">sigma_inv_valid</obj_property>
+         <obj_property name="ObjectShortName">sigma_inv_valid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/sample_z1">
+         <obj_property name="ElementShortName">sample_z1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_z1[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/sample_z2">
+         <obj_property name="ElementShortName">sample_z2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_z2[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/sample_z1_valid">
+         <obj_property name="ElementShortName">sample_z1_valid</obj_property>
+         <obj_property name="ObjectShortName">sample_z1_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/sample_z2_valid">
+         <obj_property name="ElementShortName">sample_z2_valid</obj_property>
+         <obj_property name="ObjectShortName">sample_z2_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/done">
+         <obj_property name="ElementShortName">done</obj_property>
+         <obj_property name="ObjectShortName">done</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/busy">
+         <obj_property name="ElementShortName">busy</obj_property>
+         <obj_property name="ObjectShortName">busy</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/full">
+         <obj_property name="ElementShortName">full</obj_property>
+         <obj_property name="ObjectShortName">full</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/state_sginv">
+         <obj_property name="ElementShortName">state_sginv[1:0]</obj_property>
+         <obj_property name="ObjectShortName">state_sginv[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/state_sginv_next">
+         <obj_property name="ElementShortName">state_sginv_next[1:0]</obj_property>
+         <obj_property name="ObjectShortName">state_sginv_next[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/fp_mul_B_use_siginv">
+         <obj_property name="ElementShortName">fp_mul_B_use_siginv</obj_property>
+         <obj_property name="ObjectShortName">fp_mul_B_use_siginv</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/fp_mul_E_use_siginv">
+         <obj_property name="ElementShortName">fp_mul_E_use_siginv</obj_property>
+         <obj_property name="ObjectShortName">fp_mul_E_use_siginv</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/fp_mul_E_use_sigma_min">
+         <obj_property name="ElementShortName">fp_mul_E_use_sigma_min</obj_property>
+         <obj_property name="ObjectShortName">fp_mul_E_use_sigma_min</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/sigma_sq_half_inv_we">
+         <obj_property name="ElementShortName">sigma_sq_half_inv_we</obj_property>
+         <obj_property name="ObjectShortName">sigma_sq_half_inv_we</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_new_ccs">
+         <obj_property name="ElementShortName">berexp_new_ccs</obj_property>
+         <obj_property name="ObjectShortName">berexp_new_ccs</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/state_mu">
+         <obj_property name="ElementShortName">state_mu[1:0]</obj_property>
+         <obj_property name="ObjectShortName">state_mu[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/state_mu_next">
+         <obj_property name="ElementShortName">state_mu_next[1:0]</obj_property>
+         <obj_property name="ObjectShortName">state_mu_next[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/sel_mu2_A">
+         <obj_property name="ElementShortName">sel_mu2_A</obj_property>
+         <obj_property name="ObjectShortName">sel_mu2_A</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/sel_mu2_berexp">
+         <obj_property name="ElementShortName">sel_mu2_berexp</obj_property>
+         <obj_property name="ObjectShortName">sel_mu2_berexp</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/use_r_direct">
+         <obj_property name="ElementShortName">use_r_direct</obj_property>
+         <obj_property name="ObjectShortName">use_r_direct</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/use_r_mu2">
+         <obj_property name="ElementShortName">use_r_mu2</obj_property>
+         <obj_property name="ObjectShortName">use_r_mu2</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/r1_we">
+         <obj_property name="ElementShortName">r1_we</obj_property>
+         <obj_property name="ObjectShortName">r1_we</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/r2_we">
+         <obj_property name="ElementShortName">r2_we</obj_property>
+         <obj_property name="ObjectShortName">r2_we</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/s1_we">
+         <obj_property name="ElementShortName">s1_we</obj_property>
+         <obj_property name="ObjectShortName">s1_we</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/s2_we">
+         <obj_property name="ElementShortName">s2_we</obj_property>
+         <obj_property name="ObjectShortName">s2_we</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/z0_used">
+         <obj_property name="ElementShortName">z0_used</obj_property>
+         <obj_property name="ObjectShortName">z0_used</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/mu_abs">
+         <obj_property name="ElementShortName">mu_abs[63:0]</obj_property>
+         <obj_property name="ObjectShortName">mu_abs[63:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">53</obj_property>
+         <obj_property name="radix_otherWidth">11</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/mu_abs_sign">
+         <obj_property name="ElementShortName">mu_abs_sign</obj_property>
+         <obj_property name="ObjectShortName">mu_abs_sign</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/mu_sign">
+         <obj_property name="ElementShortName">mu_sign</obj_property>
+         <obj_property name="ObjectShortName">mu_sign</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/mu_s">
+         <obj_property name="ElementShortName">mu_s[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mu_s[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/mu_r">
+         <obj_property name="ElementShortName">mu_r[63:0]</obj_property>
+         <obj_property name="ObjectShortName">mu_r[63:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">53</obj_property>
+         <obj_property name="radix_otherWidth">11</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/s1">
+         <obj_property name="ElementShortName">s1</obj_property>
+         <obj_property name="ObjectShortName">s1</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/s2">
+         <obj_property name="ElementShortName">s2</obj_property>
+         <obj_property name="ObjectShortName">s2</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/r1">
+         <obj_property name="ElementShortName">r1[63:0]</obj_property>
+         <obj_property name="ObjectShortName">r1[63:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">53</obj_property>
+         <obj_property name="radix_otherWidth">11</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/r2">
+         <obj_property name="ElementShortName">r2[63:0]</obj_property>
+         <obj_property name="ObjectShortName">r2[63:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">53</obj_property>
+         <obj_property name="radix_otherWidth">11</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/selected_mu_r">
+         <obj_property name="ElementShortName">selected_mu_r[63:0]</obj_property>
+         <obj_property name="ObjectShortName">selected_mu_r[63:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">53</obj_property>
+         <obj_property name="radix_otherWidth">11</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/basesampler_z0">
+         <obj_property name="ElementShortName">basesampler_z0</obj_property>
+         <obj_property name="ObjectShortName">basesampler_z0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/z0">
+         <obj_property name="ElementShortName">z0</obj_property>
+         <obj_property name="ObjectShortName">z0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/z0_next">
+         <obj_property name="ElementShortName">z0_next</obj_property>
+         <obj_property name="ObjectShortName">z0_next</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/basesampler_z0_valid">
+         <obj_property name="ElementShortName">basesampler_z0_valid</obj_property>
+         <obj_property name="ObjectShortName">basesampler_z0_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/z0_valid">
+         <obj_property name="ElementShortName">z0_valid</obj_property>
+         <obj_property name="ObjectShortName">z0_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/z0_valid_next">
+         <obj_property name="ElementShortName">z0_valid_next</obj_property>
+         <obj_property name="ObjectShortName">z0_valid_next</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/basesampler_z0_used">
+         <obj_property name="ElementShortName">basesampler_z0_used</obj_property>
+         <obj_property name="ObjectShortName">basesampler_z0_used</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/sample_valid_chain">
+         <obj_property name="ElementShortName">sample_valid_chain[8:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_valid_chain[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/sample_valid_berexp">
+         <obj_property name="ElementShortName">sample_valid_berexp</obj_property>
+         <obj_property name="ObjectShortName">sample_valid_berexp</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/z">
+         <obj_property name="ElementShortName">z</obj_property>
+         <obj_property name="ObjectShortName">z</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/z_fp">
+         <obj_property name="ElementShortName">z_fp[63:0]</obj_property>
+         <obj_property name="ObjectShortName">z_fp[63:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">53</obj_property>
+         <obj_property name="radix_otherWidth">11</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/fp_sub_A_result_inreg">
+         <obj_property name="ElementShortName">fp_sub_A_result_inreg[63:0]</obj_property>
+         <obj_property name="ObjectShortName">fp_sub_A_result_inreg[63:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">53</obj_property>
+         <obj_property name="radix_otherWidth">11</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/fp_sub_A_result">
+         <obj_property name="ElementShortName">fp_sub_A_result[63:0]</obj_property>
+         <obj_property name="ObjectShortName">fp_sub_A_result[63:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">53</obj_property>
+         <obj_property name="radix_otherWidth">11</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/fp_mul_B_result">
+         <obj_property name="ElementShortName">fp_mul_B_result[63:0]</obj_property>
+         <obj_property name="ObjectShortName">fp_mul_B_result[63:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">53</obj_property>
+         <obj_property name="radix_otherWidth">11</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/fp_mul_B_input">
+         <obj_property name="ElementShortName">fp_mul_B_input[63:0]</obj_property>
+         <obj_property name="ObjectShortName">fp_mul_B_input[63:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">53</obj_property>
+         <obj_property name="radix_otherWidth">11</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/sigma_sq_half_inv">
+         <obj_property name="ElementShortName">sigma_sq_half_inv[63:0]</obj_property>
+         <obj_property name="ObjectShortName">sigma_sq_half_inv[63:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">53</obj_property>
+         <obj_property name="radix_otherWidth">11</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/sigma_sq_half_inv_inreg">
+         <obj_property name="ElementShortName">sigma_sq_half_inv_inreg[63:0]</obj_property>
+         <obj_property name="ObjectShortName">sigma_sq_half_inv_inreg[63:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">53</obj_property>
+         <obj_property name="radix_otherWidth">11</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/fp_mul_C_result">
+         <obj_property name="ElementShortName">fp_mul_C_result[63:0]</obj_property>
+         <obj_property name="ObjectShortName">fp_mul_C_result[63:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">53</obj_property>
+         <obj_property name="radix_otherWidth">11</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/z0_after_G">
+         <obj_property name="ElementShortName">z0_after_G</obj_property>
+         <obj_property name="ObjectShortName">z0_after_G</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/z0_sq">
+         <obj_property name="ElementShortName">z0_sq[9:0]</obj_property>
+         <obj_property name="ObjectShortName">z0_sq[9:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/z0_sq_fp">
+         <obj_property name="ElementShortName">z0_sq_fp[63:0]</obj_property>
+         <obj_property name="ObjectShortName">z0_sq_fp[63:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">53</obj_property>
+         <obj_property name="radix_otherWidth">11</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/fp_mul_E_result">
+         <obj_property name="ElementShortName">fp_mul_E_result[63:0]</obj_property>
+         <obj_property name="ObjectShortName">fp_mul_E_result[63:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">53</obj_property>
+         <obj_property name="radix_otherWidth">11</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/fp_mul_E_input_var">
+         <obj_property name="ElementShortName">fp_mul_E_input_var[63:0]</obj_property>
+         <obj_property name="ObjectShortName">fp_mul_E_input_var[63:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">53</obj_property>
+         <obj_property name="radix_otherWidth">11</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/fp_mul_E_input_const">
+         <obj_property name="ElementShortName">fp_mul_E_input_const[63:0]</obj_property>
+         <obj_property name="ObjectShortName">fp_mul_E_input_const[63:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">53</obj_property>
+         <obj_property name="radix_otherWidth">11</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/sigma_min">
+         <obj_property name="ElementShortName">sigma_min[63:0]</obj_property>
+         <obj_property name="ObjectShortName">sigma_min[63:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">53</obj_property>
+         <obj_property name="radix_otherWidth">11</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/fp_sub_D_result">
+         <obj_property name="ElementShortName">fp_sub_D_result[63:0]</obj_property>
+         <obj_property name="ObjectShortName">fp_sub_D_result[63:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">53</obj_property>
+         <obj_property name="radix_otherWidth">11</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/z0_after_J">
+         <obj_property name="ElementShortName">z0_after_J</obj_property>
+         <obj_property name="ObjectShortName">z0_after_J</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_neg_x">
+         <obj_property name="ElementShortName">berexp_neg_x[63:0]</obj_property>
+         <obj_property name="ObjectShortName">berexp_neg_x[63:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">53</obj_property>
+         <obj_property name="radix_otherWidth">11</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_ccs">
+         <obj_property name="ElementShortName">berexp_ccs[63:0]</obj_property>
+         <obj_property name="ObjectShortName">berexp_ccs[63:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">53</obj_property>
+         <obj_property name="radix_otherWidth">11</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_z0">
+         <obj_property name="ElementShortName">berexp_z0</obj_property>
+         <obj_property name="ObjectShortName">berexp_z0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/SAMPLERZ_PIPELINE_DEPTH">
+         <obj_property name="ElementShortName">SAMPLERZ_PIPELINE_DEPTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">SAMPLERZ_PIPELINE_DEPTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/AB_PIPELINE_DEPTH">
+         <obj_property name="ElementShortName">AB_PIPELINE_DEPTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AB_PIPELINE_DEPTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/CD_PIPELINE_DEPTH">
+         <obj_property name="ElementShortName">CD_PIPELINE_DEPTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">CD_PIPELINE_DEPTH[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group467">
+      <obj_property name="label">berexp</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/rst">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/start">
+         <obj_property name="ElementShortName">start</obj_property>
+         <obj_property name="ObjectShortName">start</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/continuous">
+         <obj_property name="ElementShortName">continuous</obj_property>
+         <obj_property name="ObjectShortName">continuous</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/x">
+         <obj_property name="ElementShortName">x[63:0]</obj_property>
+         <obj_property name="ObjectShortName">x[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/mu_sel_x">
+         <obj_property name="ElementShortName">mu_sel_x</obj_property>
+         <obj_property name="ObjectShortName">mu_sel_x</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/x_valid">
+         <obj_property name="ElementShortName">x_valid</obj_property>
+         <obj_property name="ObjectShortName">x_valid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/ccs">
+         <obj_property name="ElementShortName">ccs[63:0]</obj_property>
+         <obj_property name="ObjectShortName">ccs[63:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">53</obj_property>
+         <obj_property name="radix_otherWidth">11</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/new_ccs">
+         <obj_property name="ElementShortName">new_ccs</obj_property>
+         <obj_property name="ObjectShortName">new_ccs</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/z0">
+         <obj_property name="ElementShortName">z0</obj_property>
+         <obj_property name="ObjectShortName">z0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/mu1">
+         <obj_property name="ElementShortName">mu1</obj_property>
+         <obj_property name="ObjectShortName">mu1</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/mu2">
+         <obj_property name="ElementShortName">mu2</obj_property>
+         <obj_property name="ObjectShortName">mu2</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/sample_z1">
+         <obj_property name="ElementShortName">sample_z1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_z1[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/sample_z2">
+         <obj_property name="ElementShortName">sample_z2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_z2[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/sample_z1_valid">
+         <obj_property name="ElementShortName">sample_z1_valid</obj_property>
+         <obj_property name="ObjectShortName">sample_z1_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/sample_z2_valid">
+         <obj_property name="ElementShortName">sample_z2_valid</obj_property>
+         <obj_property name="ObjectShortName">sample_z2_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/done">
+         <obj_property name="ElementShortName">done</obj_property>
+         <obj_property name="ObjectShortName">done</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/neg_x">
+         <obj_property name="ElementShortName">neg_x[63:0]</obj_property>
+         <obj_property name="ObjectShortName">neg_x[63:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">53</obj_property>
+         <obj_property name="radix_otherWidth">11</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/exp_x">
+         <obj_property name="ElementShortName">exp_x[63:0]</obj_property>
+         <obj_property name="ObjectShortName">exp_x[63:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">53</obj_property>
+         <obj_property name="radix_otherWidth">11</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/exp_x_or_ccs">
+         <obj_property name="ElementShortName">exp_x_or_ccs[63:0]</obj_property>
+         <obj_property name="ObjectShortName">exp_x_or_ccs[63:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">53</obj_property>
+         <obj_property name="radix_otherWidth">11</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/exp_x_or_ccs_int">
+         <obj_property name="ElementShortName">exp_x_or_ccs_int[64:0]</obj_property>
+         <obj_property name="ObjectShortName">exp_x_or_ccs_int[64:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/ccs_reg">
+         <obj_property name="ElementShortName">ccs_reg[64:0]</obj_property>
+         <obj_property name="ObjectShortName">ccs_reg[64:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/exp_x_success">
+         <obj_property name="ElementShortName">exp_x_success</obj_property>
+         <obj_property name="ObjectShortName">exp_x_success</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/exp_x_success_valid">
+         <obj_property name="ElementShortName">exp_x_success_valid</obj_property>
+         <obj_property name="ObjectShortName">exp_x_success_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/exp_x_success_used">
+         <obj_property name="ElementShortName">exp_x_success_used</obj_property>
+         <obj_property name="ObjectShortName">exp_x_success_used</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/ccs_success">
+         <obj_property name="ElementShortName">ccs_success</obj_property>
+         <obj_property name="ObjectShortName">ccs_success</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/ccs_success_valid">
+         <obj_property name="ElementShortName">ccs_success_valid</obj_property>
+         <obj_property name="ObjectShortName">ccs_success_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/ccs_success_used">
+         <obj_property name="ElementShortName">ccs_success_used</obj_property>
+         <obj_property name="ObjectShortName">ccs_success_used</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/x_valid_chain">
+         <obj_property name="ElementShortName">x_valid_chain[8:0]</obj_property>
+         <obj_property name="ObjectShortName">x_valid_chain[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/x_valid_delayed_pre1">
+         <obj_property name="ElementShortName">x_valid_delayed_pre1</obj_property>
+         <obj_property name="ObjectShortName">x_valid_delayed_pre1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/x_valid_delayed">
+         <obj_property name="ElementShortName">x_valid_delayed</obj_property>
+         <obj_property name="ObjectShortName">x_valid_delayed</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/ccs_success_reg">
+         <obj_property name="ElementShortName">ccs_success_reg</obj_property>
+         <obj_property name="ObjectShortName">ccs_success_reg</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/success">
+         <obj_property name="ElementShortName">success</obj_property>
+         <obj_property name="ObjectShortName">success</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/z0_delayed">
+         <obj_property name="ElementShortName">z0_delayed</obj_property>
+         <obj_property name="ObjectShortName">z0_delayed</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/mu_sel_delayed">
+         <obj_property name="ElementShortName">mu_sel_delayed</obj_property>
+         <obj_property name="ObjectShortName">mu_sel_delayed</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/mu">
+         <obj_property name="ElementShortName">mu</obj_property>
+         <obj_property name="ObjectShortName">mu</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/mu_plus_z">
+         <obj_property name="ElementShortName">mu_plus_z[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mu_plus_z[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/INPUT_IS_MINUS_X">
+         <obj_property name="ElementShortName">INPUT_IS_MINUS_X[31:0]</obj_property>
+         <obj_property name="ObjectShortName">INPUT_IS_MINUS_X[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/CMP_WIDTH">
+         <obj_property name="ElementShortName">CMP_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">CMP_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/samplerz_inst/berexp_inst/BEREXP_PIPELINE_DEPTH">
+         <obj_property name="ElementShortName">BEREXP_PIPELINE_DEPTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BEREXP_PIPELINE_DEPTH[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group2778">
+      <obj_property name="label">hist0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\histograms[0].hist_inst /clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\histograms[0].hist_inst /rst">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\histograms[0].hist_inst /sample">
+         <obj_property name="ElementShortName">sample[31:0]</obj_property>
+         <obj_property name="ObjectShortName">sample[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\histograms[0].hist_inst /sample_valid">
+         <obj_property name="ElementShortName">sample_valid</obj_property>
+         <obj_property name="ObjectShortName">sample_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\histograms[0].hist_inst /bounds_error">
+         <obj_property name="ElementShortName">bounds_error</obj_property>
+         <obj_property name="ObjectShortName">bounds_error</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\histograms[0].hist_inst /hist">
+         <obj_property name="ElementShortName">hist[0:39][63:0]</obj_property>
+         <obj_property name="ObjectShortName">hist[0:39][63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\histograms[0].hist_inst /hist_pivot_value">
+         <obj_property name="ElementShortName">hist_pivot_value[31:0]</obj_property>
+         <obj_property name="ObjectShortName">hist_pivot_value[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\histograms[0].hist_inst /hist_pivot_index">
+         <obj_property name="ElementShortName">hist_pivot_index[5:0]</obj_property>
+         <obj_property name="ObjectShortName">hist_pivot_index[5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\histograms[0].hist_inst /hist_middle_valid">
+         <obj_property name="ElementShortName">hist_middle_valid</obj_property>
+         <obj_property name="ObjectShortName">hist_middle_valid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\histograms[0].hist_inst /sample_offset">
+         <obj_property name="ElementShortName">sample_offset[31:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_offset[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\histograms[0].hist_inst /BINS">
+         <obj_property name="ElementShortName">BINS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BINS[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\histograms[0].hist_inst /BIN_W">
+         <obj_property name="ElementShortName">BIN_W[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BIN_W[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\histograms[0].hist_inst /BINS_BITS">
+         <obj_property name="ElementShortName">BINS_BITS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BINS_BITS[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\histograms[0].hist_inst /PIVOT_BIN">
+         <obj_property name="ElementShortName">PIVOT_BIN[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PIVOT_BIN[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\histograms[0].hist_inst /BINS_BEFORE">
+         <obj_property name="ElementShortName">BINS_BEFORE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BINS_BEFORE[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\histograms[0].hist_inst /BINS_AFTER">
+         <obj_property name="ElementShortName">BINS_AFTER[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BINS_AFTER[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group2779">
+      <obj_property name="label">hist1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\histograms[1].hist_inst /clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\histograms[1].hist_inst /rst">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\histograms[1].hist_inst /sample">
+         <obj_property name="ElementShortName">sample[31:0]</obj_property>
+         <obj_property name="ObjectShortName">sample[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\histograms[1].hist_inst /sample_valid">
+         <obj_property name="ElementShortName">sample_valid</obj_property>
+         <obj_property name="ObjectShortName">sample_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\histograms[1].hist_inst /bounds_error">
+         <obj_property name="ElementShortName">bounds_error</obj_property>
+         <obj_property name="ObjectShortName">bounds_error</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\histograms[1].hist_inst /hist">
+         <obj_property name="ElementShortName">hist[0:39][63:0]</obj_property>
+         <obj_property name="ObjectShortName">hist[0:39][63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\histograms[1].hist_inst /hist_pivot_value">
+         <obj_property name="ElementShortName">hist_pivot_value[31:0]</obj_property>
+         <obj_property name="ObjectShortName">hist_pivot_value[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\histograms[1].hist_inst /hist_pivot_index">
+         <obj_property name="ElementShortName">hist_pivot_index[5:0]</obj_property>
+         <obj_property name="ObjectShortName">hist_pivot_index[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\histograms[1].hist_inst /hist_middle_valid">
+         <obj_property name="ElementShortName">hist_middle_valid</obj_property>
+         <obj_property name="ObjectShortName">hist_middle_valid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\histograms[1].hist_inst /sample_offset">
+         <obj_property name="ElementShortName">sample_offset[31:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_offset[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\histograms[1].hist_inst /BINS">
+         <obj_property name="ElementShortName">BINS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BINS[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\histograms[1].hist_inst /BIN_W">
+         <obj_property name="ElementShortName">BIN_W[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BIN_W[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\histograms[1].hist_inst /BINS_BITS">
+         <obj_property name="ElementShortName">BINS_BITS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BINS_BITS[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\histograms[1].hist_inst /PIVOT_BIN">
+         <obj_property name="ElementShortName">PIVOT_BIN[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PIVOT_BIN[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\histograms[1].hist_inst /BINS_BEFORE">
+         <obj_property name="ElementShortName">BINS_BEFORE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BINS_BEFORE[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/samplerz_axi_tb/design_inst/design_axi_test_i/samplerz_axi_top_wra_0/inst/inst/\histograms[1].hist_inst /BINS_AFTER">
+         <obj_property name="ElementShortName">BINS_AFTER[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BINS_AFTER[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

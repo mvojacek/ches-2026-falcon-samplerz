@@ -1,0 +1,14 @@
+_list:
+	@just -l
+
+compile:
+	gcc -o sampler sampler.c -lmpfr -lgmp
+run: compile
+	./sampler | tee tree.txt
+verilog:
+	./make_verilog.sh tree.txt base_sampler_boolean.sv
+clean:
+	rm -f sampler tree.txt* sampler_boolean.sv
+	
+make: clean run verilog
+

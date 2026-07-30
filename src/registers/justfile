@@ -1,0 +1,44 @@
+_list:
+    @just -l
+
+venv := "./venv"
+
+venv:
+    python -m venv {{venv}}
+
+python := venv / "bin/python"
+pip := venv / "bin/pip"
+
+install:
+    {{pip}} install peakrdl==1.2.3
+    {{pip}} install peakrdl-regblock[cli]==1.0.0
+    {{pip}} install peakrdl-python==1.1.0
+
+peakrdl := venv / "bin/peakrdl"
+
+peakrdl *ARGS:
+    {{peakrdl}} {{ARGS}}
+
+RDL := "samplerz_axi.rdl regblock_udps.rdl"
+
+dump:
+    {{peakrdl}} dump {{RDL}}
+gen-sv:
+    {{peakrdl}} regblock {{RDL}} -o hw/ --cpuif axi4-lite
+gen-sv-const:
+    {{peakrdl}} sv_const_exporter {{RDL}} -o hw/samplerz_axi_map_pkg.sv
+gen-html:
+    {{peakrdl}} html {{RDL}} -o doc/
+gen-c:
+    mkdir -p sw/c
+    {{peakrdl}} c-header {{RDL}} -o sw/c/samplerz_axi.h
+    {{peakrdl}} c-header {{RDL}} -o sw/c/samplerz_axi_bitfield_little.h --bitfields ltoh
+gen-py:
+    {{peakrdl}} python {{RDL}} -o sw/py/
+
+gen: gen-sv gen-sv-const gen-html gen-c gen-py
+
+all: venv install dump gen
+
+clean:
+    rm -rf sw hw

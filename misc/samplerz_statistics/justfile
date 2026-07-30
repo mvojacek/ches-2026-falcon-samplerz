@@ -1,0 +1,11 @@
+_list:
+    @just -l
+
+clean:
+    rm -rf samples_sim samples_hw samples_hw_hist
+    mkdir -p samples_sim samples_hw samples_hw_hist
+
+compress:
+    tar -czf samples.tar.gz samples_sim samples_hw samples_hw_hist
+decompress:
+    tar -xzf samples.tar.gz

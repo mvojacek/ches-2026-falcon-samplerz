@@ -1,0 +1,2051 @@
+Marker: 0x6663737A
+== SAMPLERZ_AXI Status ===
+Control Register: 0x00000091
+Falcon1024: 1
+Done: 0
+Start: 0
+Continuous: 1
+Reset: 0
+Busy: 0
+Full: 1
+Busy Cycles: 39401813069859
+Consumed Bits: 354098286712104
+PRNG Counter: 0x00000000000006A5
+===========================================
+Getting samples with sigma_inv = 0.668993, mu1 = 383.078180, mu2 = -163.263459
+Write time: 1680 ns
+Compute time: 360 ns
+Read time: 1150 ns
+Total time: 3190 ns
+Generated samples: z1 = 383, z2 = -161
+== SAMPLERZ_AXI Status ===
+Control Register: 0x00000083
+Falcon1024: 1
+Done: 1
+Start: 0
+Continuous: 0
+Reset: 0
+Busy: 0
+Full: 1
+Busy Cycles: 21
+Consumed Bits: 160
+PRNG Counter: 0x000000000000586B
+===========================================
+Getting 10000 samples...
+Sample 0: z1 = 383, z2 = -162
+Sample 100000: z1 = 384, z2 = -164
+Sample 200000: z1 = 385, z2 = -163
+Sample 300000: z1 = 382, z2 = -164
+Sample 400000: z1 = 384, z2 = -164
+Sample 500000: z1 = 381, z2 = -162
+Sample 600000: z1 = 386, z2 = -162
+Sample 700000: z1 = 385, z2 = -163
+Sample 800000: z1 = 382, z2 = -163
+Sample 900000: z1 = 383, z2 = -163
+Getting samples with sigma_inv = 0.558000, mu1 = -147.866581, mu2 = -361.158188
+Sample 0: z1 = -147, z2 = -365
+Getting samples with sigma_inv = 0.558000, mu1 = -147.866581, mu2 = -361.158188
+Sample 0: z1 = -149, z2 = -360
+Getting samples with sigma_inv = 0.558000, mu1 = -147.866581, mu2 = -361.158188
+Sample 0: z1 = -148, z2 = -362
+Getting samples with sigma_inv = 0.558000, mu1 = -147.866581, mu2 = -361.158188
+Sample 0: z1 = -146, z2 = -361
+Getting samples with sigma_inv = 0.558000, mu1 = -147.866581, mu2 = -361.158188
+Sample 0: z1 = -148, z2 = -363
+Getting samples with sigma_inv = 0.558000, mu1 = -147.866581, mu2 = -361.158188
+Sample 0: z1 = -148, z2 = -360
+Getting samples with sigma_inv = 0.558000, mu1 = -147.866581, mu2 = -361.158188
+Sample 0: z1 = -153, z2 = -362
+Getting samples with sigma_inv = 0.558000, mu1 = -147.866581, mu2 = -361.158188
+Sample 0: z1 = -148, z2 = -361
+Getting samples with sigma_inv = 0.558000, mu1 = -147.866581, mu2 = -361.158188
+Sample 0: z1 = -149, z2 = -362
+Getting samples with sigma_inv = 0.558000, mu1 = -147.866581, mu2 = -361.158188
+Sample 0: z1 = -146, z2 = -363
+Getting samples with sigma_inv = 0.558000, mu1 = -147.866581, mu2 = -361.158188
+Sample 0: z1 = -149, z2 = -361
+Getting samples with sigma_inv = 0.558000, mu1 = -147.866581, mu2 = -361.158188
+Sample 0: z1 = -148, z2 = -361
+Getting samples with sigma_inv = 0.558000, mu1 = -147.866581, mu2 = -361.158188
+Sample 0: z1 = -146, z2 = -359
+Getting samples with sigma_inv = 0.558000, mu1 = -147.866581, mu2 = -361.158188
+Sample 0: z1 = -150, z2 = -356
+Getting samples with sigma_inv = 0.558000, mu1 = -147.866581, mu2 = -361.158188
+Sample 0: z1 = -148, z2 = -362
+Getting samples with sigma_inv = 0.558000, mu1 = -147.866581, mu2 = -361.158188
+Sample 0: z1 = -147, z2 = -361
+Getting samples with sigma_inv = 0.558000, mu1 = -147.866581, mu2 = -361.158188
+Sample 0: z1 = -146, z2 = -360
+Getting samples with sigma_inv = 0.558000, mu1 = -147.866581, mu2 = -361.158188
+Sample 0: z1 = -146, z2 = -363
+Getting samples with sigma_inv = 0.558000, mu1 = -147.866581, mu2 = -361.158188
+Sample 0: z1 = -150, z2 = -363
+Getting samples with sigma_inv = 0.558000, mu1 = -147.866581, mu2 = -361.158188
+Sample 0: z1 = -147, z2 = -364
+Getting samples with sigma_inv = 0.558000, mu1 = -147.866581, mu2 = -361.158188
+Sample 0: z1 = -150, z2 = -359
+Getting samples with sigma_inv = 0.558000, mu1 = -147.866581, mu2 = -361.158188
+Sample 0: z1 = -147, z2 = -361
+Getting samples with sigma_inv = 0.558000, mu1 = -147.866581, mu2 = -361.158188
+Sample 0: z1 = -148, z2 = -362
+Getting samples with sigma_inv = 0.558000, mu1 = -147.866581, mu2 = -361.158188
+Sample 0: z1 = -151, z2 = -361
+Getting samples with sigma_inv = 0.558000, mu1 = -147.866581, mu2 = -361.158188
+Sample 0: z1 = -149, z2 = -358
+Getting samples with sigma_inv = 0.686808, mu1 = 668.983440, mu2 = 237.644995
+Sample 0: z1 = 669, z2 = 237
+Getting samples with sigma_inv = 0.686808, mu1 = 668.983440, mu2 = 237.644995
+Sample 0: z1 = 670, z2 = 238
+Getting samples with sigma_inv = 0.686808, mu1 = 668.983440, mu2 = 237.644995
+Sample 0: z1 = 670, z2 = 239
+Getting samples with sigma_inv = 0.686808, mu1 = 668.983440, mu2 = 237.644995
+Sample 0: z1 = 669, z2 = 236
+Getting samples with sigma_inv = 0.686808, mu1 = 668.983440, mu2 = 237.644995
+Sample 0: z1 = 670, z2 = 238
+Getting samples with sigma_inv = 0.686808, mu1 = 668.983440, mu2 = 237.644995
+Sample 0: z1 = 667, z2 = 238
+Getting samples with sigma_inv = 0.686808, mu1 = 668.983440, mu2 = 237.644995
+Sample 0: z1 = 669, z2 = 236
+Getting samples with sigma_inv = 0.686808, mu1 = 668.983440, mu2 = 237.644995
+Sample 0: z1 = 670, z2 = 240
+Getting samples with sigma_inv = 0.686808, mu1 = 668.983440, mu2 = 237.644995
+Sample 0: z1 = 670, z2 = 237
+Getting samples with sigma_inv = 0.686808, mu1 = 668.983440, mu2 = 237.644995
+Sample 0: z1 = 667, z2 = 238
+Getting samples with sigma_inv = 0.686808, mu1 = 668.983440, mu2 = 237.644995
+Sample 0: z1 = 671, z2 = 239
+Getting samples with sigma_inv = 0.686808, mu1 = 668.983440, mu2 = 237.644995
+Sample 0: z1 = 671, z2 = 237
+Getting samples with sigma_inv = 0.686808, mu1 = 668.983440, mu2 = 237.644995
+Sample 0: z1 = 671, z2 = 240
+Getting samples with sigma_inv = 0.686808, mu1 = 668.983440, mu2 = 237.644995
+Sample 0: z1 = 671, z2 = 238
+Getting samples with sigma_inv = 0.686808, mu1 = 668.983440, mu2 = 237.644995
+Sample 0: z1 = 670, z2 = 235
+Getting samples with sigma_inv = 0.686808, mu1 = 668.983440, mu2 = 237.644995
+Sample 0: z1 = 667, z2 = 239
+Getting samples with sigma_inv = 0.686808, mu1 = 668.983440, mu2 = 237.644995
+Sample 0: z1 = 667, z2 = 240
+Getting samples with sigma_inv = 0.686808, mu1 = 668.983440, mu2 = 237.644995
+Sample 0: z1 = 668, z2 = 237
+Getting samples with sigma_inv = 0.686808, mu1 = 668.983440, mu2 = 237.644995
+Sample 0: z1 = 668, z2 = 236
+Getting samples with sigma_inv = 0.686808, mu1 = 668.983440, mu2 = 237.644995
+Sample 0: z1 = 668, z2 = 238
+Getting samples with sigma_inv = 0.686808, mu1 = 668.983440, mu2 = 237.644995
+Sample 0: z1 = 667, z2 = 238
+Getting samples with sigma_inv = 0.686808, mu1 = 668.983440, mu2 = 237.644995
+Sample 0: z1 = 670, z2 = 239
+Getting samples with sigma_inv = 0.686808, mu1 = 668.983440, mu2 = 237.644995
+Sample 0: z1 = 671, z2 = 237
+Getting samples with sigma_inv = 0.686808, mu1 = 668.983440, mu2 = 237.644995
+Sample 0: z1 = 669, z2 = 237
+Getting samples with sigma_inv = 0.686808, mu1 = 668.983440, mu2 = 237.644995
+Sample 0: z1 = 672, z2 = 237
+Getting samples with sigma_inv = 0.686808, mu1 = 668.983440, mu2 = 237.644995
+Sample 0: z1 = 667, z2 = 237
+Getting samples with sigma_inv = 0.686808, mu1 = 668.983440, mu2 = 237.644995
+Sample 0: z1 = 670, z2 = 237
+Getting samples with sigma_inv = 0.723215, mu1 = -498.754367, mu2 = 847.203067
+Sample 0: z1 = -497, z2 = 848
+Getting samples with sigma_inv = 0.723215, mu1 = -498.754367, mu2 = 847.203067
+Sample 0: z1 = -498, z2 = 845
+Getting samples with sigma_inv = 0.723215, mu1 = -498.754367, mu2 = 847.203067
+Sample 0: z1 = -498, z2 = 847
+Getting samples with sigma_inv = 0.723215, mu1 = -498.754367, mu2 = 847.203067
+Sample 0: z1 = -498, z2 = 843
+Getting samples with sigma_inv = 0.723215, mu1 = -498.754367, mu2 = 847.203067
+Sample 0: z1 = -502, z2 = 847
+Getting samples with sigma_inv = 0.723215, mu1 = -498.754367, mu2 = 847.203067
+Sample 0: z1 = -498, z2 = 848
+Getting samples with sigma_inv = 0.723215, mu1 = -498.754367, mu2 = 847.203067
+Sample 0: z1 = -498, z2 = 847
+Getting samples with sigma_inv = 0.723215, mu1 = -498.754367, mu2 = 847.203067
+Sample 0: z1 = -497, z2 = 846
+Getting samples with sigma_inv = 0.723215, mu1 = -498.754367, mu2 = 847.203067
+Sample 0: z1 = -498, z2 = 846
+Getting samples with sigma_inv = 0.723215, mu1 = -498.754367, mu2 = 847.203067
+Sample 0: z1 = -497, z2 = 848
+Getting samples with sigma_inv = 0.723215, mu1 = -498.754367, mu2 = 847.203067
+Sample 0: z1 = -498, z2 = 846
+Getting samples with sigma_inv = 0.723215, mu1 = -498.754367, mu2 = 847.203067
+Sample 0: z1 = -499, z2 = 847
+Getting samples with sigma_inv = 0.723215, mu1 = -498.754367, mu2 = 847.203067
+Sample 0: z1 = -497, z2 = 848
+Getting samples with sigma_inv = 0.723215, mu1 = -498.754367, mu2 = 847.203067
+Sample 0: z1 = -497, z2 = 846
+Getting samples with sigma_inv = 0.723215, mu1 = -498.754367, mu2 = 847.203067
+Sample 0: z1 = -497, z2 = 847
+Getting samples with sigma_inv = 0.723215, mu1 = -498.754367, mu2 = 847.203067
+Sample 0: z1 = -499, z2 = 850
+Getting samples with sigma_inv = 0.723215, mu1 = -498.754367, mu2 = 847.203067
+Sample 0: z1 = -498, z2 = 849
+Getting samples with sigma_inv = 0.723215, mu1 = -498.754367, mu2 = 847.203067
+Sample 0: z1 = -499, z2 = 845
+Getting samples with sigma_inv = 0.723215, mu1 = -498.754367, mu2 = 847.203067
+Sample 0: z1 = -499, z2 = 847
+Getting samples with sigma_inv = 0.723215, mu1 = -498.754367, mu2 = 847.203067
+Sample 0: z1 = -499, z2 = 850
+Getting samples with sigma_inv = 0.723215, mu1 = -498.754367, mu2 = 847.203067
+Sample 0: z1 = -498, z2 = 848
+Getting samples with sigma_inv = 0.723215, mu1 = -498.754367, mu2 = 847.203067
+Sample 0: z1 = -501, z2 = 849
+Getting samples with sigma_inv = 0.723215, mu1 = -498.754367, mu2 = 847.203067
+Sample 0: z1 = -497, z2 = 850
+Getting samples with sigma_inv = 0.723215, mu1 = -498.754367, mu2 = 847.203067
+Sample 0: z1 = -497, z2 = 847
+Getting samples with sigma_inv = 0.723215, mu1 = -498.754367, mu2 = 847.203067
+Sample 0: z1 = -497, z2 = 848
+Getting samples with sigma_inv = 0.723215, mu1 = -498.754367, mu2 = 847.203067
+Sample 0: z1 = -501, z2 = 847
+Getting samples with sigma_inv = 0.723215, mu1 = -498.754367, mu2 = 847.203067
+Sample 0: z1 = -500, z2 = 851
+Getting samples with sigma_inv = 0.764614, mu1 = 325.099800, mu2 = -548.992341
+Sample 0: z1 = 327, z2 = -548
+Getting samples with sigma_inv = 0.764614, mu1 = 325.099800, mu2 = -548.992341
+Sample 0: z1 = 325, z2 = -551
+Getting samples with sigma_inv = 0.764614, mu1 = 325.099800, mu2 = -548.992341
+Sample 0: z1 = 326, z2 = -549
+Getting samples with sigma_inv = 0.764614, mu1 = 325.099800, mu2 = -548.992341
+Sample 0: z1 = 327, z2 = -547
+Getting samples with sigma_inv = 0.764614, mu1 = 325.099800, mu2 = -548.992341
+Sample 0: z1 = 325, z2 = -551
+Getting samples with sigma_inv = 0.764614, mu1 = 325.099800, mu2 = -548.992341
+Sample 0: z1 = 325, z2 = -550
+Getting samples with sigma_inv = 0.764614, mu1 = 325.099800, mu2 = -548.992341
+Sample 0: z1 = 324, z2 = -552
+Getting samples with sigma_inv = 0.764614, mu1 = 325.099800, mu2 = -548.992341
+Sample 0: z1 = 324, z2 = -551
+Getting samples with sigma_inv = 0.764614, mu1 = 325.099800, mu2 = -548.992341
+Sample 0: z1 = 324, z2 = -548
+Getting samples with sigma_inv = 0.764614, mu1 = 325.099800, mu2 = -548.992341
+Sample 0: z1 = 324, z2 = -547
+Getting samples with sigma_inv = 0.764614, mu1 = 325.099800, mu2 = -548.992341
+Sample 0: z1 = 324, z2 = -550
+Getting samples with sigma_inv = 0.764614, mu1 = 325.099800, mu2 = -548.992341
+Sample 0: z1 = 324, z2 = -549
+Getting samples with sigma_inv = 0.764614, mu1 = 325.099800, mu2 = -548.992341
+Sample 0: z1 = 325, z2 = -550
+Getting samples with sigma_inv = 0.764614, mu1 = 325.099800, mu2 = -548.992341
+Sample 0: z1 = 326, z2 = -548
+Getting samples with sigma_inv = 0.764614, mu1 = 325.099800, mu2 = -548.992341
+Sample 0: z1 = 322, z2 = -548
+Getting samples with sigma_inv = 0.764614, mu1 = 325.099800, mu2 = -548.992341
+Sample 0: z1 = 325, z2 = -549
+Getting samples with sigma_inv = 0.764614, mu1 = 325.099800, mu2 = -548.992341
+Sample 0: z1 = 324, z2 = -546
+Getting samples with sigma_inv = 0.764614, mu1 = 325.099800, mu2 = -548.992341
+Sample 0: z1 = 324, z2 = -550
+Getting samples with sigma_inv = 0.764614, mu1 = 325.099800, mu2 = -548.992341
+Sample 0: z1 = 322, z2 = -551
+Getting samples with sigma_inv = 0.764614, mu1 = 325.099800, mu2 = -548.992341
+Sample 0: z1 = 325, z2 = -547
+Getting samples with sigma_inv = 0.764614, mu1 = 325.099800, mu2 = -548.992341
+Sample 0: z1 = 326, z2 = -548
+Getting samples with sigma_inv = 0.764614, mu1 = 325.099800, mu2 = -548.992341
+Sample 0: z1 = 324, z2 = -549
+Getting samples with sigma_inv = 0.764614, mu1 = 325.099800, mu2 = -548.992341
+Sample 0: z1 = 323, z2 = -547
+Getting samples with sigma_inv = 0.764614, mu1 = 325.099800, mu2 = -548.992341
+Sample 0: z1 = 323, z2 = -549
+Getting samples with sigma_inv = 0.764614, mu1 = 325.099800, mu2 = -548.992341
+Sample 0: z1 = 325, z2 = -550
+Getting samples with sigma_inv = 0.764614, mu1 = 325.099800, mu2 = -548.992341
+Sample 0: z1 = 324, z2 = -549
+Getting samples with sigma_inv = 0.764614, mu1 = 325.099800, mu2 = -548.992341
+Sample 0: z1 = 325, z2 = -549
+Getting samples with sigma_inv = 0.568886, mu1 = -841.456931, mu2 = -938.178107
+Sample 0: z1 = -842, z2 = -938
+Getting samples with sigma_inv = 0.568886, mu1 = -841.456931, mu2 = -938.178107
+Sample 0: z1 = -838, z2 = -938
+Getting samples with sigma_inv = 0.568886, mu1 = -841.456931, mu2 = -938.178107
+Sample 0: z1 = -842, z2 = -941
+Getting samples with sigma_inv = 0.568886, mu1 = -841.456931, mu2 = -938.178107
+Sample 0: z1 = -841, z2 = -937
+Getting samples with sigma_inv = 0.568886, mu1 = -841.456931, mu2 = -938.178107
+Sample 0: z1 = -842, z2 = -939
+Getting samples with sigma_inv = 0.568886, mu1 = -841.456931, mu2 = -938.178107
+Sample 0: z1 = -839, z2 = -935
+Getting samples with sigma_inv = 0.568886, mu1 = -841.456931, mu2 = -938.178107
+Sample 0: z1 = -842, z2 = -939
+Getting samples with sigma_inv = 0.568886, mu1 = -841.456931, mu2 = -938.178107
+Sample 0: z1 = -841, z2 = -939
+Getting samples with sigma_inv = 0.568886, mu1 = -841.456931, mu2 = -938.178107
+Sample 0: z1 = -840, z2 = -939
+Getting samples with sigma_inv = 0.568886, mu1 = -841.456931, mu2 = -938.178107
+Sample 0: z1 = -841, z2 = -942
+Getting samples with sigma_inv = 0.568886, mu1 = -841.456931, mu2 = -938.178107
+Sample 0: z1 = -844, z2 = -934
+Getting samples with sigma_inv = 0.568886, mu1 = -841.456931, mu2 = -938.178107
+Sample 0: z1 = -840, z2 = -940
+Getting samples with sigma_inv = 0.568886, mu1 = -841.456931, mu2 = -938.178107
+Sample 0: z1 = -842, z2 = -936
+Getting samples with sigma_inv = 0.568886, mu1 = -841.456931, mu2 = -938.178107
+Sample 0: z1 = -845, z2 = -940
+Getting samples with sigma_inv = 0.568886, mu1 = -841.456931, mu2 = -938.178107
+Sample 0: z1 = -842, z2 = -934
+Getting samples with sigma_inv = 0.568886, mu1 = -841.456931, mu2 = -938.178107
+Sample 0: z1 = -841, z2 = -938
+Getting samples with sigma_inv = 0.568886, mu1 = -841.456931, mu2 = -938.178107
+Sample 0: z1 = -843, z2 = -942
+Getting samples with sigma_inv = 0.568886, mu1 = -841.456931, mu2 = -938.178107
+Sample 0: z1 = -841, z2 = -941
+Getting samples with sigma_inv = 0.568886, mu1 = -841.456931, mu2 = -938.178107
+Sample 0: z1 = -840, z2 = -940
+Getting samples with sigma_inv = 0.568886, mu1 = -841.456931, mu2 = -938.178107
+Sample 0: z1 = -842, z2 = -939
+Getting samples with sigma_inv = 0.568886, mu1 = -841.456931, mu2 = -938.178107
+Sample 0: z1 = -846, z2 = -938
+Getting samples with sigma_inv = 0.568886, mu1 = -841.456931, mu2 = -938.178107
+Sample 0: z1 = -842, z2 = -938
+Getting samples with sigma_inv = 0.568886, mu1 = -841.456931, mu2 = -938.178107
+Sample 0: z1 = -840, z2 = -937
+Getting samples with sigma_inv = 0.568886, mu1 = -841.456931, mu2 = -938.178107
+Sample 0: z1 = -845, z2 = -937
+Getting samples with sigma_inv = 0.568886, mu1 = -841.456931, mu2 = -938.178107
+Sample 0: z1 = -845, z2 = -940
+Getting samples with sigma_inv = 0.568886, mu1 = -841.456931, mu2 = -938.178107
+Sample 0: z1 = -841, z2 = -937
+Getting samples with sigma_inv = 0.568886, mu1 = -841.456931, mu2 = -938.178107
+Sample 0: z1 = -844, z2 = -940
+Getting samples with sigma_inv = 0.593883, mu1 = -15.488976, mu2 = -331.121486
+Sample 0: z1 = -15, z2 = -328
+Getting samples with sigma_inv = 0.593883, mu1 = -15.488976, mu2 = -331.121486
+Sample 0: z1 = -16, z2 = -333
+Getting samples with sigma_inv = 0.593883, mu1 = -15.488976, mu2 = -331.121486
+Sample 0: z1 = -14, z2 = -332
+Getting samples with sigma_inv = 0.593883, mu1 = -15.488976, mu2 = -331.121486
+Sample 0: z1 = -17, z2 = -327
+Getting samples with sigma_inv = 0.593883, mu1 = -15.488976, mu2 = -331.121486
+Sample 0: z1 = -16, z2 = -334
+Getting samples with sigma_inv = 0.593883, mu1 = -15.488976, mu2 = -331.121486
+Sample 0: z1 = -17, z2 = -332
+Getting samples with sigma_inv = 0.593883, mu1 = -15.488976, mu2 = -331.121486
+Sample 0: z1 = -16, z2 = -331
+Getting samples with sigma_inv = 0.593883, mu1 = -15.488976, mu2 = -331.121486
+Sample 0: z1 = -17, z2 = -334
+Getting samples with sigma_inv = 0.593883, mu1 = -15.488976, mu2 = -331.121486
+Sample 0: z1 = -13, z2 = -332
+Getting samples with sigma_inv = 0.593883, mu1 = -15.488976, mu2 = -331.121486
+Sample 0: z1 = -16, z2 = -334
+Getting samples with sigma_inv = 0.593883, mu1 = -15.488976, mu2 = -331.121486
+Sample 0: z1 = -16, z2 = -328
+Getting samples with sigma_inv = 0.593883, mu1 = -15.488976, mu2 = -331.121486
+Sample 0: z1 = -15, z2 = -329
+Getting samples with sigma_inv = 0.593883, mu1 = -15.488976, mu2 = -331.121486
+Sample 0: z1 = -13, z2 = -331
+Getting samples with sigma_inv = 0.593883, mu1 = -15.488976, mu2 = -331.121486
+Sample 0: z1 = -17, z2 = -329
+Getting samples with sigma_inv = 0.593883, mu1 = -15.488976, mu2 = -331.121486
+Sample 0: z1 = -17, z2 = -330
+Getting samples with sigma_inv = 0.593883, mu1 = -15.488976, mu2 = -331.121486
+Sample 0: z1 = -17, z2 = -332
+Getting samples with sigma_inv = 0.593883, mu1 = -15.488976, mu2 = -331.121486
+Sample 0: z1 = -17, z2 = -330
+Getting samples with sigma_inv = 0.593883, mu1 = -15.488976, mu2 = -331.121486
+Sample 0: z1 = -17, z2 = -330
+Getting samples with sigma_inv = 0.593883, mu1 = -15.488976, mu2 = -331.121486
+Sample 0: z1 = -17, z2 = -332
+Getting samples with sigma_inv = 0.593883, mu1 = -15.488976, mu2 = -331.121486
+Sample 0: z1 = -16, z2 = -335
+Getting samples with sigma_inv = 0.593883, mu1 = -15.488976, mu2 = -331.121486
+Sample 0: z1 = -16, z2 = -334
+Getting samples with sigma_inv = 0.593883, mu1 = -15.488976, mu2 = -331.121486
+Sample 0: z1 = -16, z2 = -332
+Getting samples with sigma_inv = 0.593883, mu1 = -15.488976, mu2 = -331.121486
+Sample 0: z1 = -17, z2 = -328
+Getting samples with sigma_inv = 0.593883, mu1 = -15.488976, mu2 = -331.121486
+Sample 0: z1 = -14, z2 = -330
+Getting samples with sigma_inv = 0.593883, mu1 = -15.488976, mu2 = -331.121486
+Sample 0: z1 = -14, z2 = -329
+Getting samples with sigma_inv = 0.593883, mu1 = -15.488976, mu2 = -331.121486
+Sample 0: z1 = -15, z2 = -331
+Getting samples with sigma_inv = 0.593883, mu1 = -15.488976, mu2 = -331.121486
+Sample 0: z1 = -14, z2 = -330
+Getting samples with sigma_inv = 0.593883, mu1 = -15.488976, mu2 = -331.121486
+Sample 0: z1 = -16, z2 = -333
+Getting samples with sigma_inv = 0.620665, mu1 = -185.933873, mu2 = -722.055492
+Sample 0: z1 = -188, z2 = -724
+Getting samples with sigma_inv = 0.620665, mu1 = -185.933873, mu2 = -722.055492
+Sample 0: z1 = -187, z2 = -721
+Getting samples with sigma_inv = 0.620665, mu1 = -185.933873, mu2 = -722.055492
+Sample 0: z1 = -187, z2 = -721
+Getting samples with sigma_inv = 0.620665, mu1 = -185.933873, mu2 = -722.055492
+Sample 0: z1 = -188, z2 = -721
+Getting samples with sigma_inv = 0.620665, mu1 = -185.933873, mu2 = -722.055492
+Sample 0: z1 = -186, z2 = -720
+Getting samples with sigma_inv = 0.620665, mu1 = -185.933873, mu2 = -722.055492
+Sample 0: z1 = -186, z2 = -723
+Getting samples with sigma_inv = 0.620665, mu1 = -185.933873, mu2 = -722.055492
+Sample 0: z1 = -186, z2 = -722
+Getting samples with sigma_inv = 0.620665, mu1 = -185.933873, mu2 = -722.055492
+Sample 0: z1 = -186, z2 = -720
+Getting samples with sigma_inv = 0.620665, mu1 = -185.933873, mu2 = -722.055492
+Sample 0: z1 = -187, z2 = -719
+Getting samples with sigma_inv = 0.620665, mu1 = -185.933873, mu2 = -722.055492
+Sample 0: z1 = -182, z2 = -721
+Getting samples with sigma_inv = 0.620665, mu1 = -185.933873, mu2 = -722.055492
+Sample 0: z1 = -186, z2 = -719
+Getting samples with sigma_inv = 0.620665, mu1 = -185.933873, mu2 = -722.055492
+Sample 0: z1 = -181, z2 = -722
+Getting samples with sigma_inv = 0.620665, mu1 = -185.933873, mu2 = -722.055492
+Sample 0: z1 = -187, z2 = -723
+Getting samples with sigma_inv = 0.620665, mu1 = -185.933873, mu2 = -722.055492
+Sample 0: z1 = -187, z2 = -722
+Getting samples with sigma_inv = 0.620665, mu1 = -185.933873, mu2 = -722.055492
+Sample 0: z1 = -183, z2 = -721
+Getting samples with sigma_inv = 0.620665, mu1 = -185.933873, mu2 = -722.055492
+Sample 0: z1 = -188, z2 = -723
+Getting samples with sigma_inv = 0.620665, mu1 = -185.933873, mu2 = -722.055492
+Sample 0: z1 = -184, z2 = -718
+Getting samples with sigma_inv = 0.620665, mu1 = -185.933873, mu2 = -722.055492
+Sample 0: z1 = -188, z2 = -723
+Getting samples with sigma_inv = 0.620665, mu1 = -185.933873, mu2 = -722.055492
+Sample 0: z1 = -186, z2 = -721
+Getting samples with sigma_inv = 0.620665, mu1 = -185.933873, mu2 = -722.055492
+Sample 0: z1 = -184, z2 = -723
+Getting samples with sigma_inv = 0.620665, mu1 = -185.933873, mu2 = -722.055492
+Sample 0: z1 = -187, z2 = -724
+Getting samples with sigma_inv = 0.620665, mu1 = -185.933873, mu2 = -722.055492
+Sample 0: z1 = -188, z2 = -726
+Getting samples with sigma_inv = 0.620665, mu1 = -185.933873, mu2 = -722.055492
+Sample 0: z1 = -185, z2 = -723
+Getting samples with sigma_inv = 0.620665, mu1 = -185.933873, mu2 = -722.055492
+Sample 0: z1 = -187, z2 = -722
+Getting samples with sigma_inv = 0.620665, mu1 = -185.933873, mu2 = -722.055492
+Sample 0: z1 = -187, z2 = -720
+Getting samples with sigma_inv = 0.620665, mu1 = -185.933873, mu2 = -722.055492
+Sample 0: z1 = -185, z2 = -722
+Getting samples with sigma_inv = 0.556145, mu1 = -359.731392, mu2 = -115.593084
+Sample 0: z1 = -359, z2 = -117
+Getting samples with sigma_inv = 0.556145, mu1 = -359.731392, mu2 = -115.593084
+Sample 0: z1 = -356, z2 = -115
+Getting samples with sigma_inv = 0.556145, mu1 = -359.731392, mu2 = -115.593084
+Sample 0: z1 = -360, z2 = -114
+Getting samples with sigma_inv = 0.556145, mu1 = -359.731392, mu2 = -115.593084
+Sample 0: z1 = -360, z2 = -112
+Getting samples with sigma_inv = 0.556145, mu1 = -359.731392, mu2 = -115.593084
+Sample 0: z1 = -360, z2 = -114
+Getting samples with sigma_inv = 0.556145, mu1 = -359.731392, mu2 = -115.593084
+Sample 0: z1 = -363, z2 = -116
+Getting samples with sigma_inv = 0.556145, mu1 = -359.731392, mu2 = -115.593084
+Sample 0: z1 = -363, z2 = -114
+Getting samples with sigma_inv = 0.556145, mu1 = -359.731392, mu2 = -115.593084
+Sample 0: z1 = -361, z2 = -114
+Getting samples with sigma_inv = 0.556145, mu1 = -359.731392, mu2 = -115.593084
+Sample 0: z1 = -361, z2 = -113
+Getting samples with sigma_inv = 0.556145, mu1 = -359.731392, mu2 = -115.593084
+Sample 0: z1 = -359, z2 = -117
+Getting samples with sigma_inv = 0.556145, mu1 = -359.731392, mu2 = -115.593084
+Sample 0: z1 = -358, z2 = -116
+Getting samples with sigma_inv = 0.556145, mu1 = -359.731392, mu2 = -115.593084
+Sample 0: z1 = -357, z2 = -116
+Getting samples with sigma_inv = 0.556145, mu1 = -359.731392, mu2 = -115.593084
+Sample 0: z1 = -360, z2 = -117
+Getting samples with sigma_inv = 0.556145, mu1 = -359.731392, mu2 = -115.593084
+Sample 0: z1 = -359, z2 = -118
+Getting samples with sigma_inv = 0.556145, mu1 = -359.731392, mu2 = -115.593084
+Sample 0: z1 = -360, z2 = -115
+Getting samples with sigma_inv = 0.556145, mu1 = -359.731392, mu2 = -115.593084
+Sample 0: z1 = -360, z2 = -116
+Getting samples with sigma_inv = 0.556145, mu1 = -359.731392, mu2 = -115.593084
+Sample 0: z1 = -361, z2 = -117
+Getting samples with sigma_inv = 0.556145, mu1 = -359.731392, mu2 = -115.593084
+Sample 0: z1 = -360, z2 = -117
+Getting samples with sigma_inv = 0.556145, mu1 = -359.731392, mu2 = -115.593084
+Sample 0: z1 = -359, z2 = -115
+Getting samples with sigma_inv = 0.556145, mu1 = -359.731392, mu2 = -115.593084
+Sample 0: z1 = -361, z2 = -117
+Getting samples with sigma_inv = 0.556145, mu1 = -359.731392, mu2 = -115.593084
+Sample 0: z1 = -359, z2 = -118
+Getting samples with sigma_inv = 0.556145, mu1 = -359.731392, mu2 = -115.593084
+Sample 0: z1 = -362, z2 = -119
+Getting samples with sigma_inv = 0.556145, mu1 = -359.731392, mu2 = -115.593084
+Sample 0: z1 = -361, z2 = -117
+Getting samples with sigma_inv = 0.556145, mu1 = -359.731392, mu2 = -115.593084
+Sample 0: z1 = -357, z2 = -114
+Getting samples with sigma_inv = 0.556145, mu1 = -359.731392, mu2 = -115.593084
+Sample 0: z1 = -360, z2 = -116
+Getting samples with sigma_inv = 0.556145, mu1 = -359.731392, mu2 = -115.593084
+Sample 0: z1 = -359, z2 = -114
+Getting samples with sigma_inv = 0.556145, mu1 = -359.731392, mu2 = -115.593084
+Sample 0: z1 = -360, z2 = -115
+Getting samples with sigma_inv = 0.685041, mu1 = -548.194160, mu2 = 474.650168
+Sample 0: z1 = -549, z2 = 473
+Getting samples with sigma_inv = 0.685041, mu1 = -548.194160, mu2 = 474.650168
+Sample 0: z1 = -548, z2 = 474
+Getting samples with sigma_inv = 0.685041, mu1 = -548.194160, mu2 = 474.650168
+Sample 0: z1 = -547, z2 = 477
+Getting samples with sigma_inv = 0.685041, mu1 = -548.194160, mu2 = 474.650168
+Sample 0: z1 = -548, z2 = 475
+Getting samples with sigma_inv = 0.685041, mu1 = -548.194160, mu2 = 474.650168
+Sample 0: z1 = -550, z2 = 477
+Getting samples with sigma_inv = 0.685041, mu1 = -548.194160, mu2 = 474.650168
+Sample 0: z1 = -546, z2 = 478
+Getting samples with sigma_inv = 0.685041, mu1 = -548.194160, mu2 = 474.650168
+Sample 0: z1 = -549, z2 = 474
+Getting samples with sigma_inv = 0.685041, mu1 = -548.194160, mu2 = 474.650168
+Sample 0: z1 = -547, z2 = 474
+Getting samples with sigma_inv = 0.685041, mu1 = -548.194160, mu2 = 474.650168
+Sample 0: z1 = -547, z2 = 476
+Getting samples with sigma_inv = 0.685041, mu1 = -548.194160, mu2 = 474.650168
+Sample 0: z1 = -549, z2 = 475
+Getting samples with sigma_inv = 0.685041, mu1 = -548.194160, mu2 = 474.650168
+Sample 0: z1 = -547, z2 = 473
+Getting samples with sigma_inv = 0.685041, mu1 = -548.194160, mu2 = 474.650168
+Sample 0: z1 = -549, z2 = 475
+Getting samples with sigma_inv = 0.685041, mu1 = -548.194160, mu2 = 474.650168
+Sample 0: z1 = -550, z2 = 475
+Getting samples with sigma_inv = 0.685041, mu1 = -548.194160, mu2 = 474.650168
+Sample 0: z1 = -547, z2 = 475
+Getting samples with sigma_inv = 0.685041, mu1 = -548.194160, mu2 = 474.650168
+Sample 0: z1 = -548, z2 = 475
+Getting samples with sigma_inv = 0.685041, mu1 = -548.194160, mu2 = 474.650168
+Sample 0: z1 = -548, z2 = 475
+Getting samples with sigma_inv = 0.685041, mu1 = -548.194160, mu2 = 474.650168
+Sample 0: z1 = -551, z2 = 475
+Getting samples with sigma_inv = 0.685041, mu1 = -548.194160, mu2 = 474.650168
+Sample 0: z1 = -544, z2 = 476
+Getting samples with sigma_inv = 0.685041, mu1 = -548.194160, mu2 = 474.650168
+Sample 0: z1 = -547, z2 = 476
+Getting samples with sigma_inv = 0.685041, mu1 = -548.194160, mu2 = 474.650168
+Sample 0: z1 = -547, z2 = 474
+Getting samples with sigma_inv = 0.685041, mu1 = -548.194160, mu2 = 474.650168
+Sample 0: z1 = -548, z2 = 475
+Getting samples with sigma_inv = 0.685041, mu1 = -548.194160, mu2 = 474.650168
+Sample 0: z1 = -549, z2 = 472
+Getting samples with sigma_inv = 0.685041, mu1 = -548.194160, mu2 = 474.650168
+Sample 0: z1 = -550, z2 = 474
+Getting samples with sigma_inv = 0.685041, mu1 = -548.194160, mu2 = 474.650168
+Sample 0: z1 = -549, z2 = 473
+Getting samples with sigma_inv = 0.685041, mu1 = -548.194160, mu2 = 474.650168
+Sample 0: z1 = -548, z2 = 475
+Getting samples with sigma_inv = 0.685041, mu1 = -548.194160, mu2 = 474.650168
+Sample 0: z1 = -547, z2 = 475
+Getting samples with sigma_inv = 0.685041, mu1 = -548.194160, mu2 = 474.650168
+Sample 0: z1 = -548, z2 = 475
+Getting samples with sigma_inv = 0.720134, mu1 = 289.579036, mu2 = -908.104887
+Sample 0: z1 = 290, z2 = -909
+Getting samples with sigma_inv = 0.720134, mu1 = 289.579036, mu2 = -908.104887
+Sample 0: z1 = 289, z2 = -908
+Getting samples with sigma_inv = 0.720134, mu1 = 289.579036, mu2 = -908.104887
+Sample 0: z1 = 288, z2 = -907
+Getting samples with sigma_inv = 0.720134, mu1 = 289.579036, mu2 = -908.104887
+Sample 0: z1 = 291, z2 = -910
+Getting samples with sigma_inv = 0.720134, mu1 = 289.579036, mu2 = -908.104887
+Sample 0: z1 = 290, z2 = -907
+Getting samples with sigma_inv = 0.720134, mu1 = 289.579036, mu2 = -908.104887
+Sample 0: z1 = 289, z2 = -907
+Getting samples with sigma_inv = 0.720134, mu1 = 289.579036, mu2 = -908.104887
+Sample 0: z1 = 291, z2 = -906
+Getting samples with sigma_inv = 0.720134, mu1 = 289.579036, mu2 = -908.104887
+Sample 0: z1 = 290, z2 = -908
+Getting samples with sigma_inv = 0.720134, mu1 = 289.579036, mu2 = -908.104887
+Sample 0: z1 = 290, z2 = -909
+Getting samples with sigma_inv = 0.720134, mu1 = 289.579036, mu2 = -908.104887
+Sample 0: z1 = 288, z2 = -906
+Getting samples with sigma_inv = 0.720134, mu1 = 289.579036, mu2 = -908.104887
+Sample 0: z1 = 290, z2 = -909
+Getting samples with sigma_inv = 0.720134, mu1 = 289.579036, mu2 = -908.104887
+Sample 0: z1 = 287, z2 = -909
+Getting samples with sigma_inv = 0.720134, mu1 = 289.579036, mu2 = -908.104887
+Sample 0: z1 = 293, z2 = -907
+Getting samples with sigma_inv = 0.720134, mu1 = 289.579036, mu2 = -908.104887
+Sample 0: z1 = 292, z2 = -909
+Getting samples with sigma_inv = 0.720134, mu1 = 289.579036, mu2 = -908.104887
+Sample 0: z1 = 288, z2 = -910
+Getting samples with sigma_inv = 0.720134, mu1 = 289.579036, mu2 = -908.104887
+Sample 0: z1 = 288, z2 = -910
+Getting samples with sigma_inv = 0.720134, mu1 = 289.579036, mu2 = -908.104887
+Sample 0: z1 = 287, z2 = -908
+Getting samples with sigma_inv = 0.720134, mu1 = 289.579036, mu2 = -908.104887
+Sample 0: z1 = 290, z2 = -909
+Getting samples with sigma_inv = 0.720134, mu1 = 289.579036, mu2 = -908.104887
+Sample 0: z1 = 288, z2 = -908
+Getting samples with sigma_inv = 0.720134, mu1 = 289.579036, mu2 = -908.104887
+Sample 0: z1 = 292, z2 = -908
+Getting samples with sigma_inv = 0.720134, mu1 = 289.579036, mu2 = -908.104887
+Sample 0: z1 = 289, z2 = -905
+Getting samples with sigma_inv = 0.720134, mu1 = 289.579036, mu2 = -908.104887
+Sample 0: z1 = 290, z2 = -909
+Getting samples with sigma_inv = 0.720134, mu1 = 289.579036, mu2 = -908.104887
+Sample 0: z1 = 290, z2 = -909
+Getting samples with sigma_inv = 0.720134, mu1 = 289.579036, mu2 = -908.104887
+Sample 0: z1 = 292, z2 = -907
+Getting samples with sigma_inv = 0.720134, mu1 = 289.579036, mu2 = -908.104887
+Sample 0: z1 = 289, z2 = -908
+Getting samples with sigma_inv = 0.720134, mu1 = 289.579036, mu2 = -908.104887
+Sample 0: z1 = 290, z2 = -908
+Getting samples with sigma_inv = 0.720134, mu1 = 289.579036, mu2 = -908.104887
+Sample 0: z1 = 290, z2 = -909
+Getting samples with sigma_inv = 0.634863, mu1 = 112.980871, mu2 = 695.908111
+Sample 0: z1 = 112, z2 = 691
+Getting samples with sigma_inv = 0.634863, mu1 = 112.980871, mu2 = 695.908111
+Sample 0: z1 = 113, z2 = 694
+Getting samples with sigma_inv = 0.634863, mu1 = 112.980871, mu2 = 695.908111
+Sample 0: z1 = 114, z2 = 698
+Getting samples with sigma_inv = 0.634863, mu1 = 112.980871, mu2 = 695.908111
+Sample 0: z1 = 115, z2 = 696
+Getting samples with sigma_inv = 0.634863, mu1 = 112.980871, mu2 = 695.908111
+Sample 0: z1 = 114, z2 = 699
+Getting samples with sigma_inv = 0.634863, mu1 = 112.980871, mu2 = 695.908111
+Sample 0: z1 = 113, z2 = 696
+Getting samples with sigma_inv = 0.634863, mu1 = 112.980871, mu2 = 695.908111
+Sample 0: z1 = 115, z2 = 698
+Getting samples with sigma_inv = 0.634863, mu1 = 112.980871, mu2 = 695.908111
+Sample 0: z1 = 111, z2 = 698
+Getting samples with sigma_inv = 0.634863, mu1 = 112.980871, mu2 = 695.908111
+Sample 0: z1 = 111, z2 = 697
+Getting samples with sigma_inv = 0.634863, mu1 = 112.980871, mu2 = 695.908111
+Sample 0: z1 = 112, z2 = 698
+Getting samples with sigma_inv = 0.634863, mu1 = 112.980871, mu2 = 695.908111
+Sample 0: z1 = 113, z2 = 697
+Getting samples with sigma_inv = 0.634863, mu1 = 112.980871, mu2 = 695.908111
+Sample 0: z1 = 112, z2 = 696
+Getting samples with sigma_inv = 0.634863, mu1 = 112.980871, mu2 = 695.908111
+Sample 0: z1 = 115, z2 = 695
+Getting samples with sigma_inv = 0.634863, mu1 = 112.980871, mu2 = 695.908111
+Sample 0: z1 = 111, z2 = 698
+Getting samples with sigma_inv = 0.634863, mu1 = 112.980871, mu2 = 695.908111
+Sample 0: z1 = 116, z2 = 699
+Getting samples with sigma_inv = 0.634863, mu1 = 112.980871, mu2 = 695.908111
+Sample 0: z1 = 113, z2 = 695
+Getting samples with sigma_inv = 0.634863, mu1 = 112.980871, mu2 = 695.908111
+Sample 0: z1 = 113, z2 = 696
+Getting samples with sigma_inv = 0.634863, mu1 = 112.980871, mu2 = 695.908111
+Sample 0: z1 = 112, z2 = 695
+Getting samples with sigma_inv = 0.634863, mu1 = 112.980871, mu2 = 695.908111
+Sample 0: z1 = 115, z2 = 698
+Getting samples with sigma_inv = 0.634863, mu1 = 112.980871, mu2 = 695.908111
+Sample 0: z1 = 114, z2 = 695
+Getting samples with sigma_inv = 0.634863, mu1 = 112.980871, mu2 = 695.908111
+Sample 0: z1 = 112, z2 = 698
+Getting samples with sigma_inv = 0.634863, mu1 = 112.980871, mu2 = 695.908111
+Sample 0: z1 = 114, z2 = 696
+Getting samples with sigma_inv = 0.634863, mu1 = 112.980871, mu2 = 695.908111
+Sample 0: z1 = 115, z2 = 693
+Getting samples with sigma_inv = 0.634863, mu1 = 112.980871, mu2 = 695.908111
+Sample 0: z1 = 113, z2 = 696
+Getting samples with sigma_inv = 0.634863, mu1 = 112.980871, mu2 = 695.908111
+Sample 0: z1 = 113, z2 = 694
+Getting samples with sigma_inv = 0.634863, mu1 = 112.980871, mu2 = 695.908111
+Sample 0: z1 = 113, z2 = 694
+Getting samples with sigma_inv = 0.634863, mu1 = 112.980871, mu2 = 695.908111
+Sample 0: z1 = 114, z2 = 694
+Getting samples with sigma_inv = 0.634863, mu1 = 112.980871, mu2 = 695.908111
+Sample 0: z1 = 113, z2 = 694
+Getting samples with sigma_inv = 0.665929, mu1 = -57.793621, mu2 = -697.075617
+Sample 0: z1 = -56, z2 = -697
+Getting samples with sigma_inv = 0.665929, mu1 = -57.793621, mu2 = -697.075617
+Sample 0: z1 = -56, z2 = -698
+Getting samples with sigma_inv = 0.665929, mu1 = -57.793621, mu2 = -697.075617
+Sample 0: z1 = -57, z2 = -698
+Getting samples with sigma_inv = 0.665929, mu1 = -57.793621, mu2 = -697.075617
+Sample 0: z1 = -58, z2 = -699
+Getting samples with sigma_inv = 0.665929, mu1 = -57.793621, mu2 = -697.075617
+Sample 0: z1 = -58, z2 = -696
+Getting samples with sigma_inv = 0.665929, mu1 = -57.793621, mu2 = -697.075617
+Sample 0: z1 = -56, z2 = -698
+Getting samples with sigma_inv = 0.665929, mu1 = -57.793621, mu2 = -697.075617
+Sample 0: z1 = -57, z2 = -699
+Getting samples with sigma_inv = 0.665929, mu1 = -57.793621, mu2 = -697.075617
+Sample 0: z1 = -60, z2 = -697
+Getting samples with sigma_inv = 0.665929, mu1 = -57.793621, mu2 = -697.075617
+Sample 0: z1 = -60, z2 = -698
+Getting samples with sigma_inv = 0.665929, mu1 = -57.793621, mu2 = -697.075617
+Sample 0: z1 = -57, z2 = -697
+Getting samples with sigma_inv = 0.665929, mu1 = -57.793621, mu2 = -697.075617
+Sample 0: z1 = -58, z2 = -700
+Getting samples with sigma_inv = 0.665929, mu1 = -57.793621, mu2 = -697.075617
+Sample 0: z1 = -58, z2 = -696
+Getting samples with sigma_inv = 0.665929, mu1 = -57.793621, mu2 = -697.075617
+Sample 0: z1 = -57, z2 = -698
+Getting samples with sigma_inv = 0.665929, mu1 = -57.793621, mu2 = -697.075617
+Sample 0: z1 = -56, z2 = -699
+Getting samples with sigma_inv = 0.665929, mu1 = -57.793621, mu2 = -697.075617
+Sample 0: z1 = -56, z2 = -696
+Getting samples with sigma_inv = 0.665929, mu1 = -57.793621, mu2 = -697.075617
+Sample 0: z1 = -57, z2 = -698
+Getting samples with sigma_inv = 0.665929, mu1 = -57.793621, mu2 = -697.075617
+Sample 0: z1 = -60, z2 = -697
+Getting samples with sigma_inv = 0.665929, mu1 = -57.793621, mu2 = -697.075617
+Sample 0: z1 = -57, z2 = -695
+Getting samples with sigma_inv = 0.665929, mu1 = -57.793621, mu2 = -697.075617
+Sample 0: z1 = -58, z2 = -700
+Getting samples with sigma_inv = 0.665929, mu1 = -57.793621, mu2 = -697.075617
+Sample 0: z1 = -58, z2 = -697
+Getting samples with sigma_inv = 0.665929, mu1 = -57.793621, mu2 = -697.075617
+Sample 0: z1 = -57, z2 = -694
+Getting samples with sigma_inv = 0.665929, mu1 = -57.793621, mu2 = -697.075617
+Sample 0: z1 = -58, z2 = -698
+Getting samples with sigma_inv = 0.665929, mu1 = -57.793621, mu2 = -697.075617
+Sample 0: z1 = -58, z2 = -699
+Getting samples with sigma_inv = 0.665929, mu1 = -57.793621, mu2 = -697.075617
+Sample 0: z1 = -59, z2 = -698
+Getting samples with sigma_inv = 0.665929, mu1 = -57.793621, mu2 = -697.075617
+Sample 0: z1 = -57, z2 = -697
+Getting samples with sigma_inv = 0.665929, mu1 = -57.793621, mu2 = -697.075617
+Sample 0: z1 = -58, z2 = -693
+Getting samples with sigma_inv = 0.665929, mu1 = -57.793621, mu2 = -697.075617
+Sample 0: z1 = -57, z2 = -696
+Getting samples with sigma_inv = 0.700100, mu1 = -230.097537, mu2 = -93.367368
+Sample 0: z1 = -231, z2 = -94
+Getting samples with sigma_inv = 0.700100, mu1 = -230.097537, mu2 = -93.367368
+Sample 0: z1 = -229, z2 = -96
+Getting samples with sigma_inv = 0.700100, mu1 = -230.097537, mu2 = -93.367368
+Sample 0: z1 = -230, z2 = -95
+Getting samples with sigma_inv = 0.700100, mu1 = -230.097537, mu2 = -93.367368
+Sample 0: z1 = -231, z2 = -93
+Getting samples with sigma_inv = 0.700100, mu1 = -230.097537, mu2 = -93.367368
+Sample 0: z1 = -227, z2 = -94
+Getting samples with sigma_inv = 0.700100, mu1 = -230.097537, mu2 = -93.367368
+Sample 0: z1 = -231, z2 = -93
+Getting samples with sigma_inv = 0.700100, mu1 = -230.097537, mu2 = -93.367368
+Sample 0: z1 = -229, z2 = -95
+Getting samples with sigma_inv = 0.700100, mu1 = -230.097537, mu2 = -93.367368
+Sample 0: z1 = -230, z2 = -92
+Getting samples with sigma_inv = 0.700100, mu1 = -230.097537, mu2 = -93.367368
+Sample 0: z1 = -228, z2 = -95
+Getting samples with sigma_inv = 0.700100, mu1 = -230.097537, mu2 = -93.367368
+Sample 0: z1 = -231, z2 = -91
+Getting samples with sigma_inv = 0.700100, mu1 = -230.097537, mu2 = -93.367368
+Sample 0: z1 = -229, z2 = -92
+Getting samples with sigma_inv = 0.700100, mu1 = -230.097537, mu2 = -93.367368
+Sample 0: z1 = -231, z2 = -96
+Getting samples with sigma_inv = 0.700100, mu1 = -230.097537, mu2 = -93.367368
+Sample 0: z1 = -228, z2 = -96
+Getting samples with sigma_inv = 0.700100, mu1 = -230.097537, mu2 = -93.367368
+Sample 0: z1 = -230, z2 = -91
+Getting samples with sigma_inv = 0.700100, mu1 = -230.097537, mu2 = -93.367368
+Sample 0: z1 = -228, z2 = -94
+Getting samples with sigma_inv = 0.700100, mu1 = -230.097537, mu2 = -93.367368
+Sample 0: z1 = -231, z2 = -94
+Getting samples with sigma_inv = 0.700100, mu1 = -230.097537, mu2 = -93.367368
+Sample 0: z1 = -229, z2 = -94
+Getting samples with sigma_inv = 0.700100, mu1 = -230.097537, mu2 = -93.367368
+Sample 0: z1 = -228, z2 = -93
+Getting samples with sigma_inv = 0.700100, mu1 = -230.097537, mu2 = -93.367368
+Sample 0: z1 = -230, z2 = -95
+Getting samples with sigma_inv = 0.700100, mu1 = -230.097537, mu2 = -93.367368
+Sample 0: z1 = -232, z2 = -94
+Getting samples with sigma_inv = 0.700100, mu1 = -230.097537, mu2 = -93.367368
+Sample 0: z1 = -229, z2 = -92
+Getting samples with sigma_inv = 0.700100, mu1 = -230.097537, mu2 = -93.367368
+Sample 0: z1 = -229, z2 = -92
+Getting samples with sigma_inv = 0.700100, mu1 = -230.097537, mu2 = -93.367368
+Sample 0: z1 = -229, z2 = -92
+Getting samples with sigma_inv = 0.700100, mu1 = -230.097537, mu2 = -93.367368
+Sample 0: z1 = -231, z2 = -93
+Getting samples with sigma_inv = 0.700100, mu1 = -230.097537, mu2 = -93.367368
+Sample 0: z1 = -228, z2 = -93
+Getting samples with sigma_inv = 0.700100, mu1 = -230.097537, mu2 = -93.367368
+Sample 0: z1 = -231, z2 = -90
+Getting samples with sigma_inv = 0.700100, mu1 = -230.097537, mu2 = -93.367368
+Sample 0: z1 = -230, z2 = -93
+Getting samples with sigma_inv = 0.618960, mu1 = 598.464247, mu2 = -483.307533
+Sample 0: z1 = 600, z2 = -482
+Getting samples with sigma_inv = 0.618960, mu1 = 598.464247, mu2 = -483.307533
+Sample 0: z1 = 601, z2 = -484
+Getting samples with sigma_inv = 0.618960, mu1 = 598.464247, mu2 = -483.307533
+Sample 0: z1 = 599, z2 = -481
+Getting samples with sigma_inv = 0.618960, mu1 = 598.464247, mu2 = -483.307533
+Sample 0: z1 = 599, z2 = -486
+Getting samples with sigma_inv = 0.618960, mu1 = 598.464247, mu2 = -483.307533
+Sample 0: z1 = 599, z2 = -484
+Getting samples with sigma_inv = 0.618960, mu1 = 598.464247, mu2 = -483.307533
+Sample 0: z1 = 599, z2 = -483
+Getting samples with sigma_inv = 0.618960, mu1 = 598.464247, mu2 = -483.307533
+Sample 0: z1 = 596, z2 = -482
+Getting samples with sigma_inv = 0.618960, mu1 = 598.464247, mu2 = -483.307533
+Sample 0: z1 = 597, z2 = -481
+Getting samples with sigma_inv = 0.618960, mu1 = 598.464247, mu2 = -483.307533
+Sample 0: z1 = 599, z2 = -483
+Getting samples with sigma_inv = 0.618960, mu1 = 598.464247, mu2 = -483.307533
+Sample 0: z1 = 597, z2 = -484
+Getting samples with sigma_inv = 0.618960, mu1 = 598.464247, mu2 = -483.307533
+Sample 0: z1 = 599, z2 = -485
+Getting samples with sigma_inv = 0.618960, mu1 = 598.464247, mu2 = -483.307533
+Sample 0: z1 = 597, z2 = -481
+Getting samples with sigma_inv = 0.618960, mu1 = 598.464247, mu2 = -483.307533
+Sample 0: z1 = 597, z2 = -482
+Getting samples with sigma_inv = 0.618960, mu1 = 598.464247, mu2 = -483.307533
+Sample 0: z1 = 597, z2 = -483
+Getting samples with sigma_inv = 0.618960, mu1 = 598.464247, mu2 = -483.307533
+Sample 0: z1 = 597, z2 = -483
+Getting samples with sigma_inv = 0.618960, mu1 = 598.464247, mu2 = -483.307533
+Sample 0: z1 = 598, z2 = -485
+Getting samples with sigma_inv = 0.618960, mu1 = 598.464247, mu2 = -483.307533
+Sample 0: z1 = 598, z2 = -482
+Getting samples with sigma_inv = 0.618960, mu1 = 598.464247, mu2 = -483.307533
+Sample 0: z1 = 597, z2 = -482
+Getting samples with sigma_inv = 0.618960, mu1 = 598.464247, mu2 = -483.307533
+Sample 0: z1 = 603, z2 = -483
+Getting samples with sigma_inv = 0.618960, mu1 = 598.464247, mu2 = -483.307533
+Sample 0: z1 = 599, z2 = -483
+Getting samples with sigma_inv = 0.618960, mu1 = 598.464247, mu2 = -483.307533
+Sample 0: z1 = 595, z2 = -484
+Getting samples with sigma_inv = 0.618960, mu1 = 598.464247, mu2 = -483.307533
+Sample 0: z1 = 596, z2 = -484
+Getting samples with sigma_inv = 0.618960, mu1 = 598.464247, mu2 = -483.307533
+Sample 0: z1 = 597, z2 = -484
+Getting samples with sigma_inv = 0.618960, mu1 = 598.464247, mu2 = -483.307533
+Sample 0: z1 = 598, z2 = -483
+Getting samples with sigma_inv = 0.618960, mu1 = 598.464247, mu2 = -483.307533
+Sample 0: z1 = 599, z2 = -482
+Getting samples with sigma_inv = 0.618960, mu1 = 598.464247, mu2 = -483.307533
+Sample 0: z1 = 599, z2 = -485
+Getting samples with sigma_inv = 0.618960, mu1 = 598.464247, mu2 = -483.307533
+Sample 0: z1 = 598, z2 = -482
+Getting samples with sigma_inv = 0.618960, mu1 = 598.464247, mu2 = -483.307533
+Sample 0: z1 = 600, z2 = -485
+Getting samples with sigma_inv = 0.649921, mu1 = -590.444538, mu2 = 105.459487
+Sample 0: z1 = -592, z2 = 107
+Getting samples with sigma_inv = 0.649921, mu1 = -590.444538, mu2 = 105.459487
+Sample 0: z1 = -590, z2 = 108
+Getting samples with sigma_inv = 0.649921, mu1 = -590.444538, mu2 = 105.459487
+Sample 0: z1 = -592, z2 = 105
+Getting samples with sigma_inv = 0.649921, mu1 = -590.444538, mu2 = 105.459487
+Sample 0: z1 = -590, z2 = 105
+Getting samples with sigma_inv = 0.649921, mu1 = -590.444538, mu2 = 105.459487
+Sample 0: z1 = -590, z2 = 106
+Getting samples with sigma_inv = 0.649921, mu1 = -590.444538, mu2 = 105.459487
+Sample 0: z1 = -591, z2 = 104
+Getting samples with sigma_inv = 0.649921, mu1 = -590.444538, mu2 = 105.459487
+Sample 0: z1 = -590, z2 = 106
+Getting samples with sigma_inv = 0.649921, mu1 = -590.444538, mu2 = 105.459487
+Sample 0: z1 = -590, z2 = 107
+Getting samples with sigma_inv = 0.649921, mu1 = -590.444538, mu2 = 105.459487
+Sample 0: z1 = -589, z2 = 106
+Getting samples with sigma_inv = 0.649921, mu1 = -590.444538, mu2 = 105.459487
+Sample 0: z1 = -592, z2 = 105
+Getting samples with sigma_inv = 0.649921, mu1 = -590.444538, mu2 = 105.459487
+Sample 0: z1 = -592, z2 = 104
+Getting samples with sigma_inv = 0.649921, mu1 = -590.444538, mu2 = 105.459487
+Sample 0: z1 = -589, z2 = 106
+Getting samples with sigma_inv = 0.649921, mu1 = -590.444538, mu2 = 105.459487
+Sample 0: z1 = -589, z2 = 105
+Getting samples with sigma_inv = 0.649921, mu1 = -590.444538, mu2 = 105.459487
+Sample 0: z1 = -590, z2 = 103
+Getting samples with sigma_inv = 0.649921, mu1 = -590.444538, mu2 = 105.459487
+Sample 0: z1 = -590, z2 = 105
+Getting samples with sigma_inv = 0.649921, mu1 = -590.444538, mu2 = 105.459487
+Sample 0: z1 = -592, z2 = 105
+Getting samples with sigma_inv = 0.649921, mu1 = -590.444538, mu2 = 105.459487
+Sample 0: z1 = -590, z2 = 110
+Getting samples with sigma_inv = 0.649921, mu1 = -590.444538, mu2 = 105.459487
+Sample 0: z1 = -591, z2 = 108
+Getting samples with sigma_inv = 0.649921, mu1 = -590.444538, mu2 = 105.459487
+Sample 0: z1 = -588, z2 = 105
+Getting samples with sigma_inv = 0.649921, mu1 = -590.444538, mu2 = 105.459487
+Sample 0: z1 = -595, z2 = 105
+Getting samples with sigma_inv = 0.649921, mu1 = -590.444538, mu2 = 105.459487
+Sample 0: z1 = -589, z2 = 108
+Getting samples with sigma_inv = 0.649921, mu1 = -590.444538, mu2 = 105.459487
+Sample 0: z1 = -592, z2 = 106
+Getting samples with sigma_inv = 0.649921, mu1 = -590.444538, mu2 = 105.459487
+Sample 0: z1 = -592, z2 = 107
+Getting samples with sigma_inv = 0.649921, mu1 = -590.444538, mu2 = 105.459487
+Sample 0: z1 = -591, z2 = 105
+Getting samples with sigma_inv = 0.649921, mu1 = -590.444538, mu2 = 105.459487
+Sample 0: z1 = -589, z2 = 104
+Getting samples with sigma_inv = 0.649921, mu1 = -590.444538, mu2 = 105.459487
+Sample 0: z1 = -589, z2 = 106
+Getting samples with sigma_inv = 0.649921, mu1 = -590.444538, mu2 = 105.459487
+Sample 0: z1 = -592, z2 = 105
+Getting samples with sigma_inv = 0.682002, mu1 = -755.083416, mu2 = 719.635639
+Sample 0: z1 = -754, z2 = 720
+Getting samples with sigma_inv = 0.682002, mu1 = -755.083416, mu2 = 719.635639
+Sample 0: z1 = -756, z2 = 721
+Getting samples with sigma_inv = 0.682002, mu1 = -755.083416, mu2 = 719.635639
+Sample 0: z1 = -755, z2 = 721
+Getting samples with sigma_inv = 0.682002, mu1 = -755.083416, mu2 = 719.635639
+Sample 0: z1 = -757, z2 = 717
+Getting samples with sigma_inv = 0.682002, mu1 = -755.083416, mu2 = 719.635639
+Sample 0: z1 = -753, z2 = 720
+Getting samples with sigma_inv = 0.682002, mu1 = -755.083416, mu2 = 719.635639
+Sample 0: z1 = -756, z2 = 720
+Getting samples with sigma_inv = 0.682002, mu1 = -755.083416, mu2 = 719.635639
+Sample 0: z1 = -756, z2 = 719
+Getting samples with sigma_inv = 0.682002, mu1 = -755.083416, mu2 = 719.635639
+Sample 0: z1 = -754, z2 = 722
+Getting samples with sigma_inv = 0.682002, mu1 = -755.083416, mu2 = 719.635639
+Sample 0: z1 = -756, z2 = 718
+Getting samples with sigma_inv = 0.682002, mu1 = -755.083416, mu2 = 719.635639
+Sample 0: z1 = -754, z2 = 722
+Getting samples with sigma_inv = 0.682002, mu1 = -755.083416, mu2 = 719.635639
+Sample 0: z1 = -755, z2 = 718
+Getting samples with sigma_inv = 0.682002, mu1 = -755.083416, mu2 = 719.635639
+Sample 0: z1 = -756, z2 = 718
+Getting samples with sigma_inv = 0.682002, mu1 = -755.083416, mu2 = 719.635639
+Sample 0: z1 = -756, z2 = 719
+Getting samples with sigma_inv = 0.682002, mu1 = -755.083416, mu2 = 719.635639
+Sample 0: z1 = -755, z2 = 721
+Getting samples with sigma_inv = 0.682002, mu1 = -755.083416, mu2 = 719.635639
+Sample 0: z1 = -759, z2 = 719
+Getting samples with sigma_inv = 0.682002, mu1 = -755.083416, mu2 = 719.635639
+Sample 0: z1 = -756, z2 = 721
+Getting samples with sigma_inv = 0.682002, mu1 = -755.083416, mu2 = 719.635639
+Sample 0: z1 = -754, z2 = 718
+Getting samples with sigma_inv = 0.682002, mu1 = -755.083416, mu2 = 719.635639
+Sample 0: z1 = -755, z2 = 720
+Getting samples with sigma_inv = 0.682002, mu1 = -755.083416, mu2 = 719.635639
+Sample 0: z1 = -752, z2 = 718
+Getting samples with sigma_inv = 0.682002, mu1 = -755.083416, mu2 = 719.635639
+Sample 0: z1 = -754, z2 = 720
+Getting samples with sigma_inv = 0.682002, mu1 = -755.083416, mu2 = 719.635639
+Sample 0: z1 = -753, z2 = 719
+Getting samples with sigma_inv = 0.682002, mu1 = -755.083416, mu2 = 719.635639
+Sample 0: z1 = -755, z2 = 719
+Getting samples with sigma_inv = 0.682002, mu1 = -755.083416, mu2 = 719.635639
+Sample 0: z1 = -756, z2 = 719
+Getting samples with sigma_inv = 0.682002, mu1 = -755.083416, mu2 = 719.635639
+Sample 0: z1 = -755, z2 = 719
+Getting samples with sigma_inv = 0.682002, mu1 = -755.083416, mu2 = 719.635639
+Sample 0: z1 = -755, z2 = 721
+Getting samples with sigma_inv = 0.682002, mu1 = -755.083416, mu2 = 719.635639
+Sample 0: z1 = -756, z2 = 722
+Getting samples with sigma_inv = 0.682002, mu1 = -755.083416, mu2 = 719.635639
+Sample 0: z1 = -756, z2 = 717
+Getting samples with sigma_inv = 0.718210, mu1 = -931.275924, mu2 = -676.173899
+Sample 0: z1 = -931, z2 = -676
+Getting samples with sigma_inv = 0.718210, mu1 = -931.275924, mu2 = -676.173899
+Sample 0: z1 = -931, z2 = -674
+Getting samples with sigma_inv = 0.718210, mu1 = -931.275924, mu2 = -676.173899
+Sample 0: z1 = -932, z2 = -676
+Getting samples with sigma_inv = 0.718210, mu1 = -931.275924, mu2 = -676.173899
+Sample 0: z1 = -932, z2 = -678
+Getting samples with sigma_inv = 0.718210, mu1 = -931.275924, mu2 = -676.173899
+Sample 0: z1 = -931, z2 = -674
+Getting samples with sigma_inv = 0.718210, mu1 = -931.275924, mu2 = -676.173899
+Sample 0: z1 = -931, z2 = -677
+Getting samples with sigma_inv = 0.718210, mu1 = -931.275924, mu2 = -676.173899
+Sample 0: z1 = -931, z2 = -677
+Getting samples with sigma_inv = 0.718210, mu1 = -931.275924, mu2 = -676.173899
+Sample 0: z1 = -929, z2 = -674
+Getting samples with sigma_inv = 0.718210, mu1 = -931.275924, mu2 = -676.173899
+Sample 0: z1 = -932, z2 = -673
+Getting samples with sigma_inv = 0.718210, mu1 = -931.275924, mu2 = -676.173899
+Sample 0: z1 = -933, z2 = -675
+Getting samples with sigma_inv = 0.718210, mu1 = -931.275924, mu2 = -676.173899
+Sample 0: z1 = -932, z2 = -676
+Getting samples with sigma_inv = 0.718210, mu1 = -931.275924, mu2 = -676.173899
+Sample 0: z1 = -930, z2 = -676
+Getting samples with sigma_inv = 0.718210, mu1 = -931.275924, mu2 = -676.173899
+Sample 0: z1 = -933, z2 = -679
+Getting samples with sigma_inv = 0.718210, mu1 = -931.275924, mu2 = -676.173899
+Sample 0: z1 = -932, z2 = -676
+Getting samples with sigma_inv = 0.718210, mu1 = -931.275924, mu2 = -676.173899
+Sample 0: z1 = -930, z2 = -678
+Getting samples with sigma_inv = 0.718210, mu1 = -931.275924, mu2 = -676.173899
+Sample 0: z1 = -931, z2 = -675
+Getting samples with sigma_inv = 0.718210, mu1 = -931.275924, mu2 = -676.173899
+Sample 0: z1 = -930, z2 = -676
+Getting samples with sigma_inv = 0.718210, mu1 = -931.275924, mu2 = -676.173899
+Sample 0: z1 = -932, z2 = -676
+Getting samples with sigma_inv = 0.718210, mu1 = -931.275924, mu2 = -676.173899
+Sample 0: z1 = -930, z2 = -675
+Getting samples with sigma_inv = 0.718210, mu1 = -931.275924, mu2 = -676.173899
+Sample 0: z1 = -929, z2 = -676
+Getting samples with sigma_inv = 0.718210, mu1 = -931.275924, mu2 = -676.173899
+Sample 0: z1 = -930, z2 = -676
+Getting samples with sigma_inv = 0.718210, mu1 = -931.275924, mu2 = -676.173899
+Sample 0: z1 = -931, z2 = -679
+Getting samples with sigma_inv = 0.718210, mu1 = -931.275924, mu2 = -676.173899
+Sample 0: z1 = -932, z2 = -675
+Getting samples with sigma_inv = 0.718210, mu1 = -931.275924, mu2 = -676.173899
+Sample 0: z1 = -931, z2 = -677
+Getting samples with sigma_inv = 0.718210, mu1 = -931.275924, mu2 = -676.173899
+Sample 0: z1 = -931, z2 = -676
+Getting samples with sigma_inv = 0.718210, mu1 = -931.275924, mu2 = -676.173899
+Sample 0: z1 = -930, z2 = -678
+Getting samples with sigma_inv = 0.718210, mu1 = -931.275924, mu2 = -676.173899
+Sample 0: z1 = -930, z2 = -678
+Getting samples with sigma_inv = 0.758546, mu1 = -105.539664, mu2 = -73.116895
+Sample 0: z1 = -106, z2 = -74
+Getting samples with sigma_inv = 0.758546, mu1 = -105.539664, mu2 = -73.116895
+Sample 0: z1 = -107, z2 = -72
+Getting samples with sigma_inv = 0.758546, mu1 = -105.539664, mu2 = -73.116895
+Sample 0: z1 = -107, z2 = -73
+Getting samples with sigma_inv = 0.758546, mu1 = -105.539664, mu2 = -73.116895
+Sample 0: z1 = -105, z2 = -72
+Getting samples with sigma_inv = 0.758546, mu1 = -105.539664, mu2 = -73.116895
+Sample 0: z1 = -104, z2 = -72
+Getting samples with sigma_inv = 0.758546, mu1 = -105.539664, mu2 = -73.116895
+Sample 0: z1 = -102, z2 = -74
+Getting samples with sigma_inv = 0.758546, mu1 = -105.539664, mu2 = -73.116895
+Sample 0: z1 = -103, z2 = -72
+Getting samples with sigma_inv = 0.758546, mu1 = -105.539664, mu2 = -73.116895
+Sample 0: z1 = -105, z2 = -74
+Getting samples with sigma_inv = 0.758546, mu1 = -105.539664, mu2 = -73.116895
+Sample 0: z1 = -106, z2 = -74
+Getting samples with sigma_inv = 0.758546, mu1 = -105.539664, mu2 = -73.116895
+Sample 0: z1 = -107, z2 = -73
+Getting samples with sigma_inv = 0.758546, mu1 = -105.539664, mu2 = -73.116895
+Sample 0: z1 = -105, z2 = -76
+Getting samples with sigma_inv = 0.758546, mu1 = -105.539664, mu2 = -73.116895
+Sample 0: z1 = -104, z2 = -75
+Getting samples with sigma_inv = 0.758546, mu1 = -105.539664, mu2 = -73.116895
+Sample 0: z1 = -103, z2 = -74
+Getting samples with sigma_inv = 0.758546, mu1 = -105.539664, mu2 = -73.116895
+Sample 0: z1 = -105, z2 = -70
+Getting samples with sigma_inv = 0.758546, mu1 = -105.539664, mu2 = -73.116895
+Sample 0: z1 = -103, z2 = -74
+Getting samples with sigma_inv = 0.758546, mu1 = -105.539664, mu2 = -73.116895
+Sample 0: z1 = -107, z2 = -74
+Getting samples with sigma_inv = 0.758546, mu1 = -105.539664, mu2 = -73.116895
+Sample 0: z1 = -105, z2 = -76
+Getting samples with sigma_inv = 0.758546, mu1 = -105.539664, mu2 = -73.116895
+Sample 0: z1 = -107, z2 = -71
+Getting samples with sigma_inv = 0.758546, mu1 = -105.539664, mu2 = -73.116895
+Sample 0: z1 = -106, z2 = -74
+Getting samples with sigma_inv = 0.758546, mu1 = -105.539664, mu2 = -73.116895
+Sample 0: z1 = -106, z2 = -72
+Getting samples with sigma_inv = 0.758546, mu1 = -105.539664, mu2 = -73.116895
+Sample 0: z1 = -106, z2 = -73
+Getting samples with sigma_inv = 0.758546, mu1 = -105.539664, mu2 = -73.116895
+Sample 0: z1 = -106, z2 = -71
+Getting samples with sigma_inv = 0.758546, mu1 = -105.539664, mu2 = -73.116895
+Sample 0: z1 = -105, z2 = -75
+Getting samples with sigma_inv = 0.758546, mu1 = -105.539664, mu2 = -73.116895
+Sample 0: z1 = -106, z2 = -72
+Getting samples with sigma_inv = 0.758546, mu1 = -105.539664, mu2 = -73.116895
+Sample 0: z1 = -106, z2 = -75
+Getting samples with sigma_inv = 0.758546, mu1 = -105.539664, mu2 = -73.116895
+Sample 0: z1 = -105, z2 = -74
+Getting samples with sigma_inv = 0.758546, mu1 = -105.539664, mu2 = -73.116895
+Sample 0: z1 = -106, z2 = -73
+Getting samples with sigma_inv = 0.565913, mu1 = 723.950163, mu2 = 538.747273
+Sample 0: z1 = 723, z2 = 534
+Getting samples with sigma_inv = 0.565913, mu1 = 723.950163, mu2 = 538.747273
+Sample 0: z1 = 726, z2 = 540
+Getting samples with sigma_inv = 0.565913, mu1 = 723.950163, mu2 = 538.747273
+Sample 0: z1 = 722, z2 = 540
+Getting samples with sigma_inv = 0.565913, mu1 = 723.950163, mu2 = 538.747273
+Sample 0: z1 = 724, z2 = 537
+Getting samples with sigma_inv = 0.565913, mu1 = 723.950163, mu2 = 538.747273
+Sample 0: z1 = 723, z2 = 539
+Getting samples with sigma_inv = 0.565913, mu1 = 723.950163, mu2 = 538.747273
+Sample 0: z1 = 723, z2 = 537
+Getting samples with sigma_inv = 0.565913, mu1 = 723.950163, mu2 = 538.747273
+Sample 0: z1 = 725, z2 = 538
+Getting samples with sigma_inv = 0.565913, mu1 = 723.950163, mu2 = 538.747273
+Sample 0: z1 = 723, z2 = 538
+Getting samples with sigma_inv = 0.565913, mu1 = 723.950163, mu2 = 538.747273
+Sample 0: z1 = 723, z2 = 539
+Getting samples with sigma_inv = 0.565913, mu1 = 723.950163, mu2 = 538.747273
+Sample 0: z1 = 722, z2 = 540
+Getting samples with sigma_inv = 0.565913, mu1 = 723.950163, mu2 = 538.747273
+Sample 0: z1 = 724, z2 = 539
+Getting samples with sigma_inv = 0.565913, mu1 = 723.950163, mu2 = 538.747273
+Sample 0: z1 = 724, z2 = 537
+Getting samples with sigma_inv = 0.565913, mu1 = 723.950163, mu2 = 538.747273
+Sample 0: z1 = 725, z2 = 540
+Getting samples with sigma_inv = 0.565913, mu1 = 723.950163, mu2 = 538.747273
+Sample 0: z1 = 724, z2 = 539
+Getting samples with sigma_inv = 0.565913, mu1 = 723.950163, mu2 = 538.747273
+Sample 0: z1 = 722, z2 = 538
+Getting samples with sigma_inv = 0.565913, mu1 = 723.950163, mu2 = 538.747273
+Sample 0: z1 = 723, z2 = 539
+Getting samples with sigma_inv = 0.565913, mu1 = 723.950163, mu2 = 538.747273
+Sample 0: z1 = 723, z2 = 537
+Getting samples with sigma_inv = 0.565913, mu1 = 723.950163, mu2 = 538.747273
+Sample 0: z1 = 725, z2 = 537
+Getting samples with sigma_inv = 0.565913, mu1 = 723.950163, mu2 = 538.747273
+Sample 0: z1 = 724, z2 = 542
+Getting samples with sigma_inv = 0.565913, mu1 = 723.950163, mu2 = 538.747273
+Sample 0: z1 = 727, z2 = 537
+Getting samples with sigma_inv = 0.565913, mu1 = 723.950163, mu2 = 538.747273
+Sample 0: z1 = 723, z2 = 542
+Getting samples with sigma_inv = 0.565913, mu1 = 723.950163, mu2 = 538.747273
+Sample 0: z1 = 725, z2 = 536
+Getting samples with sigma_inv = 0.565913, mu1 = 723.950163, mu2 = 538.747273
+Sample 0: z1 = 726, z2 = 538
+Getting samples with sigma_inv = 0.565913, mu1 = 723.950163, mu2 = 538.747273
+Sample 0: z1 = 723, z2 = 540
+Getting samples with sigma_inv = 0.565913, mu1 = 723.950163, mu2 = 538.747273
+Sample 0: z1 = 724, z2 = 541
+Getting samples with sigma_inv = 0.565913, mu1 = 723.950163, mu2 = 538.747273
+Sample 0: z1 = 722, z2 = 537
+Getting samples with sigma_inv = 0.565913, mu1 = 723.950163, mu2 = 538.747273
+Sample 0: z1 = 722, z2 = 537
+Getting samples with sigma_inv = 0.565913, mu1 = 723.950163, mu2 = 538.747273
+Sample 0: z1 = 723, z2 = 542
+Getting samples with sigma_inv = 0.698263, mu1 = 555.625526, mu2 = -852.708479
+Sample 0: z1 = 555, z2 = -854
+Getting samples with sigma_inv = 0.698263, mu1 = 555.625526, mu2 = -852.708479
+Sample 0: z1 = 558, z2 = -854
+Getting samples with sigma_inv = 0.698263, mu1 = 555.625526, mu2 = -852.708479
+Sample 0: z1 = 555, z2 = -853
+Getting samples with sigma_inv = 0.698263, mu1 = 555.625526, mu2 = -852.708479
+Sample 0: z1 = 557, z2 = -852
+Getting samples with sigma_inv = 0.698263, mu1 = 555.625526, mu2 = -852.708479
+Sample 0: z1 = 557, z2 = -854
+Getting samples with sigma_inv = 0.698263, mu1 = 555.625526, mu2 = -852.708479
+Sample 0: z1 = 557, z2 = -854
+Getting samples with sigma_inv = 0.698263, mu1 = 555.625526, mu2 = -852.708479
+Sample 0: z1 = 556, z2 = -852
+Getting samples with sigma_inv = 0.698263, mu1 = 555.625526, mu2 = -852.708479
+Sample 0: z1 = 556, z2 = -850
+Getting samples with sigma_inv = 0.698263, mu1 = 555.625526, mu2 = -852.708479
+Sample 0: z1 = 555, z2 = -850
+Getting samples with sigma_inv = 0.698263, mu1 = 555.625526, mu2 = -852.708479
+Sample 0: z1 = 556, z2 = -853
+Getting samples with sigma_inv = 0.698263, mu1 = 555.625526, mu2 = -852.708479
+Sample 0: z1 = 556, z2 = -852
+Getting samples with sigma_inv = 0.698263, mu1 = 555.625526, mu2 = -852.708479
+Sample 0: z1 = 556, z2 = -854
+Getting samples with sigma_inv = 0.698263, mu1 = 555.625526, mu2 = -852.708479
+Sample 0: z1 = 556, z2 = -852
+Getting samples with sigma_inv = 0.698263, mu1 = 555.625526, mu2 = -852.708479
+Sample 0: z1 = 557, z2 = -852
+Getting samples with sigma_inv = 0.698263, mu1 = 555.625526, mu2 = -852.708479
+Sample 0: z1 = 558, z2 = -851
+Getting samples with sigma_inv = 0.698263, mu1 = 555.625526, mu2 = -852.708479
+Sample 0: z1 = 554, z2 = -855
+Getting samples with sigma_inv = 0.698263, mu1 = 555.625526, mu2 = -852.708479
+Sample 0: z1 = 554, z2 = -853
+Getting samples with sigma_inv = 0.698263, mu1 = 555.625526, mu2 = -852.708479
+Sample 0: z1 = 555, z2 = -853
+Getting samples with sigma_inv = 0.698263, mu1 = 555.625526, mu2 = -852.708479
+Sample 0: z1 = 554, z2 = -853
+Getting samples with sigma_inv = 0.698263, mu1 = 555.625526, mu2 = -852.708479
+Sample 0: z1 = 556, z2 = -853
+Getting samples with sigma_inv = 0.698263, mu1 = 555.625526, mu2 = -852.708479
+Sample 0: z1 = 556, z2 = -850
+Getting samples with sigma_inv = 0.698263, mu1 = 555.625526, mu2 = -852.708479
+Sample 0: z1 = 555, z2 = -853
+Getting samples with sigma_inv = 0.698263, mu1 = 555.625526, mu2 = -852.708479
+Sample 0: z1 = 556, z2 = -852
+Getting samples with sigma_inv = 0.698263, mu1 = 555.625526, mu2 = -852.708479
+Sample 0: z1 = 556, z2 = -854
+Getting samples with sigma_inv = 0.698263, mu1 = 555.625526, mu2 = -852.708479
+Sample 0: z1 = 556, z2 = -851
+Getting samples with sigma_inv = 0.698263, mu1 = 555.625526, mu2 = -852.708479
+Sample 0: z1 = 555, z2 = -851
+Getting samples with sigma_inv = 0.616652, mu1 = -614.164605, mu2 = 759.536075
+Sample 0: z1 = -613, z2 = 761
+Getting samples with sigma_inv = 0.616652, mu1 = -614.164605, mu2 = 759.536075
+Sample 0: z1 = -616, z2 = 759
+Getting samples with sigma_inv = 0.616652, mu1 = -614.164605, mu2 = 759.536075
+Sample 0: z1 = -613, z2 = 760
+Getting samples with sigma_inv = 0.616652, mu1 = -614.164605, mu2 = 759.536075
+Sample 0: z1 = -614, z2 = 759
+Getting samples with sigma_inv = 0.616652, mu1 = -614.164605, mu2 = 759.536075
+Sample 0: z1 = -612, z2 = 760
+Getting samples with sigma_inv = 0.616652, mu1 = -614.164605, mu2 = 759.536075
+Sample 0: z1 = -613, z2 = 760
+Getting samples with sigma_inv = 0.616652, mu1 = -614.164605, mu2 = 759.536075
+Sample 0: z1 = -614, z2 = 761
+Getting samples with sigma_inv = 0.616652, mu1 = -614.164605, mu2 = 759.536075
+Sample 0: z1 = -614, z2 = 759
+Getting samples with sigma_inv = 0.616652, mu1 = -614.164605, mu2 = 759.536075
+Sample 0: z1 = -617, z2 = 760
+Getting samples with sigma_inv = 0.616652, mu1 = -614.164605, mu2 = 759.536075
+Sample 0: z1 = -615, z2 = 760
+Getting samples with sigma_inv = 0.616652, mu1 = -614.164605, mu2 = 759.536075
+Sample 0: z1 = -615, z2 = 762
+Getting samples with sigma_inv = 0.616652, mu1 = -614.164605, mu2 = 759.536075
+Sample 0: z1 = -613, z2 = 760
+Getting samples with sigma_inv = 0.616652, mu1 = -614.164605, mu2 = 759.536075
+Sample 0: z1 = -614, z2 = 758
+Getting samples with sigma_inv = 0.616652, mu1 = -614.164605, mu2 = 759.536075
+Sample 0: z1 = -613, z2 = 758
+Getting samples with sigma_inv = 0.616652, mu1 = -614.164605, mu2 = 759.536075
+Sample 0: z1 = -615, z2 = 760
+Getting samples with sigma_inv = 0.616652, mu1 = -614.164605, mu2 = 759.536075
+Sample 0: z1 = -614, z2 = 757
+Getting samples with sigma_inv = 0.616652, mu1 = -614.164605, mu2 = 759.536075
+Sample 0: z1 = -613, z2 = 760
+Getting samples with sigma_inv = 0.616652, mu1 = -614.164605, mu2 = 759.536075
+Sample 0: z1 = -613, z2 = 759
+Getting samples with sigma_inv = 0.616652, mu1 = -614.164605, mu2 = 759.536075
+Sample 0: z1 = -614, z2 = 757
+Getting samples with sigma_inv = 0.616652, mu1 = -614.164605, mu2 = 759.536075
+Sample 0: z1 = -615, z2 = 761
+Getting samples with sigma_inv = 0.616652, mu1 = -614.164605, mu2 = 759.536075
+Sample 0: z1 = -613, z2 = 760
+Getting samples with sigma_inv = 0.616652, mu1 = -614.164605, mu2 = 759.536075
+Sample 0: z1 = -615, z2 = 761
+Getting samples with sigma_inv = 0.616652, mu1 = -614.164605, mu2 = 759.536075
+Sample 0: z1 = -612, z2 = 759
+Getting samples with sigma_inv = 0.616652, mu1 = -614.164605, mu2 = 759.536075
+Sample 0: z1 = -615, z2 = 761
+Getting samples with sigma_inv = 0.616652, mu1 = -614.164605, mu2 = 759.536075
+Sample 0: z1 = -614, z2 = 761
+Getting samples with sigma_inv = 0.616652, mu1 = -614.164605, mu2 = 759.536075
+Sample 0: z1 = -614, z2 = 760
+Getting samples with sigma_inv = 0.616652, mu1 = -614.164605, mu2 = 759.536075
+Sample 0: z1 = -615, z2 = 762
+Getting samples with sigma_inv = 0.553707, mu1 = -797.890630, mu2 = -645.211574
+Sample 0: z1 = -798, z2 = -642
+Getting samples with sigma_inv = 0.553707, mu1 = -797.890630, mu2 = -645.211574
+Sample 0: z1 = -796, z2 = -644
+Getting samples with sigma_inv = 0.553707, mu1 = -797.890630, mu2 = -645.211574
+Sample 0: z1 = -796, z2 = -642
+Getting samples with sigma_inv = 0.553707, mu1 = -797.890630, mu2 = -645.211574
+Sample 0: z1 = -799, z2 = -646
+Getting samples with sigma_inv = 0.553707, mu1 = -797.890630, mu2 = -645.211574
+Sample 0: z1 = -800, z2 = -642
+Getting samples with sigma_inv = 0.553707, mu1 = -797.890630, mu2 = -645.211574
+Sample 0: z1 = -803, z2 = -644
+Getting samples with sigma_inv = 0.553707, mu1 = -797.890630, mu2 = -645.211574
+Sample 0: z1 = -800, z2 = -644
+Getting samples with sigma_inv = 0.553707, mu1 = -797.890630, mu2 = -645.211574
+Sample 0: z1 = -796, z2 = -643
+Getting samples with sigma_inv = 0.553707, mu1 = -797.890630, mu2 = -645.211574
+Sample 0: z1 = -798, z2 = -649
+Getting samples with sigma_inv = 0.553707, mu1 = -797.890630, mu2 = -645.211574
+Sample 0: z1 = -799, z2 = -645
+Getting samples with sigma_inv = 0.553707, mu1 = -797.890630, mu2 = -645.211574
+Sample 0: z1 = -798, z2 = -645
+Getting samples with sigma_inv = 0.553707, mu1 = -797.890630, mu2 = -645.211574
+Sample 0: z1 = -796, z2 = -646
+Getting samples with sigma_inv = 0.553707, mu1 = -797.890630, mu2 = -645.211574
+Sample 0: z1 = -797, z2 = -644
+Getting samples with sigma_inv = 0.553707, mu1 = -797.890630, mu2 = -645.211574
+Sample 0: z1 = -798, z2 = -646
+Getting samples with sigma_inv = 0.553707, mu1 = -797.890630, mu2 = -645.211574
+Sample 0: z1 = -799, z2 = -648
+Getting samples with sigma_inv = 0.553707, mu1 = -797.890630, mu2 = -645.211574
+Sample 0: z1 = -798, z2 = -649
+Getting samples with sigma_inv = 0.553707, mu1 = -797.890630, mu2 = -645.211574
+Sample 0: z1 = -797, z2 = -644
+Getting samples with sigma_inv = 0.553707, mu1 = -797.890630, mu2 = -645.211574
+Sample 0: z1 = -797, z2 = -645
+Getting samples with sigma_inv = 0.553707, mu1 = -797.890630, mu2 = -645.211574
+Sample 0: z1 = -795, z2 = -646
+Getting samples with sigma_inv = 0.553707, mu1 = -797.890630, mu2 = -645.211574
+Sample 0: z1 = -798, z2 = -645
+Getting samples with sigma_inv = 0.553707, mu1 = -797.890630, mu2 = -645.211574
+Sample 0: z1 = -800, z2 = -649
+Getting samples with sigma_inv = 0.553707, mu1 = -797.890630, mu2 = -645.211574
+Sample 0: z1 = -797, z2 = -647
+Getting samples with sigma_inv = 0.553707, mu1 = -797.890630, mu2 = -645.211574
+Sample 0: z1 = -797, z2 = -646
+Getting samples with sigma_inv = 0.553707, mu1 = -797.890630, mu2 = -645.211574
+Sample 0: z1 = -797, z2 = -646
+Getting samples with sigma_inv = 0.553707, mu1 = -797.890630, mu2 = -645.211574
+Sample 0: z1 = -796, z2 = -646
+Getting samples with sigma_inv = 0.553707, mu1 = -797.890630, mu2 = -645.211574
+Sample 0: z1 = -797, z2 = -646
+Getting samples with sigma_inv = 0.553707, mu1 = -797.890630, mu2 = -645.211574
+Sample 0: z1 = -797, z2 = -642
+Getting samples with sigma_inv = 0.553707, mu1 = -797.890630, mu2 = -645.211574
+Sample 0: z1 = -799, z2 = -646
+Getting samples with sigma_inv = 0.576910, mu1 = 32.685478, mu2 = 964.221545
+Sample 0: z1 = 34, z2 = 967
+Getting samples with sigma_inv = 0.576910, mu1 = 32.685478, mu2 = 964.221545
+Sample 0: z1 = 30, z2 = 966
+Getting samples with sigma_inv = 0.576910, mu1 = 32.685478, mu2 = 964.221545
+Sample 0: z1 = 30, z2 = 962
+Getting samples with sigma_inv = 0.576910, mu1 = 32.685478, mu2 = 964.221545
+Sample 0: z1 = 31, z2 = 963
+Getting samples with sigma_inv = 0.576910, mu1 = 32.685478, mu2 = 964.221545
+Sample 0: z1 = 32, z2 = 965
+Getting samples with sigma_inv = 0.576910, mu1 = 32.685478, mu2 = 964.221545
+Sample 0: z1 = 32, z2 = 969
+Getting samples with sigma_inv = 0.576910, mu1 = 32.685478, mu2 = 964.221545
+Sample 0: z1 = 33, z2 = 967
+Getting samples with sigma_inv = 0.576910, mu1 = 32.685478, mu2 = 964.221545
+Sample 0: z1 = 34, z2 = 963
+Getting samples with sigma_inv = 0.576910, mu1 = 32.685478, mu2 = 964.221545
+Sample 0: z1 = 32, z2 = 961
+Getting samples with sigma_inv = 0.576910, mu1 = 32.685478, mu2 = 964.221545
+Sample 0: z1 = 31, z2 = 964
+Getting samples with sigma_inv = 0.576910, mu1 = 32.685478, mu2 = 964.221545
+Sample 0: z1 = 32, z2 = 964
+Getting samples with sigma_inv = 0.576910, mu1 = 32.685478, mu2 = 964.221545
+Sample 0: z1 = 32, z2 = 963
+Getting samples with sigma_inv = 0.576910, mu1 = 32.685478, mu2 = 964.221545
+Sample 0: z1 = 36, z2 = 964
+Getting samples with sigma_inv = 0.576910, mu1 = 32.685478, mu2 = 964.221545
+Sample 0: z1 = 30, z2 = 966
+Getting samples with sigma_inv = 0.576910, mu1 = 32.685478, mu2 = 964.221545
+Sample 0: z1 = 34, z2 = 966
+Getting samples with sigma_inv = 0.576910, mu1 = 32.685478, mu2 = 964.221545
+Sample 0: z1 = 31, z2 = 964
+Getting samples with sigma_inv = 0.576910, mu1 = 32.685478, mu2 = 964.221545
+Sample 0: z1 = 36, z2 = 962
+Getting samples with sigma_inv = 0.576910, mu1 = 32.685478, mu2 = 964.221545
+Sample 0: z1 = 32, z2 = 965
+Getting samples with sigma_inv = 0.576910, mu1 = 32.685478, mu2 = 964.221545
+Sample 0: z1 = 34, z2 = 965
+Getting samples with sigma_inv = 0.576910, mu1 = 32.685478, mu2 = 964.221545
+Sample 0: z1 = 32, z2 = 962
+Getting samples with sigma_inv = 0.576910, mu1 = 32.685478, mu2 = 964.221545
+Sample 0: z1 = 34, z2 = 965
+Getting samples with sigma_inv = 0.576910, mu1 = 32.685478, mu2 = 964.221545
+Sample 0: z1 = 32, z2 = 963
+Getting samples with sigma_inv = 0.576910, mu1 = 32.685478, mu2 = 964.221545
+Sample 0: z1 = 32, z2 = 965
+Getting samples with sigma_inv = 0.576910, mu1 = 32.685478, mu2 = 964.221545
+Sample 0: z1 = 32, z2 = 964
+Getting samples with sigma_inv = 0.576910, mu1 = 32.685478, mu2 = 964.221545
+Sample 0: z1 = 31, z2 = 963
+Getting samples with sigma_inv = 0.576910, mu1 = 32.685478, mu2 = 964.221545
+Sample 0: z1 = 36, z2 = 965
+Getting samples with sigma_inv = 0.576910, mu1 = 32.685478, mu2 = 964.221545
+Sample 0: z1 = 34, z2 = 962
+Getting samples with sigma_inv = 0.716193, mu1 = 850.929393, mu2 = 559.379360
+Sample 0: z1 = 849, z2 = 561
+Getting samples with sigma_inv = 0.716193, mu1 = 850.929393, mu2 = 559.379360
+Sample 0: z1 = 850, z2 = 562
+Getting samples with sigma_inv = 0.716193, mu1 = 850.929393, mu2 = 559.379360
+Sample 0: z1 = 852, z2 = 559
+Getting samples with sigma_inv = 0.716193, mu1 = 850.929393, mu2 = 559.379360
+Sample 0: z1 = 854, z2 = 559
+Getting samples with sigma_inv = 0.716193, mu1 = 850.929393, mu2 = 559.379360
+Sample 0: z1 = 852, z2 = 557
+Getting samples with sigma_inv = 0.716193, mu1 = 850.929393, mu2 = 559.379360
+Sample 0: z1 = 850, z2 = 558
+Getting samples with sigma_inv = 0.716193, mu1 = 850.929393, mu2 = 559.379360
+Sample 0: z1 = 852, z2 = 555
+Getting samples with sigma_inv = 0.716193, mu1 = 850.929393, mu2 = 559.379360
+Sample 0: z1 = 852, z2 = 557
+Getting samples with sigma_inv = 0.716193, mu1 = 850.929393, mu2 = 559.379360
+Sample 0: z1 = 852, z2 = 560
+Getting samples with sigma_inv = 0.716193, mu1 = 850.929393, mu2 = 559.379360
+Sample 0: z1 = 848, z2 = 562
+Getting samples with sigma_inv = 0.716193, mu1 = 850.929393, mu2 = 559.379360
+Sample 0: z1 = 851, z2 = 559
+Getting samples with sigma_inv = 0.716193, mu1 = 850.929393, mu2 = 559.379360
+Sample 0: z1 = 850, z2 = 560
+Getting samples with sigma_inv = 0.716193, mu1 = 850.929393, mu2 = 559.379360
+Sample 0: z1 = 850, z2 = 560
+Getting samples with sigma_inv = 0.716193, mu1 = 850.929393, mu2 = 559.379360
+Sample 0: z1 = 849, z2 = 560
+Getting samples with sigma_inv = 0.716193, mu1 = 850.929393, mu2 = 559.379360
+Sample 0: z1 = 851, z2 = 561
+Getting samples with sigma_inv = 0.716193, mu1 = 850.929393, mu2 = 559.379360
+Sample 0: z1 = 852, z2 = 560
+Getting samples with sigma_inv = 0.716193, mu1 = 850.929393, mu2 = 559.379360
+Sample 0: z1 = 849, z2 = 559
+Getting samples with sigma_inv = 0.716193, mu1 = 850.929393, mu2 = 559.379360
+Sample 0: z1 = 852, z2 = 562
+Getting samples with sigma_inv = 0.716193, mu1 = 850.929393, mu2 = 559.379360
+Sample 0: z1 = 851, z2 = 559
+Getting samples with sigma_inv = 0.716193, mu1 = 850.929393, mu2 = 559.379360
+Sample 0: z1 = 852, z2 = 562
+Getting samples with sigma_inv = 0.716193, mu1 = 850.929393, mu2 = 559.379360
+Sample 0: z1 = 849, z2 = 559
+Getting samples with sigma_inv = 0.716193, mu1 = 850.929393, mu2 = 559.379360
+Sample 0: z1 = 849, z2 = 557
+Getting samples with sigma_inv = 0.716193, mu1 = 850.929393, mu2 = 559.379360
+Sample 0: z1 = 851, z2 = 559
+Getting samples with sigma_inv = 0.716193, mu1 = 850.929393, mu2 = 559.379360
+Sample 0: z1 = 851, z2 = 559
+Getting samples with sigma_inv = 0.716193, mu1 = 850.929393, mu2 = 559.379360
+Sample 0: z1 = 850, z2 = 559
+Getting samples with sigma_inv = 0.716193, mu1 = 850.929393, mu2 = 559.379360
+Sample 0: z1 = 849, z2 = 560
+Getting samples with sigma_inv = 0.716193, mu1 = 850.929393, mu2 = 559.379360
+Sample 0: z1 = 850, z2 = 559
+Getting samples with sigma_inv = 0.716193, mu1 = 850.929393, mu2 = 559.379360
+Sample 0: z1 = 850, z2 = 558
+Getting samples with sigma_inv = 0.755265, mu1 = -316.206340, mu2 = -825.807286
+Sample 0: z1 = -317, z2 = -824
+Getting samples with sigma_inv = 0.755265, mu1 = -316.206340, mu2 = -825.807286
+Sample 0: z1 = -317, z2 = -826
+Getting samples with sigma_inv = 0.755265, mu1 = -316.206340, mu2 = -825.807286
+Sample 0: z1 = -317, z2 = -826
+Getting samples with sigma_inv = 0.755265, mu1 = -316.206340, mu2 = -825.807286
+Sample 0: z1 = -316, z2 = -825
+Getting samples with sigma_inv = 0.755265, mu1 = -316.206340, mu2 = -825.807286
+Sample 0: z1 = -318, z2 = -822
+Getting samples with sigma_inv = 0.755265, mu1 = -316.206340, mu2 = -825.807286
+Sample 0: z1 = -317, z2 = -826
+Getting samples with sigma_inv = 0.755265, mu1 = -316.206340, mu2 = -825.807286
+Sample 0: z1 = -315, z2 = -824
+Getting samples with sigma_inv = 0.755265, mu1 = -316.206340, mu2 = -825.807286
+Sample 0: z1 = -316, z2 = -826
+Getting samples with sigma_inv = 0.755265, mu1 = -316.206340, mu2 = -825.807286
+Sample 0: z1 = -318, z2 = -827
+Getting samples with sigma_inv = 0.755265, mu1 = -316.206340, mu2 = -825.807286
+Sample 0: z1 = -317, z2 = -825
+Getting samples with sigma_inv = 0.755265, mu1 = -316.206340, mu2 = -825.807286
+Sample 0: z1 = -317, z2 = -828
+Getting samples with sigma_inv = 0.755265, mu1 = -316.206340, mu2 = -825.807286
+Sample 0: z1 = -315, z2 = -827
+Getting samples with sigma_inv = 0.755265, mu1 = -316.206340, mu2 = -825.807286
+Sample 0: z1 = -315, z2 = -826
+Getting samples with sigma_inv = 0.755265, mu1 = -316.206340, mu2 = -825.807286
+Sample 0: z1 = -316, z2 = -824
+Getting samples with sigma_inv = 0.755265, mu1 = -316.206340, mu2 = -825.807286
+Sample 0: z1 = -315, z2 = -827
+Getting samples with sigma_inv = 0.755265, mu1 = -316.206340, mu2 = -825.807286
+Sample 0: z1 = -318, z2 = -824
+Getting samples with sigma_inv = 0.755265, mu1 = -316.206340, mu2 = -825.807286
+Sample 0: z1 = -316, z2 = -826
+Getting samples with sigma_inv = 0.755265, mu1 = -316.206340, mu2 = -825.807286
+Sample 0: z1 = -318, z2 = -826
+Getting samples with sigma_inv = 0.755265, mu1 = -316.206340, mu2 = -825.807286
+Sample 0: z1 = -315, z2 = -826
+Getting samples with sigma_inv = 0.755265, mu1 = -316.206340, mu2 = -825.807286
+Sample 0: z1 = -316, z2 = -825
+Getting samples with sigma_inv = 0.755265, mu1 = -316.206340, mu2 = -825.807286
+Sample 0: z1 = -315, z2 = -828
+Getting samples with sigma_inv = 0.755265, mu1 = -316.206340, mu2 = -825.807286
+Sample 0: z1 = -316, z2 = -826
+Getting samples with sigma_inv = 0.755265, mu1 = -316.206340, mu2 = -825.807286
+Sample 0: z1 = -314, z2 = -827
+Getting samples with sigma_inv = 0.755265, mu1 = -316.206340, mu2 = -825.807286
+Sample 0: z1 = -317, z2 = -826
+Getting samples with sigma_inv = 0.755265, mu1 = -316.206340, mu2 = -825.807286
+Sample 0: z1 = -316, z2 = -824
+Getting samples with sigma_inv = 0.755265, mu1 = -316.206340, mu2 = -825.807286
+Sample 0: z1 = -315, z2 = -825
+Getting samples with sigma_inv = 0.755265, mu1 = -316.206340, mu2 = -825.807286
+Sample 0: z1 = -316, z2 = -826
+Getting samples with sigma_inv = 0.662232, mu1 = -496.673316, mu2 = -228.374576
+Sample 0: z1 = -496, z2 = -229
+Getting samples with sigma_inv = 0.662232, mu1 = -496.673316, mu2 = -228.374576
+Sample 0: z1 = -499, z2 = -227
+Getting samples with sigma_inv = 0.662232, mu1 = -496.673316, mu2 = -228.374576
+Sample 0: z1 = -496, z2 = -228
+Getting samples with sigma_inv = 0.662232, mu1 = -496.673316, mu2 = -228.374576
+Sample 0: z1 = -497, z2 = -229
+Getting samples with sigma_inv = 0.662232, mu1 = -496.673316, mu2 = -228.374576
+Sample 0: z1 = -494, z2 = -229
+Getting samples with sigma_inv = 0.662232, mu1 = -496.673316, mu2 = -228.374576
+Sample 0: z1 = -495, z2 = -227
+Getting samples with sigma_inv = 0.662232, mu1 = -496.673316, mu2 = -228.374576
+Sample 0: z1 = -496, z2 = -227
+Getting samples with sigma_inv = 0.662232, mu1 = -496.673316, mu2 = -228.374576
+Sample 0: z1 = -500, z2 = -229
+Getting samples with sigma_inv = 0.662232, mu1 = -496.673316, mu2 = -228.374576
+Sample 0: z1 = -495, z2 = -227
+Getting samples with sigma_inv = 0.662232, mu1 = -496.673316, mu2 = -228.374576
+Sample 0: z1 = -493, z2 = -231
+Getting samples with sigma_inv = 0.662232, mu1 = -496.673316, mu2 = -228.374576
+Sample 0: z1 = -494, z2 = -228
+Getting samples with sigma_inv = 0.662232, mu1 = -496.673316, mu2 = -228.374576
+Sample 0: z1 = -498, z2 = -227
+Getting samples with sigma_inv = 0.662232, mu1 = -496.673316, mu2 = -228.374576
+Sample 0: z1 = -497, z2 = -228
+Getting samples with sigma_inv = 0.662232, mu1 = -496.673316, mu2 = -228.374576
+Sample 0: z1 = -493, z2 = -229
+Getting samples with sigma_inv = 0.662232, mu1 = -496.673316, mu2 = -228.374576
+Sample 0: z1 = -496, z2 = -227
+Getting samples with sigma_inv = 0.662232, mu1 = -496.673316, mu2 = -228.374576
+Sample 0: z1 = -495, z2 = -229
+Getting samples with sigma_inv = 0.662232, mu1 = -496.673316, mu2 = -228.374576
+Sample 0: z1 = -501, z2 = -228
+Getting samples with sigma_inv = 0.662232, mu1 = -496.673316, mu2 = -228.374576
+Sample 0: z1 = -499, z2 = -228
+Getting samples with sigma_inv = 0.662232, mu1 = -496.673316, mu2 = -228.374576
+Sample 0: z1 = -499, z2 = -231
+Getting samples with sigma_inv = 0.662232, mu1 = -496.673316, mu2 = -228.374576
+Sample 0: z1 = -495, z2 = -229
+Getting samples with sigma_inv = 0.662232, mu1 = -496.673316, mu2 = -228.374576
+Sample 0: z1 = -496, z2 = -230
+Getting samples with sigma_inv = 0.662232, mu1 = -496.673316, mu2 = -228.374576
+Sample 0: z1 = -497, z2 = -229
+Getting samples with sigma_inv = 0.662232, mu1 = -496.673316, mu2 = -228.374576
+Sample 0: z1 = -496, z2 = -230
+Getting samples with sigma_inv = 0.662232, mu1 = -496.673316, mu2 = -228.374576
+Sample 0: z1 = -497, z2 = -228
+Getting samples with sigma_inv = 0.662232, mu1 = -496.673316, mu2 = -228.374576
+Sample 0: z1 = -497, z2 = -228
+Getting samples with sigma_inv = 0.662232, mu1 = -496.673316, mu2 = -228.374576
+Sample 0: z1 = -497, z2 = -229
+Getting samples with sigma_inv = 0.662232, mu1 = -496.673316, mu2 = -228.374576
+Sample 0: z1 = -494, z2 = -230
+Getting samples with sigma_inv = 0.587973, mu1 = -656.174413, mu2 = -606.734833
+Sample 0: z1 = -655, z2 = -606
+Getting samples with sigma_inv = 0.587973, mu1 = -656.174413, mu2 = -606.734833
+Sample 0: z1 = -654, z2 = -608
+Getting samples with sigma_inv = 0.587973, mu1 = -656.174413, mu2 = -606.734833
+Sample 0: z1 = -657, z2 = -607
+Getting samples with sigma_inv = 0.587973, mu1 = -656.174413, mu2 = -606.734833
+Sample 0: z1 = -655, z2 = -604
+Getting samples with sigma_inv = 0.587973, mu1 = -656.174413, mu2 = -606.734833
+Sample 0: z1 = -655, z2 = -606
+Getting samples with sigma_inv = 0.587973, mu1 = -656.174413, mu2 = -606.734833
+Sample 0: z1 = -657, z2 = -606
+Getting samples with sigma_inv = 0.587973, mu1 = -656.174413, mu2 = -606.734833
+Sample 0: z1 = -656, z2 = -609
+Getting samples with sigma_inv = 0.587973, mu1 = -656.174413, mu2 = -606.734833
+Sample 0: z1 = -655, z2 = -607
+Getting samples with sigma_inv = 0.587973, mu1 = -656.174413, mu2 = -606.734833
+Sample 0: z1 = -657, z2 = -609
+Getting samples with sigma_inv = 0.587973, mu1 = -656.174413, mu2 = -606.734833
+Sample 0: z1 = -657, z2 = -607
+Getting samples with sigma_inv = 0.587973, mu1 = -656.174413, mu2 = -606.734833
+Sample 0: z1 = -655, z2 = -608
+Getting samples with sigma_inv = 0.587973, mu1 = -656.174413, mu2 = -606.734833
+Sample 0: z1 = -659, z2 = -605
+Getting samples with sigma_inv = 0.587973, mu1 = -656.174413, mu2 = -606.734833
+Sample 0: z1 = -656, z2 = -605
+Getting samples with sigma_inv = 0.587973, mu1 = -656.174413, mu2 = -606.734833
+Sample 0: z1 = -655, z2 = -604
+Getting samples with sigma_inv = 0.587973, mu1 = -656.174413, mu2 = -606.734833
+Sample 0: z1 = -659, z2 = -605
+Getting samples with sigma_inv = 0.587973, mu1 = -656.174413, mu2 = -606.734833
+Sample 0: z1 = -659, z2 = -608
+Getting samples with sigma_inv = 0.587973, mu1 = -656.174413, mu2 = -606.734833
+Sample 0: z1 = -655, z2 = -609
+Getting samples with sigma_inv = 0.587973, mu1 = -656.174413, mu2 = -606.734833
+Sample 0: z1 = -658, z2 = -606
+Getting samples with sigma_inv = 0.587973, mu1 = -656.174413, mu2 = -606.734833
+Sample 0: z1 = -654, z2 = -606
+Getting samples with sigma_inv = 0.587973, mu1 = -656.174413, mu2 = -606.734833
+Sample 0: z1 = -653, z2 = -606
+Getting samples with sigma_inv = 0.587973, mu1 = -656.174413, mu2 = -606.734833
+Sample 0: z1 = -654, z2 = -608
+Getting samples with sigma_inv = 0.587973, mu1 = -656.174413, mu2 = -606.734833
+Sample 0: z1 = -656, z2 = -610
+Getting samples with sigma_inv = 0.587973, mu1 = -656.174413, mu2 = -606.734833
+Sample 0: z1 = -655, z2 = -609
+Getting samples with sigma_inv = 0.587973, mu1 = -656.174413, mu2 = -606.734833
+Sample 0: z1 = -657, z2 = -606
+Getting samples with sigma_inv = 0.587973, mu1 = -656.174413, mu2 = -606.734833
+Sample 0: z1 = -654, z2 = -605
+Getting samples with sigma_inv = 0.587973, mu1 = -656.174413, mu2 = -606.734833
+Sample 0: z1 = -658, z2 = -607
+Getting samples with sigma_inv = 0.734005, mu1 = -842.627717, mu2 = 985.773833
+Sample 0: z1 = -843, z2 = 986
+Getting samples with sigma_inv = 0.734005, mu1 = -842.627717, mu2 = 985.773833
+Sample 0: z1 = -843, z2 = 985
+Getting samples with sigma_inv = 0.734005, mu1 = -842.627717, mu2 = 985.773833
+Sample 0: z1 = -842, z2 = 987
+Getting samples with sigma_inv = 0.734005, mu1 = -842.627717, mu2 = 985.773833
+Sample 0: z1 = -840, z2 = 984
+Getting samples with sigma_inv = 0.734005, mu1 = -842.627717, mu2 = 985.773833
+Sample 0: z1 = -844, z2 = 985
+Getting samples with sigma_inv = 0.734005, mu1 = -842.627717, mu2 = 985.773833
+Sample 0: z1 = -843, z2 = 988
+Getting samples with sigma_inv = 0.734005, mu1 = -842.627717, mu2 = 985.773833
+Sample 0: z1 = -842, z2 = 987
+Getting samples with sigma_inv = 0.734005, mu1 = -842.627717, mu2 = 985.773833
+Sample 0: z1 = -843, z2 = 987
+Getting samples with sigma_inv = 0.734005, mu1 = -842.627717, mu2 = 985.773833
+Sample 0: z1 = -841, z2 = 987
+Getting samples with sigma_inv = 0.734005, mu1 = -842.627717, mu2 = 985.773833
+Sample 0: z1 = -844, z2 = 987
+Getting samples with sigma_inv = 0.734005, mu1 = -842.627717, mu2 = 985.773833
+Sample 0: z1 = -843, z2 = 989
+Getting samples with sigma_inv = 0.734005, mu1 = -842.627717, mu2 = 985.773833
+Sample 0: z1 = -843, z2 = 985
+Getting samples with sigma_inv = 0.734005, mu1 = -842.627717, mu2 = 985.773833
+Sample 0: z1 = -843, z2 = 987
+Getting samples with sigma_inv = 0.734005, mu1 = -842.627717, mu2 = 985.773833
+Sample 0: z1 = -844, z2 = 988
+Getting samples with sigma_inv = 0.734005, mu1 = -842.627717, mu2 = 985.773833
+Sample 0: z1 = -841, z2 = 985
+Getting samples with sigma_inv = 0.734005, mu1 = -842.627717, mu2 = 985.773833
+Sample 0: z1 = -842, z2 = 985
+Getting samples with sigma_inv = 0.734005, mu1 = -842.627717, mu2 = 985.773833
+Sample 0: z1 = -842, z2 = 985
+Getting samples with sigma_inv = 0.734005, mu1 = -842.627717, mu2 = 985.773833
+Sample 0: z1 = -845, z2 = 984
+Getting samples with sigma_inv = 0.734005, mu1 = -842.627717, mu2 = 985.773833
+Sample 0: z1 = -842, z2 = 986
+Getting samples with sigma_inv = 0.734005, mu1 = -842.627717, mu2 = 985.773833
+Sample 0: z1 = -844, z2 = 986
+Getting samples with sigma_inv = 0.734005, mu1 = -842.627717, mu2 = 985.773833
+Sample 0: z1 = -842, z2 = 988
+Getting samples with sigma_inv = 0.734005, mu1 = -842.627717, mu2 = 985.773833
+Sample 0: z1 = -842, z2 = 987
+Getting samples with sigma_inv = 0.734005, mu1 = -842.627717, mu2 = 985.773833
+Sample 0: z1 = -841, z2 = 986
+Getting samples with sigma_inv = 0.734005, mu1 = -842.627717, mu2 = 985.773833
+Sample 0: z1 = -843, z2 = 985
+Getting samples with sigma_inv = 0.734005, mu1 = -842.627717, mu2 = 985.773833
+Sample 0: z1 = -843, z2 = 984
+Getting samples with sigma_inv = 0.734005, mu1 = -842.627717, mu2 = 985.773833
+Sample 0: z1 = -845, z2 = 986
+Getting samples with sigma_inv = 0.734005, mu1 = -842.627717, mu2 = 985.773833
+Sample 0: z1 = -843, z2 = 986
+Getting samples with sigma_inv = 0.645118, mu1 = 989.996708, mu2 = -403.954801
+Sample 0: z1 = 990, z2 = -403
+Getting samples with sigma_inv = 0.645118, mu1 = 989.996708, mu2 = -403.954801
+Sample 0: z1 = 990, z2 = -407
+Getting samples with sigma_inv = 0.645118, mu1 = 989.996708, mu2 = -403.954801
+Sample 0: z1 = 991, z2 = -404
+Getting samples with sigma_inv = 0.645118, mu1 = 989.996708, mu2 = -403.954801
+Sample 0: z1 = 991, z2 = -403
+Getting samples with sigma_inv = 0.645118, mu1 = 989.996708, mu2 = -403.954801
+Sample 0: z1 = 988, z2 = -404
+Getting samples with sigma_inv = 0.645118, mu1 = 989.996708, mu2 = -403.954801
+Sample 0: z1 = 994, z2 = -406
+Getting samples with sigma_inv = 0.645118, mu1 = 989.996708, mu2 = -403.954801
+Sample 0: z1 = 992, z2 = -403
+Getting samples with sigma_inv = 0.645118, mu1 = 989.996708, mu2 = -403.954801
+Sample 0: z1 = 990, z2 = -406
+Getting samples with sigma_inv = 0.645118, mu1 = 989.996708, mu2 = -403.954801
+Sample 0: z1 = 988, z2 = -404
+Getting samples with sigma_inv = 0.645118, mu1 = 989.996708, mu2 = -403.954801
+Sample 0: z1 = 988, z2 = -404
+Getting samples with sigma_inv = 0.645118, mu1 = 989.996708, mu2 = -403.954801
+Sample 0: z1 = 988, z2 = -402
+Getting samples with sigma_inv = 0.645118, mu1 = 989.996708, mu2 = -403.954801
+Sample 0: z1 = 990, z2 = -403
+Getting samples with sigma_inv = 0.645118, mu1 = 989.996708, mu2 = -403.954801
+Sample 0: z1 = 990, z2 = -404
+Getting samples with sigma_inv = 0.645118, mu1 = 989.996708, mu2 = -403.954801
+Sample 0: z1 = 989, z2 = -402
+Getting samples with sigma_inv = 0.645118, mu1 = 989.996708, mu2 = -403.954801
+Sample 0: z1 = 991, z2 = -405
+Getting samples with sigma_inv = 0.645118, mu1 = 989.996708, mu2 = -403.954801
+Sample 0: z1 = 991, z2 = -405
+Getting samples with sigma_inv = 0.645118, mu1 = 989.996708, mu2 = -403.954801
+Sample 0: z1 = 991, z2 = -405
+Getting samples with sigma_inv = 0.645118, mu1 = 989.996708, mu2 = -403.954801
+Sample 0: z1 = 993, z2 = -402
+Getting samples with sigma_inv = 0.645118, mu1 = 989.996708, mu2 = -403.954801
+Sample 0: z1 = 991, z2 = -406
+Getting samples with sigma_inv = 0.645118, mu1 = 989.996708, mu2 = -403.954801
+Sample 0: z1 = 988, z2 = -405
+Getting samples with sigma_inv = 0.645118, mu1 = 989.996708, mu2 = -403.954801
+Sample 0: z1 = 986, z2 = -403
+Getting samples with sigma_inv = 0.645118, mu1 = 989.996708, mu2 = -403.954801
+Sample 0: z1 = 992, z2 = -403
+Getting samples with sigma_inv = 0.645118, mu1 = 989.996708, mu2 = -403.954801
+Sample 0: z1 = 989, z2 = -405
+Getting samples with sigma_inv = 0.645118, mu1 = 989.996708, mu2 = -403.954801
+Sample 0: z1 = 989, z2 = -401
+Getting samples with sigma_inv = 0.645118, mu1 = 989.996708, mu2 = -403.954801
+Sample 0: z1 = 991, z2 = -404
+Getting samples with sigma_inv = 0.645118, mu1 = 989.996708, mu2 = -403.954801
+Sample 0: z1 = 991, z2 = -404
+Getting samples with sigma_inv = 0.645118, mu1 = 989.996708, mu2 = -403.954801
+Sample 0: z1 = 991, z2 = -404
+Getting samples with sigma_inv = 0.677852, mu1 = -193.703835, mu2 = -807.828300
+Sample 0: z1 = -191, z2 = -804
+Getting samples with sigma_inv = 0.677852, mu1 = -193.703835, mu2 = -807.828300
+Sample 0: z1 = -193, z2 = -807
+Getting samples with sigma_inv = 0.677852, mu1 = -193.703835, mu2 = -807.828300
+Sample 0: z1 = -195, z2 = -807
+Getting samples with sigma_inv = 0.677852, mu1 = -193.703835, mu2 = -807.828300
+Sample 0: z1 = -196, z2 = -809
+Getting samples with sigma_inv = 0.677852, mu1 = -193.703835, mu2 = -807.828300
+Sample 0: z1 = -193, z2 = -806
+Getting samples with sigma_inv = 0.677852, mu1 = -193.703835, mu2 = -807.828300
+Sample 0: z1 = -196, z2 = -808
+Getting samples with sigma_inv = 0.677852, mu1 = -193.703835, mu2 = -807.828300
+Sample 0: z1 = -192, z2 = -807
+Getting samples with sigma_inv = 0.677852, mu1 = -193.703835, mu2 = -807.828300
+Sample 0: z1 = -193, z2 = -809
+Getting samples with sigma_inv = 0.677852, mu1 = -193.703835, mu2 = -807.828300
+Sample 0: z1 = -195, z2 = -805
+Getting samples with sigma_inv = 0.677852, mu1 = -193.703835, mu2 = -807.828300
+Sample 0: z1 = -194, z2 = -808
+Getting samples with sigma_inv = 0.677852, mu1 = -193.703835, mu2 = -807.828300
+Sample 0: z1 = -194, z2 = -806
+Getting samples with sigma_inv = 0.677852, mu1 = -193.703835, mu2 = -807.828300
+Sample 0: z1 = -194, z2 = -807
+Getting samples with sigma_inv = 0.677852, mu1 = -193.703835, mu2 = -807.828300
+Sample 0: z1 = -196, z2 = -806
+Getting samples with sigma_inv = 0.677852, mu1 = -193.703835, mu2 = -807.828300
+Sample 0: z1 = -195, z2 = -809
+Getting samples with sigma_inv = 0.677852, mu1 = -193.703835, mu2 = -807.828300
+Sample 0: z1 = -197, z2 = -809
+Getting samples with sigma_inv = 0.677852, mu1 = -193.703835, mu2 = -807.828300
+Sample 0: z1 = -193, z2 = -808
+Getting samples with sigma_inv = 0.677852, mu1 = -193.703835, mu2 = -807.828300
+Sample 0: z1 = -194, z2 = -809
+Getting samples with sigma_inv = 0.677852, mu1 = -193.703835, mu2 = -807.828300
+Sample 0: z1 = -193, z2 = -808
+Getting samples with sigma_inv = 0.677852, mu1 = -193.703835, mu2 = -807.828300
+Sample 0: z1 = -193, z2 = -807
+Getting samples with sigma_inv = 0.677852, mu1 = -193.703835, mu2 = -807.828300
+Sample 0: z1 = -194, z2 = -809
+Getting samples with sigma_inv = 0.677852, mu1 = -193.703835, mu2 = -807.828300
+Sample 0: z1 = -194, z2 = -808
+Getting samples with sigma_inv = 0.677852, mu1 = -193.703835, mu2 = -807.828300
+Sample 0: z1 = -194, z2 = -805
+Getting samples with sigma_inv = 0.677852, mu1 = -193.703835, mu2 = -807.828300
+Sample 0: z1 = -194, z2 = -807
+Getting samples with sigma_inv = 0.677852, mu1 = -193.703835, mu2 = -807.828300
+Sample 0: z1 = -194, z2 = -808
+Getting samples with sigma_inv = 0.677852, mu1 = -193.703835, mu2 = -807.828300
+Sample 0: z1 = -194, z2 = -808
+Getting samples with sigma_inv = 0.677852, mu1 = -193.703835, mu2 = -807.828300
+Sample 0: z1 = -191, z2 = -808
+Getting samples with sigma_inv = 0.677852, mu1 = -193.703835, mu2 = -807.828300
+Sample 0: z1 = -192, z2 = -807
+Getting samples with sigma_inv = 0.601578, mu1 = 634.127460, mu2 = -201.361757
+Sample 0: z1 = 635, z2 = -201
+Getting samples with sigma_inv = 0.601578, mu1 = 634.127460, mu2 = -201.361757
+Sample 0: z1 = 632, z2 = -201
+Getting samples with sigma_inv = 0.601578, mu1 = 634.127460, mu2 = -201.361757
+Sample 0: z1 = 635, z2 = -203
+Getting samples with sigma_inv = 0.601578, mu1 = 634.127460, mu2 = -201.361757
+Sample 0: z1 = 634, z2 = -199
+Getting samples with sigma_inv = 0.601578, mu1 = 634.127460, mu2 = -201.361757
+Sample 0: z1 = 634, z2 = -202
+Getting samples with sigma_inv = 0.601578, mu1 = 634.127460, mu2 = -201.361757
+Sample 0: z1 = 637, z2 = -202
+Getting samples with sigma_inv = 0.601578, mu1 = 634.127460, mu2 = -201.361757
+Sample 0: z1 = 633, z2 = -201
+Getting samples with sigma_inv = 0.601578, mu1 = 634.127460, mu2 = -201.361757
+Sample 0: z1 = 632, z2 = -202
+Getting samples with sigma_inv = 0.601578, mu1 = 634.127460, mu2 = -201.361757
+Sample 0: z1 = 634, z2 = -201
+Getting samples with sigma_inv = 0.601578, mu1 = 634.127460, mu2 = -201.361757
+Sample 0: z1 = 635, z2 = -201
+Getting samples with sigma_inv = 0.601578, mu1 = 634.127460, mu2 = -201.361757
+Sample 0: z1 = 634, z2 = -202
+Getting samples with sigma_inv = 0.601578, mu1 = 634.127460, mu2 = -201.361757
+Sample 0: z1 = 634, z2 = -201
+Getting samples with sigma_inv = 0.601578, mu1 = 634.127460, mu2 = -201.361757
+Sample 0: z1 = 635, z2 = -203
+Getting samples with sigma_inv = 0.601578, mu1 = 634.127460, mu2 = -201.361757
+Sample 0: z1 = 632, z2 = -200
+Getting samples with sigma_inv = 0.601578, mu1 = 634.127460, mu2 = -201.361757
+Sample 0: z1 = 633, z2 = -201
+Getting samples with sigma_inv = 0.601578, mu1 = 634.127460, mu2 = -201.361757
+Sample 0: z1 = 632, z2 = -204
+Getting samples with sigma_inv = 0.601578, mu1 = 634.127460, mu2 = -201.361757
+Sample 0: z1 = 634, z2 = -201
+Getting samples with sigma_inv = 0.601578, mu1 = 634.127460, mu2 = -201.361757
+Sample 0: z1 = 636, z2 = -200
+Getting samples with sigma_inv = 0.601578, mu1 = 634.127460, mu2 = -201.361757
+Sample 0: z1 = 635, z2 = -199
+Getting samples with sigma_inv = 0.601578, mu1 = 634.127460, mu2 = -201.361757
+Sample 0: z1 = 632, z2 = -201
+Getting samples with sigma_inv = 0.601578, mu1 = 634.127460, mu2 = -201.361757
+Sample 0: z1 = 633, z2 = -204
+Getting samples with sigma_inv = 0.601578, mu1 = 634.127460, mu2 = -201.361757
+Sample 0: z1 = 636, z2 = -202
+Getting samples with sigma_inv = 0.601578, mu1 = 634.127460, mu2 = -201.361757
+Sample 0: z1 = 634, z2 = -201
+Getting samples with sigma_inv = 0.601578, mu1 = 634.127460, mu2 = -201.361757
+Sample 0: z1 = 633, z2 = -201
+Getting samples with sigma_inv = 0.601578, mu1 = 634.127460, mu2 = -201.361757
+Sample 0: z1 = 632, z2 = -199
+Getting samples with sigma_inv = 0.601578, mu1 = 634.127460, mu2 = -201.361757
+Sample 0: z1 = 633, z2 = -203
+Getting samples with sigma_inv = 0.601578, mu1 = 634.127460, mu2 = -201.361757
+Sample 0: z1 = 637, z2 = -201
+Getting samples with sigma_inv = 0.629466, mu1 = -539.216008, mu2 = -594.799015
+Sample 0: z1 = -537, z2 = -596
+Getting samples with sigma_inv = 0.629466, mu1 = -539.216008, mu2 = -594.799015
+Sample 0: z1 = -540, z2 = -596
+Getting samples with sigma_inv = 0.629466, mu1 = -539.216008, mu2 = -594.799015
+Sample 0: z1 = -539, z2 = -595
+Getting samples with sigma_inv = 0.629466, mu1 = -539.216008, mu2 = -594.799015
+Sample 0: z1 = -537, z2 = -593
+Getting samples with sigma_inv = 0.629466, mu1 = -539.216008, mu2 = -594.799015
+Sample 0: z1 = -538, z2 = -596
+Getting samples with sigma_inv = 0.629466, mu1 = -539.216008, mu2 = -594.799015
+Sample 0: z1 = -538, z2 = -596
+Getting samples with sigma_inv = 0.629466, mu1 = -539.216008, mu2 = -594.799015
+Sample 0: z1 = -541, z2 = -593
+Getting samples with sigma_inv = 0.629466, mu1 = -539.216008, mu2 = -594.799015
+Sample 0: z1 = -537, z2 = -594
+Getting samples with sigma_inv = 0.629466, mu1 = -539.216008, mu2 = -594.799015
+Sample 0: z1 = -539, z2 = -598
+Getting samples with sigma_inv = 0.629466, mu1 = -539.216008, mu2 = -594.799015
+Sample 0: z1 = -540, z2 = -593
+Getting samples with sigma_inv = 0.629466, mu1 = -539.216008, mu2 = -594.799015
+Sample 0: z1 = -541, z2 = -594
+Getting samples with sigma_inv = 0.629466, mu1 = -539.216008, mu2 = -594.799015
+Sample 0: z1 = -540, z2 = -594
+Getting samples with sigma_inv = 0.629466, mu1 = -539.216008, mu2 = -594.799015
+Sample 0: z1 = -538, z2 = -594
+Getting samples with sigma_inv = 0.629466, mu1 = -539.216008, mu2 = -594.799015
+Sample 0: z1 = -537, z2 = -594
+Getting samples with sigma_inv = 0.629466, mu1 = -539.216008, mu2 = -594.799015
+Sample 0: z1 = -539, z2 = -597
+Getting samples with sigma_inv = 0.629466, mu1 = -539.216008, mu2 = -594.799015
+Sample 0: z1 = -543, z2 = -597
+Getting samples with sigma_inv = 0.629466, mu1 = -539.216008, mu2 = -594.799015
+Sample 0: z1 = -540, z2 = -596
+Getting samples with sigma_inv = 0.629466, mu1 = -539.216008, mu2 = -594.799015
+Sample 0: z1 = -538, z2 = -594
+Getting samples with sigma_inv = 0.629466, mu1 = -539.216008, mu2 = -594.799015
+Sample 0: z1 = -539, z2 = -597
+Getting samples with sigma_inv = 0.629466, mu1 = -539.216008, mu2 = -594.799015
+Sample 0: z1 = -540, z2 = -595
+Getting samples with sigma_inv = 0.629466, mu1 = -539.216008, mu2 = -594.799015
+Sample 0: z1 = -540, z2 = -596
+Getting samples with sigma_inv = 0.629466, mu1 = -539.216008, mu2 = -594.799015
+Sample 0: z1 = -540, z2 = -595
+Getting samples with sigma_inv = 0.629466, mu1 = -539.216008, mu2 = -594.799015
+Sample 0: z1 = -540, z2 = -594
+Getting samples with sigma_inv = 0.629466, mu1 = -539.216008, mu2 = -594.799015
+Sample 0: z1 = -540, z2 = -594
+Getting samples with sigma_inv = 0.629466, mu1 = -539.216008, mu2 = -594.799015
+Sample 0: z1 = -542, z2 = -598
+Getting samples with sigma_inv = 0.629466, mu1 = -539.216008, mu2 = -594.799015
+Sample 0: z1 = -539, z2 = -594
+Getting samples with sigma_inv = 0.629466, mu1 = -539.216008, mu2 = -594.799015
+Sample 0: z1 = -543, z2 = -595
+Getting samples with sigma_inv = 0.563634, mu1 = 281.005974, mu2 = -998.172166
+Sample 0: z1 = 282, z2 = -998
+Getting samples with sigma_inv = 0.563634, mu1 = 281.005974, mu2 = -998.172166
+Sample 0: z1 = 280, z2 = -998
+Getting samples with sigma_inv = 0.563634, mu1 = 281.005974, mu2 = -998.172166
+Sample 0: z1 = 287, z2 = -997
+Getting samples with sigma_inv = 0.563634, mu1 = 281.005974, mu2 = -998.172166
+Sample 0: z1 = 281, z2 = -999
+Getting samples with sigma_inv = 0.563634, mu1 = 281.005974, mu2 = -998.172166
+Sample 0: z1 = 280, z2 = -1001
+Getting samples with sigma_inv = 0.563634, mu1 = 281.005974, mu2 = -998.172166
+Sample 0: z1 = 280, z2 = -1002
+Getting samples with sigma_inv = 0.563634, mu1 = 281.005974, mu2 = -998.172166
+Sample 0: z1 = 276, z2 = -997
+Getting samples with sigma_inv = 0.563634, mu1 = 281.005974, mu2 = -998.172166
+Sample 0: z1 = 280, z2 = -997
+Getting samples with sigma_inv = 0.563634, mu1 = 281.005974, mu2 = -998.172166
+Sample 0: z1 = 282, z2 = -998
+Getting samples with sigma_inv = 0.563634, mu1 = 281.005974, mu2 = -998.172166
+Sample 0: z1 = 281, z2 = -997
+Getting samples with sigma_inv = 0.563634, mu1 = 281.005974, mu2 = -998.172166
+Sample 0: z1 = 280, z2 = -999
+Getting samples with sigma_inv = 0.563634, mu1 = 281.005974, mu2 = -998.172166
+Sample 0: z1 = 283, z2 = -1001
+Getting samples with sigma_inv = 0.563634, mu1 = 281.005974, mu2 = -998.172166
+Sample 0: z1 = 280, z2 = -999
+Getting samples with sigma_inv = 0.563634, mu1 = 281.005974, mu2 = -998.172166
+Sample 0: z1 = 282, z2 = -999
+Getting samples with sigma_inv = 0.563634, mu1 = 281.005974, mu2 = -998.172166
+Sample 0: z1 = 281, z2 = -997
+Getting samples with sigma_inv = 0.563634, mu1 = 281.005974, mu2 = -998.172166
+Sample 0: z1 = 281, z2 = -997
+Getting samples with sigma_inv = 0.563634, mu1 = 281.005974, mu2 = -998.172166
+Sample 0: z1 = 281, z2 = -999
+Getting samples with sigma_inv = 0.563634, mu1 = 281.005974, mu2 = -998.172166
+Sample 0: z1 = 284, z2 = -1001
+Getting samples with sigma_inv = 0.563634, mu1 = 281.005974, mu2 = -998.172166
+Sample 0: z1 = 282, z2 = -999
+Getting samples with sigma_inv = 0.563634, mu1 = 281.005974, mu2 = -998.172166
+Sample 0: z1 = 282, z2 = -997
+Getting samples with sigma_inv = 0.563634, mu1 = 281.005974, mu2 = -998.172166
+Sample 0: z1 = 280, z2 = -1000
+Getting samples with sigma_inv = 0.563634, mu1 = 281.005974, mu2 = -998.172166
+Sample 0: z1 = 283, z2 = -999
+Getting samples with sigma_inv = 0.563634, mu1 = 281.005974, mu2 = -998.172166
+Sample 0: z1 = 281, z2 = -999
+Getting samples with sigma_inv = 0.563634, mu1 = 281.005974, mu2 = -998.172166
+Sample 0: z1 = 282, z2 = -998
+Getting samples with sigma_inv = 0.563634, mu1 = 281.005974, mu2 = -998.172166
+Sample 0: z1 = 278, z2 = -998
+Getting samples with sigma_inv = 0.563634, mu1 = 281.005974, mu2 = -998.172166
+Sample 0: z1 = 281, z2 = -997
+Getting samples with sigma_inv = 0.563634, mu1 = 281.005974, mu2 = -998.172166
+Sample 0: z1 = 281, z2 = -999
+Getting samples with sigma_inv = 0.693499, mu1 = 119.607631, mu2 = -379.971952
+Sample 0: z1 = 117, z2 = -380
+Getting samples with sigma_inv = 0.693499, mu1 = 119.607631, mu2 = -379.971952
+Sample 0: z1 = 121, z2 = -382
+Getting samples with sigma_inv = 0.693499, mu1 = 119.607631, mu2 = -379.971952
+Sample 0: z1 = 118, z2 = -381
+Getting samples with sigma_inv = 0.693499, mu1 = 119.607631, mu2 = -379.971952
+Sample 0: z1 = 119, z2 = -378
+Getting samples with sigma_inv = 0.693499, mu1 = 119.607631, mu2 = -379.971952
+Sample 0: z1 = 120, z2 = -378
+Getting samples with sigma_inv = 0.693499, mu1 = 119.607631, mu2 = -379.971952
+Sample 0: z1 = 120, z2 = -381
+Getting samples with sigma_inv = 0.693499, mu1 = 119.607631, mu2 = -379.971952
+Sample 0: z1 = 119, z2 = -381
+Getting samples with sigma_inv = 0.693499, mu1 = 119.607631, mu2 = -379.971952
+Sample 0: z1 = 121, z2 = -379
+Getting samples with sigma_inv = 0.693499, mu1 = 119.607631, mu2 = -379.971952
+Sample 0: z1 = 119, z2 = -381
+Getting samples with sigma_inv = 0.693499, mu1 = 119.607631, mu2 = -379.971952
+Sample 0: z1 = 119, z2 = -379
+Getting samples with sigma_inv = 0.693499, mu1 = 119.607631, mu2 = -379.971952
+Sample 0: z1 = 119, z2 = -378
+Getting samples with sigma_inv = 0.693499, mu1 = 119.607631, mu2 = -379.971952
+Sample 0: z1 = 123, z2 = -379
+Getting samples with sigma_inv = 0.693499, mu1 = 119.607631, mu2 = -379.971952
+Sample 0: z1 = 121, z2 = -378
+Getting samples with sigma_inv = 0.693499, mu1 = 119.607631, mu2 = -379.971952
+Sample 0: z1 = 121, z2 = -381
+Getting samples with sigma_inv = 0.693499, mu1 = 119.607631, mu2 = -379.971952
+Sample 0: z1 = 118, z2 = -378
+Getting samples with sigma_inv = 0.693499, mu1 = 119.607631, mu2 = -379.971952
+Sample 0: z1 = 120, z2 = -379
+Getting samples with sigma_inv = 0.693499, mu1 = 119.607631, mu2 = -379.971952
+Sample 0: z1 = 118, z2 = -379
+Getting samples with sigma_inv = 0.693499, mu1 = 119.607631, mu2 = -379.971952
+Sample 0: z1 = 120, z2 = -381
+Getting samples with sigma_inv = 0.693499, mu1 = 119.607631, mu2 = -379.971952
+Sample 0: z1 = 122, z2 = -380
+Getting samples with sigma_inv = 0.693499, mu1 = 119.607631, mu2 = -379.971952
+Sample 0: z1 = 119, z2 = -379
+Getting samples with sigma_inv = 0.693499, mu1 = 119.607631, mu2 = -379.971952
+Sample 0: z1 = 118, z2 = -378
+Getting samples with sigma_inv = 0.693499, mu1 = 119.607631, mu2 = -379.971952
+Sample 0: z1 = 119, z2 = -380
+Getting samples with sigma_inv = 0.693499, mu1 = 119.607631, mu2 = -379.971952
+Sample 0: z1 = 119, z2 = -379
+Getting samples with sigma_inv = 0.693499, mu1 = 119.607631, mu2 = -379.971952
+Sample 0: z1 = 120, z2 = -379
+Getting samples with sigma_inv = 0.693499, mu1 = 119.607631, mu2 = -379.971952
+Sample 0: z1 = 120, z2 = -378
+Getting samples with sigma_inv = 0.693499, mu1 = 119.607631, mu2 = -379.971952
+Sample 0: z1 = 119, z2 = -381
+Getting samples with sigma_inv = 0.693499, mu1 = 119.607631, mu2 = -379.971952
+Sample 0: z1 = 118, z2 = -381
+Getting samples with sigma_inv = 0.613620, mu1 = 947.780244, mu2 = -769.983032
+Sample 0: z1 = 947, z2 = -771
+Getting samples with sigma_inv = 0.613620, mu1 = 947.780244, mu2 = -769.983032
+Sample 0: z1 = 949, z2 = -771
+Getting samples with sigma_inv = 0.613620, mu1 = 947.780244, mu2 = -769.983032
+Sample 0: z1 = 945, z2 = -770
+Getting samples with sigma_inv = 0.613620, mu1 = 947.780244, mu2 = -769.983032
+Sample 0: z1 = 946, z2 = -772
+Getting samples with sigma_inv = 0.613620, mu1 = 947.780244, mu2 = -769.983032
+Sample 0: z1 = 947, z2 = -771
+Getting samples with sigma_inv = 0.613620, mu1 = 947.780244, mu2 = -769.983032
+Sample 0: z1 = 948, z2 = -769
+Getting samples with sigma_inv = 0.613620, mu1 = 947.780244, mu2 = -769.983032
+Sample 0: z1 = 946, z2 = -770
+Getting samples with sigma_inv = 0.613620, mu1 = 947.780244, mu2 = -769.983032
+Sample 0: z1 = 948, z2 = -769
+Getting samples with sigma_inv = 0.613620, mu1 = 947.780244, mu2 = -769.983032
+Sample 0: z1 = 946, z2 = -769
+Getting samples with sigma_inv = 0.613620, mu1 = 947.780244, mu2 = -769.983032
+Sample 0: z1 = 949, z2 = -769
+Getting samples with sigma_inv = 0.613620, mu1 = 947.780244, mu2 = -769.983032
+Sample 0: z1 = 945, z2 = -770
+Getting samples with sigma_inv = 0.613620, mu1 = 947.780244, mu2 = -769.983032
+Sample 0: z1 = 948, z2 = -771
+Getting samples with sigma_inv = 0.613620, mu1 = 947.780244, mu2 = -769.983032
+Sample 0: z1 = 947, z2 = -770
+Getting samples with sigma_inv = 0.613620, mu1 = 947.780244, mu2 = -769.983032
+Sample 0: z1 = 948, z2 = -771
+Getting samples with sigma_inv = 0.613620, mu1 = 947.780244, mu2 = -769.983032
+Sample 0: z1 = 949, z2 = -769
+Getting samples with sigma_inv = 0.613620, mu1 = 947.780244, mu2 = -769.983032
+Sample 0: z1 = 946, z2 = -774
+Getting samples with sigma_inv = 0.613620, mu1 = 947.780244, mu2 = -769.983032
+Sample 0: z1 = 949, z2 = -771
+Getting samples with sigma_inv = 0.613620, mu1 = 947.780244, mu2 = -769.983032
+Sample 0: z1 = 949, z2 = -770
+Getting samples with sigma_inv = 0.613620, mu1 = 947.780244, mu2 = -769.983032
+Sample 0: z1 = 943, z2 = -771
+Getting samples with sigma_inv = 0.613620, mu1 = 947.780244, mu2 = -769.983032
+Sample 0: z1 = 950, z2 = -770
+Getting samples with sigma_inv = 0.613620, mu1 = 947.780244, mu2 = -769.983032
+Sample 0: z1 = 948, z2 = -770
+Getting samples with sigma_inv = 0.613620, mu1 = 947.780244, mu2 = -769.983032
+Sample 0: z1 = 949, z2 = -770
+Getting samples with sigma_inv = 0.613620, mu1 = 947.780244, mu2 = -769.983032
+Sample 0: z1 = 951, z2 = -770
+Getting samples with sigma_inv = 0.613620, mu1 = 947.780244, mu2 = -769.983032
+Sample 0: z1 = 947, z2 = -770
+Getting samples with sigma_inv = 0.613620, mu1 = 947.780244, mu2 = -769.983032
+Sample 0: z1 = 950, z2 = -767
+Getting samples with sigma_inv = 0.613620, mu1 = 947.780244, mu2 = -769.983032
+Sample 0: z1 = 947, z2 = -771
+Getting samples with sigma_inv = 0.613620, mu1 = 947.780244, mu2 = -769.983032
+Sample 0: z1 = 947, z2 = -769
+Getting samples with sigma_inv = 0.642825, mu1 = -227.289607, mu2 = -167.832278
+Sample 0: z1 = -228, z2 = -166
+Getting samples with sigma_inv = 0.642825, mu1 = -227.289607, mu2 = -167.832278
+Sample 0: z1 = -227, z2 = -164
+Getting samples with sigma_inv = 0.642825, mu1 = -227.289607, mu2 = -167.832278
+Sample 0: z1 = -230, z2 = -167
+Getting samples with sigma_inv = 0.642825, mu1 = -227.289607, mu2 = -167.832278
+Sample 0: z1 = -230, z2 = -169
+Getting samples with sigma_inv = 0.642825, mu1 = -227.289607, mu2 = -167.832278
+Sample 0: z1 = -227, z2 = -166
+Getting samples with sigma_inv = 0.642825, mu1 = -227.289607, mu2 = -167.832278
+Sample 0: z1 = -227, z2 = -166
+Getting samples with sigma_inv = 0.642825, mu1 = -227.289607, mu2 = -167.832278
+Sample 0: z1 = -228, z2 = -169
+Getting samples with sigma_inv = 0.642825, mu1 = -227.289607, mu2 = -167.832278
+Sample 0: z1 = -226, z2 = -166
+Getting samples with sigma_inv = 0.642825, mu1 = -227.289607, mu2 = -167.832278
+Sample 0: z1 = -227, z2 = -166
+Getting samples with sigma_inv = 0.642825, mu1 = -227.289607, mu2 = -167.832278
+Sample 0: z1 = -227, z2 = -168
+Getting samples with sigma_inv = 0.642825, mu1 = -227.289607, mu2 = -167.832278
+Sample 0: z1 = -228, z2 = -170
+Getting samples with sigma_inv = 0.642825, mu1 = -227.289607, mu2 = -167.832278
+Sample 0: z1 = -227, z2 = -167
+Getting samples with sigma_inv = 0.642825, mu1 = -227.289607, mu2 = -167.832278
+Sample 0: z1 = -228, z2 = -167
+Getting samples with sigma_inv = 0.642825, mu1 = -227.289607, mu2 = -167.832278
+Sample 0: z1 = -228, z2 = -168
+Getting samples with sigma_inv = 0.642825, mu1 = -227.289607, mu2 = -167.832278
+Sample 0: z1 = -230, z2 = -167
+Getting samples with sigma_inv = 0.642825, mu1 = -227.289607, mu2 = -167.832278
+Sample 0: z1 = -225, z2 = -166
+Getting samples with sigma_inv = 0.642825, mu1 = -227.289607, mu2 = -167.832278
+Sample 0: z1 = -228, z2 = -170
+Getting samples with sigma_inv = 0.642825, mu1 = -227.289607, mu2 = -167.832278
+Sample 0: z1 = -226, z2 = -167
+Getting samples with sigma_inv = 0.642825, mu1 = -227.289607, mu2 = -167.832278
+Sample 0: z1 = -225, z2 = -169
+Getting samples with sigma_inv = 0.642825, mu1 = -227.289607, mu2 = -167.832278
+Sample 0: z1 = -226, z2 = -168
+Getting samples with sigma_inv = 0.642825, mu1 = -227.289607, mu2 = -167.832278
+Sample 0: z1 = -228, z2 = -166
+Getting samples with sigma_inv = 0.642825, mu1 = -227.289607, mu2 = -167.832278
+Sample 0: z1 = -226, z2 = -169
+Getting samples with sigma_inv = 0.642825, mu1 = -227.289607, mu2 = -167.832278
+Sample 0: z1 = -228, z2 = -165
+Getting samples with sigma_inv = 0.642825, mu1 = -227.289607, mu2 = -167.832278
+Sample 0: z1 = -227, z2 = -166
+Getting samples with sigma_inv = 0.642825, mu1 = -227.289607, mu2 = -167.832278
+Sample 0: z1 = -230, z2 = -167
+Getting samples with sigma_inv = 0.642825, mu1 = -227.289607, mu2 = -167.832278
+Sample 0: z1 = -228, z2 = -170
+Getting samples with sigma_inv = 0.642825, mu1 = -227.289607, mu2 = -167.832278
+Sample 0: z1 = -228, z2 = -168
+Getting samples with sigma_inv = 0.574865, mu1 = 589.714649, mu2 = 427.478374
+Sample 0: z1 = 589, z2 = 430
+Getting samples with sigma_inv = 0.574865, mu1 = 589.714649, mu2 = 427.478374
+Sample 0: z1 = 588, z2 = 426
+Getting samples with sigma_inv = 0.574865, mu1 = 589.714649, mu2 = 427.478374
+Sample 0: z1 = 587, z2 = 426
+Getting samples with sigma_inv = 0.574865, mu1 = 589.714649, mu2 = 427.478374
+Sample 0: z1 = 589, z2 = 426
+Getting samples with sigma_inv = 0.574865, mu1 = 589.714649, mu2 = 427.478374
+Sample 0: z1 = 589, z2 = 429
+Getting samples with sigma_inv = 0.574865, mu1 = 589.714649, mu2 = 427.478374
+Sample 0: z1 = 588, z2 = 425
+Getting samples with sigma_inv = 0.574865, mu1 = 589.714649, mu2 = 427.478374
+Sample 0: z1 = 590, z2 = 429
+Getting samples with sigma_inv = 0.574865, mu1 = 589.714649, mu2 = 427.478374
+Sample 0: z1 = 589, z2 = 426
+Getting samples with sigma_inv = 0.574865, mu1 = 589.714649, mu2 = 427.478374
+Sample 0: z1 = 588, z2 = 428
+Getting samples with sigma_inv = 0.574865, mu1 = 589.714649, mu2 = 427.478374
+Sample 0: z1 = 590, z2 = 427
+Getting samples with sigma_inv = 0.574865, mu1 = 589.714649, mu2 = 427.478374
+Sample 0: z1 = 590, z2 = 428
+Getting samples with sigma_inv = 0.574865, mu1 = 589.714649, mu2 = 427.478374
+Sample 0: z1 = 590, z2 = 432
+Getting samples with sigma_inv = 0.574865, mu1 = 589.714649, mu2 = 427.478374
+Sample 0: z1 = 591, z2 = 428
+Getting samples with sigma_inv = 0.574865, mu1 = 589.714649, mu2 = 427.478374
+Sample 0: z1 = 589, z2 = 427
+Getting samples with sigma_inv = 0.574865, mu1 = 589.714649, mu2 = 427.478374
+Sample 0: z1 = 589, z2 = 429
+Getting samples with sigma_inv = 0.574865, mu1 = 589.714649, mu2 = 427.478374
+Sample 0: z1 = 590, z2 = 430
+Getting samples with sigma_inv = 0.574865, mu1 = 589.714649, mu2 = 427.478374
+Sample 0: z1 = 590, z2 = 428
+Getting samples with sigma_inv = 0.574865, mu1 = 589.714649, mu2 = 427.478374
+Sample 0: z1 = 591, z2 = 427
+Getting samples with sigma_inv = 0.574865, mu1 = 589.714649, mu2 = 427.478374
+Sample 0: z1 = 585, z2 = 425
+Getting samples with sigma_inv = 0.574865, mu1 = 589.714649, mu2 = 427.478374
+Sample 0: z1 = 589, z2 = 428
+Getting samples with sigma_inv = 0.574865, mu1 = 589.714649, mu2 = 427.478374
+Sample 0: z1 = 592, z2 = 428
+Getting samples with sigma_inv = 0.574865, mu1 = 589.714649, mu2 = 427.478374
+Sample 0: z1 = 593, z2 = 424
+Getting samples with sigma_inv = 0.574865, mu1 = 589.714649, mu2 = 427.478374
+Sample 0: z1 = 589, z2 = 430
+Getting samples with sigma_inv = 0.574865, mu1 = 589.714649, mu2 = 427.478374
+Sample 0: z1 = 591, z2 = 428
+Getting samples with sigma_inv = 0.574865, mu1 = 589.714649, mu2 = 427.478374
+Sample 0: z1 = 590, z2 = 426
+Getting samples with sigma_inv = 0.574865, mu1 = 589.714649, mu2 = 427.478374
+Sample 0: z1 = 590, z2 = 424
+Getting samples with sigma_inv = 0.574865, mu1 = 589.714649, mu2 = 427.478374
+Sample 0: z1 = 593, z2 = 426
+ ===== One-shot =====
+Total double samples: 11000001
+Total bits used: 2119511176
+Total busy cycles: 243696603
+Average busy cycles per double sample: 22.154235
+Average bits used per double sample: 192.682817
+Average bits used per busy cycle: 8.697336

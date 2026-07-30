@@ -1,0 +1,23 @@
+_list:
+    @just --list
+
+up:
+    vagrant up
+
+provision:
+    vagrant provision --provision-with setup
+kria:
+    vagrant provision --provision-with project-kria
+zcu:
+    vagrant provision --provision-with project-zcu
+
+rsync:
+    vagrant rsync
+ssh:
+    vagrant ssh
+status:
+    vagrant status
+halt:
+    vagrant halt
+destroy:
+    vagrant destroy

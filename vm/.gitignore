@@ -1,0 +1,8 @@
+.env
+.vagrant/
+/vm-vivado.vdi
+/vm-root.vdi
+/vm-root.vmdk
+vagrant.log
+__pycache__/
+*.pyc

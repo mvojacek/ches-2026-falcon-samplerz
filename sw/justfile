@@ -1,0 +1,36 @@
+_list:
+    @just -l
+
+BIN := "/tmp/sampler_tests"
+
+build: && caps
+    clang -O3 -o sampler_tests sampler_tests.c
+    cp -f sampler_tests {{BIN}}
+
+disasm:
+    gcc -g -O0 -c -fverbose-asm -Wa,-adhln sampler_tests.c > sampler_tests.s
+
+caps:
+    sudo setcap cap_sys_rawio+ep {{BIN}}
+perms:
+    sudo setfacl -m u:$(id -nu):rw /dev/mem
+
+run:
+    {{BIN}}
+
+brun: build run
+
+tmpdir := "/tmp/samplerz_out"
+
+load:
+    # unload any xmutil app (devicetree etc)
+    sudo xmutil unloadapp
+    # unload overlays
+    sudo fpgautil -R
+    # load our bitstream
+    sudo rm -rf {{tmpdir}}
+    mkdir -p {{tmpdir}}
+    cp -a ../out/* {{tmpdir}}/
+    cd {{tmpdir}} && sudo fpgautil -b samplerz.bit.bin -o samplerz.dtbo
+
+all: perms load brun

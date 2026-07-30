@@ -1,0 +1,25 @@
+_list:
+    @just -l
+
+build-flopoco5:
+    [ -d flopoco-git ] || git clone https://gitlab.com/flopoco/flopoco.git flopoco-git
+    cd flopoco-git && git fetch && git reset --hard flopoco-5.0.0
+    cd flopoco-git && make docker DOCKER_IMAGE=debian DOCKER_BRANCH=master
+
+[positional-arguments]
+[no-cd]
+flopoco4 *args:
+    docker run -it --rm=true -v "$PWD:/data" -u "$(id -u):$(id -g)" gdeest/flopoco:4.1.2 "$@"
+
+[positional-arguments]
+[no-cd]
+flopoco5 *args:
+    docker run -it --rm=true -v "$PWD:/flopoco_workspace" -u "$(id -u):$(id -g)" flopoco:debian-5.0.0 "$@"
+
+ieee_exp:
+    mkdir -p generator/ieee_exp
+    cd generator/ieee_exp && just flopoco5 target=Zynq7000 frequency=150 IEEEFPExp wE=11 wF=52 name=flopoco_ieee_exp RegisterSandwich name=flopoco_ieee_exp_reg outputFile=flopoco_ieee_exp.vhdl
+    cp -f generator/ieee_exp/flopoco_ieee_exp.vhdl ./
+ieee_exp_tb:
+    mkdir -p generator/ieee_exp
+    cd generator/ieee_exp && just flopoco5 target=Zynq7000 frequency=0 IEEEFPExp wE=11 wF=52 name=flopoco_ieee_exp outputFile=flopoco_ieee_exp_tb.vhdl TestBench n=100000

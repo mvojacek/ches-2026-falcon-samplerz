@@ -1,0 +1,127 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+home=/home/vagrant
+download_dir=$home/Downloads/vivado_installer
+payload=$(find "$download_dir" -maxdepth 1 -type f -name 'FPGAs_AdaptiveSoCs_Unified_*2025.1*_Lin64.bin' -size +100M -print -quit 2>/dev/null || true)
+work=/opt/Xilinx/.installer/vivado-2025.1
+xsetup=$work/xsetup
+config=$home/.Xilinx/install_config.txt
+credentials=$home/.vivado-credentials
+settings=/opt/Xilinx/2025.1/Vivado/settings64.sh
+vivado=/opt/Xilinx/2025.1/Vivado/bin/vivado
+lock=$home/.vivado-install.lock
+download_url='https://account.amd.com/en/forms/downloads/xef.html?filename=FPGAs_AdaptiveSoCs_Unified_SDI_2025.1_0530_0145_Lin64.bin'
+
+cleanup_credentials() {
+  unset XILINX_USERNAME XILINX_PASSWORD
+  rm -f "$credentials"
+}
+trap cleanup_credentials EXIT
+
+exec 9>"$lock"
+flock -n 9 || { echo "Vivado installation is already running."; exit 0; }
+
+load_credentials() {
+  local line key value
+  while IFS= read -r line; do
+    key=${line%%=*}
+    value=${line#*=}
+    case $key in
+      XILINX_USERNAME_BASE64) XILINX_USERNAME=$(printf %s "$value" | base64 -d) ;;
+      XILINX_PASSWORD_BASE64) XILINX_PASSWORD=$(printf %s "$value" | base64 -d) ;;
+    esac
+  done <"$credentials"
+  export XILINX_USERNAME XILINX_PASSWORD
+}
+
+configure() {
+  python3 - "$config" <<'PY'
+import sys
+from pathlib import Path
+
+path = Path(sys.argv[1])
+allowed = {"Zynq UltraScale+ MPSoCs", "Install Devices for Kria SOMs and Starter Kits"}
+seen = set()
+out = []
+for line in path.read_text().splitlines():
+    key, sep, value = line.partition("=")
+    if key == "Destination":
+        line = "Destination=/opt/Xilinx"
+    elif key == "Modules":
+        modules = []
+        for item in value.split(","):
+            name, sep, _ = item.rpartition(":")
+            if not sep:
+                raise SystemExit(f"Malformed module: {item}")
+            seen.add(name) if name in allowed else None
+            modules.append(f"{name}:{int(name in allowed)}")
+        line = "Modules=" + ",".join(modules)
+    elif key == "InstallOptions":
+        line = "InstallOptions=" + ",".join(f"{item.rpartition(':')[0]}:0" for item in value.split(","))
+    elif key == "CreateDesktopShortcuts":
+        line = f"{key}=1"
+    elif key in {"CreateProgramGroupShortcuts", "CreateShortcutsForAllUsers", "CreateFileAssociation"}:
+        line = f"{key}=0"
+    out.append(line)
+missing = allowed - seen
+if missing:
+    raise SystemExit("Missing required modules: " + ", ".join(sorted(missing)))
+path.write_text("\n".join(out) + "\n")
+PY
+  grep -qx 'Edition=Vivado ML Standard' "$config"
+  grep -qx 'Product=Vivado' "$config"
+}
+
+if [ ! -x "$vivado" ]; then
+  if [ ! -x "$xsetup" ]; then
+    if [ -z "$payload" ]; then
+      test -r "$credentials" || { echo "Missing $credentials; configure host .env and reprovision."; exit 1; }
+      load_credentials
+      test -n "${XILINX_USERNAME:-}" && test -n "${XILINX_PASSWORD:-}" || {
+        echo "Set XILINX_USERNAME and XILINX_PASSWORD in host .env, then reprovision."
+        exit 1
+      }
+      echo "Opening Firefox in the VM. Complete the AMD download form in the browser."
+      echo "Provisioning will wait without a timeout for the Vivado installer."
+      "$home/.local/share/vivado-downloader/bin/python" \
+        /usr/local/bin/download-vivado-installer "$download_url" "$download_dir"
+      payload=$(find "$download_dir" -maxdepth 1 -type f -name 'FPGAs_AdaptiveSoCs_Unified_*2025.1*_Lin64.bin' -size +100M -print -quit)
+    fi
+    test -n "$payload" && test -s "$payload" || { echo "Vivado installer download did not complete"; exit 1; }
+    rm -rf "$work" && mkdir -p "$work"
+    chmod 700 "$payload"
+    "$payload" --nox11 --keep --noexec --target "$work"
+  fi
+
+  if [ ! -s "$home/.Xilinx/wi_authentication_key" ]; then
+    test -r "$credentials" || { echo "Missing $credentials; configure host .env and reprovision."; exit 1; }
+    load_credentials
+    test -n "${XILINX_USERNAME:-}" && test -n "${XILINX_PASSWORD:-}" || {
+      echo "Set XILINX_USERNAME and XILINX_PASSWORD in host .env, then reprovision."
+      exit 1
+    }
+    expect <<'EXP'
+set timeout -1
+spawn /opt/Xilinx/.installer/vivado-2025.1/xsetup --batch AuthTokenGen
+expect {
+  -re ".*E-mail Address:" { send -- "$env(XILINX_USERNAME)\r"; exp_continue }
+  -re ".*Password:" { send -- "$env(XILINX_PASSWORD)\r"; exp_continue }
+  eof
+}
+exit [lindex [wait] 3]
+EXP
+    unset XILINX_USERNAME XILINX_PASSWORD
+  fi
+
+  "$xsetup" --batch ConfigGen --product Vivado --edition "Vivado ML Standard"
+  test -s "$config" && configure
+  available=$(df -Pk /opt/Xilinx | awk 'NR == 2 {print $4}')
+  [ "$available" -ge 52428800 ] || { echo "At least 50 GiB free is required in /opt/Xilinx."; exit 1; }
+  "$xsetup" --agree XilinxEULA,3rdPartyEULA --batch Install --config "$config"
+  test -x "$vivado" || { echo "Vivado installation did not produce $vivado"; exit 1; }
+fi
+
+rm -rf "$work" /opt/Xilinx/Downloads/2025.1 /opt/Xilinx/Downloads/Vivado_2025.1
+
+test -r "$settings" || { echo "Missing Vivado settings: $settings"; exit 1; }

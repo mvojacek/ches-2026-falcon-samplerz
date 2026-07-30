@@ -1,0 +1,7 @@
+set shell := ["sh", "-uc"]
+
+default:
+    @just --list
+
+flopoco5-exp-precision:
+    sage -python flopoco5-exp-precision.py 2>&1 | tee flopoco5-exp-precision-output.txt
