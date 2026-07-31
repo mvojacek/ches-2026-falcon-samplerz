@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-uid=$1 gid=$2 user=vagrant home=/home/vagrant
+user=vagrant home=/home/vagrant
+uid=$(id -u "$user")
+gid=$(id -g "$user")
 export DEBIAN_FRONTEND=noninteractive
 export NEEDRESTART_MODE=l
 
@@ -57,8 +59,6 @@ mount_xilinx_disk() {
 }
 mount_xilinx_disk
 
-[ "$(id -g "$user")" = "$gid" ] || groupmod -g "$gid" "$user"
-[ "$(id -u "$user")" = "$uid" ] || usermod -u "$uid" "$user"
 passwd -d "$user"
 chown -R "$uid:$gid" "$home"
 

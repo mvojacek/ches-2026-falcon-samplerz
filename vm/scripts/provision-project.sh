@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-uid=$1
-target=$2
+target=$1
 user=vagrant
 home=/home/vagrant
+uid=$(id -u "$user")
 session=
 for _ in $(seq 1 60); do
   session=$(loginctl list-sessions --no-legend | awk -v uid="$uid" '$2 == uid {print $1}' | while read -r id; do

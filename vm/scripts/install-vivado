@@ -25,6 +25,7 @@ flock -n 9 || { echo "Vivado installation is already running."; exit 0; }
 load_credentials() {
   local line key value
   while IFS= read -r line; do
+    line=${line%$'\r'}
     key=${line%%=*}
     value=${line#*=}
     case $key in
