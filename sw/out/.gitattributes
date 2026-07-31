@@ -1,3 +1,0 @@
-sampler_tests filter=lfs diff=lfs merge=lfs -text
-speed_* filter=lfs diff=lfs merge=lfs -text
-test_falcon_* filter=lfs diff=lfs merge=lfs -text
