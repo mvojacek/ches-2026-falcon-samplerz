@@ -1,0 +1,5 @@
+Area: 7037 LUT, 3431 FF, 30 DSP, 1.5 BRAM36
+OOC clock period: 4.500 ns
+Setup WNS/TNS: 0.019/0.000 ns; hold WHS/THS: 0.044/0.000 ns
+Pulse-width slack: 1.708 ns
+Estimated power: 0.930 W (vectorless, not board-measured)

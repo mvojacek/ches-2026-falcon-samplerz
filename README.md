@@ -28,7 +28,7 @@ Included are the HDL sources, IP definitions, project creation, implementation a
     - `chacha/` - ChaCha PRNG core from https://github.com/secworks/chacha.
     - `math/` - custom floating-point arithmetic, conversion, and utility blocks.
     - `measure/` - alternative/instrumented designs used for measurement. Included for completeness, not used in implementation.
-    - `pkg/` - shared SystemVerilog packages wiht constants and type definitions.
+    - `pkg/` - shared SystemVerilog packages with constants and type definitions.
     - `rand/` - randomness refill and buffering logic.
     - `samplerz/` - Gaussian-sampler datapath and AXI-Lite top level.
     - `util/` - generic RTL blocks.
@@ -45,10 +45,11 @@ Included are the HDL sources, IP definitions, project creation, implementation a
   - `flopoco/` - generated FloPoCo floating-point exponent implementation, including generator scripts.
   - `ip/` - Exported Vivado IPs (floating-point MUL, SUB, and AXI verification IP).
   - `sim/` - SystemVerilog test benches and waveform configurations.
-- `scripts/` - Vivado project, simulation, implementation, export, and XSCT device-tree scripts. Mainly of interest:
-  - `samplerz_tb.sv` + `samplerz_tb_behav.wcfg` - direct simulation of the sampler.
-  - `samplerz_axi_tb.sv` + `samplerz_axi_tb_behav.cfg` - simulation of the sampler incl. it's AXI-Lite interface using the Vivado harness block design.
+    - `samplerz_tb.sv` + `samplerz_tb_behav.wcfg` - direct simulation of the sampler.
+    - `samplerz_axi_tb.sv` + `samplerz_axi_tb_behav.wcfg` - simulation of the sampler including its AXI-Lite interface using the Vivado harness block design.
+- `scripts/` - Vivado project, simulation, implementation, reporting, export, and XSCT device-tree scripts.
 - `out/` - exported KV260 deployment artifacts: bitstream, binary bitstream, hardware handoff, XSA, and device-tree overlay.
+  - `reports/zcu104-samplerz/` - ZCU104 bare-core utilization, timing, power Vivado reports, and summary.
 - `sw/` - target-side software.
   - `sampler_tests.c` - direct AXI register test program.
   - `falcon_c/` - Falcon C implementation, including optional hardware-sampler integration (`hw_samplerz.c`).
@@ -58,8 +59,9 @@ Included are the HDL sources, IP definitions, project creation, implementation a
 - `misc/` - supporting material not used by the main Vivado build.
   - `base_sampler_boolean/` - scripts and data for a Boolean base-sampler implementation.
   - `flopoco_exp_precision/` - scripts, test vectors, and results for FloPoCo exponent-precision experiments.
-  - `samplerz_statistics/` - Python analysis, samples, plots, and the bundled Falcon statistical-model code.
+  - `samplerz_statistics/` - Python analysis, samples, plots, and the bundled Falcon statistical-model code; see its [README](misc/samplerz_statistics/README.md).
   - `samplerz_testvectors/` - generators for some simulation testvectors.
+  - `paper_calculations.py` - RIPST and time-area calculations from paper inputs and measured hardware counters. Run `python3 misc/paper_calculations.py` from the repository root.
 
 ## Requirements
 
@@ -67,8 +69,11 @@ Included are the HDL sources, IP definitions, project creation, implementation a
 
 General dependencies:
 
-- Git, Git LFS
+- Git
 - `just` - main recipe runner for the project
+- Clang and Make on an aarch or x86 POSIX host for C software
+  - The hardware accelerator is only supported on aarch64 (Zynq)
+- Python 3.14 for the archived-statistics and register-regeneration environment recipes
 
 For project creation, synthesis and simulation:
 
@@ -82,7 +87,6 @@ To regenerate DT overlay for the AXI-Lite peripheral on Linux:
 Repository setup:
 
 ```sh
-git lfs pull
 just clone-xilinx-devicetree # only needed for DT overlay generation
 ```
 
@@ -147,6 +151,12 @@ just sim-samplerz-axi # simulate samplerz_axi_tb
 # in a scope, instead of only writing it to a .wdb file.
 ```
 
+Vivado reports for an out-of-context run at 222 MHz on the ZCU104 are provided in `out/reports/zcu104-samplerz/`, including an extracted summary of the most important run results. You may re-generate these reports from a completed implementation run by running:
+
+```sh
+just zcu-report
+```
+
 Available tops for implementation:
 
 - `samplerz` - only the samplerz core itself
@@ -207,14 +217,12 @@ After imaging, mount the root filesystem and ensure the following:
 
 - an SSH key is added, or a password is set and password SSH is enabled
 - network configuration is correct (e.g. DHCP)
-- copy at least the `out/` and `sw/` folders from this repository somewhere (can also be done later using `rsync`) into a single directory so they are next to each other
+- copy the whole repository/artifact to the device (this can be done later over SSH using e.g. rsync)
 
 Then, boot the device, connect to it either over SSH or over the USB serial console and login, then:
 
-- install `just` using the convenience script (alternatively, you may run the commands in the recipes manually)
-- inside of the `sw/` repository you copied
-
-Copy the contents of `out/` to the target, then from `sw/`:
+- install `just` using the convenience script (alternatively, you may run the commands in the `justfile` recipes manually)
+- inside of the `sw/` directory you copied:
 
 ```sh
 just load # (re-)loads the samplerz.bit.bin to the FPGA PL and samplerz.dtbo into the kernel
@@ -229,7 +237,26 @@ just caps # gives the built binary cap_sys_rawio
 just run # run the samplerz tests
 ```
 
-If the tests succeed, you may further excercise the module by running the reference C implementation of Falcon, modified to use the accelerator via /dev/mem, which is provided in `./sw/falcon_c`. By default, the reference software implementation of samplerz is used, and you must enable `FALCON_HW_SAMPLERZ` in `./sw/falcon_c/config.h` to use the hardware accelerator. Use `make` to build the software, and either run as root or apply `cap_sys_rawio` as before.
+If the tests succeed, you may further exercise the module using the Falcon reference C implementation in `sw/falcon_c`, modified to use the accelerator via `/dev/mem`. By default, it uses the software sampler. Select the floating-point backend and enable `FALCON_HW_SAMPLERZ` in `sw/falcon_c/config.h` to use the accelerator. After changing the configuration, rebuild and run the tests and benchmark:
+
+```sh
+cd falcon_c
+make clean
+make
+./test_falcon
+./speed 0.01
+```
+
+Hardware execution requires root or `cap_sys_rawio` and access to `/dev/mem`, same as the samplerz tests.
+
+## Register regeneration
+
+Only needed when changing the register map. From `src/registers/`, install the dependencies from `requirements.txt` and generate RTL, SV constants, HTML, C headers, then Python bindings:
+
+```sh
+just env
+just gen # runs gen-sv gen-sv-const gen-html gen-c gen-py in order
+```
 
 ## Vivado VM
 

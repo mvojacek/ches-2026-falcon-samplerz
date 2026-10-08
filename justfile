@@ -22,6 +22,11 @@ zcu-project: mkdirs links
 [group('zcu')]
 zcu-implementation:
     cd vivado && vivado -mode batch -source ./zcu-implementation.tcl
+# Generate and export reports for a completed ZCU implementation.
+[group('zcu')]
+zcu-report:
+    cd vivado && vivado -mode batch -source ./zcu-report.tcl
+    python3 scripts/export-reports-zcu.py
 # Clean, setup project, and build for ZCU, and open GUI
 [group('zcu')]
 zcu: clean zcu-project zcu-implementation gui

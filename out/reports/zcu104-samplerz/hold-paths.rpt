@@ -1,0 +1,446 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version      : Vivado v.2025.1 (lin64) Build 6140274 Wed May 21 22:58:25 MDT 2025
+| Date              : Mon Oct  5 17:43:11 2026
+| Host              : <redacted>
+| Command           : report_timing -delay_type min -max_paths 10 -file ../final/reports/zcu104-samplerz/hold-paths.rpt
+| Design            : samplerz
+| Device            : xczu7ev-ffvc1156
+| Speed File        : -2  PRODUCTION 1.30 05-15-2022
+| Design State      : Routed
+| Temperature Grade : E
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack (MET) :             0.044ns  (arrival time - required time)
+  Source:                 base_sampler/refill_uniform_buf_instance/refill_buf_reg[3][6]/C
+                            (rising edge-triggered cell FDRE clocked by clk  {rise@0.000ns fall@2.250ns period=4.500ns})
+  Destination:            base_sampler/refill_uniform_buf_instance/out_buf_reg[3][6]/D
+                            (rising edge-triggered cell FDRE clocked by clk  {rise@0.000ns fall@2.250ns period=4.500ns})
+  Path Group:             clk
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (clk rise@0.000ns - clk rise@0.000ns)
+  Data Path Delay:        0.097ns  (logic 0.039ns (40.206%)  route 0.058ns (59.794%))
+  Logic Levels:           0  
+  Clock Path Skew:        0.006ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    0.019ns
+    Source Clock Delay      (SCD):    0.013ns
+    Clock Pessimism Removal (CPR):    -0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk rise edge)        0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=3683, unset)         0.013     0.013    base_sampler/refill_uniform_buf_instance/clk
+    SLICE_X82Y117        FDRE                                         r  base_sampler/refill_uniform_buf_instance/refill_buf_reg[3][6]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X82Y117        FDRE (Prop_HFF_SLICEL_C_Q)
+                                                      0.039     0.052 r  base_sampler/refill_uniform_buf_instance/refill_buf_reg[3][6]/Q
+                         net (fo=1, routed)           0.058     0.110    base_sampler/refill_uniform_buf_instance/refill_buf_reg[3]_5[6]
+    SLICE_X82Y115        FDRE                                         r  base_sampler/refill_uniform_buf_instance/out_buf_reg[3][6]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk rise edge)        0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=3683, unset)         0.019     0.019    base_sampler/refill_uniform_buf_instance/clk
+    SLICE_X82Y115        FDRE                                         r  base_sampler/refill_uniform_buf_instance/out_buf_reg[3][6]/C
+                         clock pessimism              0.000     0.019    
+    SLICE_X82Y115        FDRE (Hold_GFF2_SLICEL_C_D)
+                                                      0.047     0.066    base_sampler/refill_uniform_buf_instance/out_buf_reg[3][6]
+  -------------------------------------------------------------------
+                         required time                         -0.066    
+                         arrival time                           0.110    
+  -------------------------------------------------------------------
+                         slack                                  0.044    
+
+Slack (MET) :             0.048ns  (arrival time - required time)
+  Source:                 berexp_inst/cmp_exp_x/refill_uniform_buf_instance/hotbits[0].par2ser/count_reg[2]/C
+                            (rising edge-triggered cell FDRE clocked by clk  {rise@0.000ns fall@2.250ns period=4.500ns})
+  Destination:            berexp_inst/cmp_exp_x/refill_uniform_buf_instance/hotbits[0].par2ser/count_reg[2]/D
+                            (rising edge-triggered cell FDRE clocked by clk  {rise@0.000ns fall@2.250ns period=4.500ns})
+  Path Group:             clk
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (clk rise@0.000ns - clk rise@0.000ns)
+  Data Path Delay:        0.100ns  (logic 0.053ns (53.250%)  route 0.047ns (46.750%))
+  Logic Levels:           1  (LUT5=1)
+  Clock Path Skew:        0.006ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    0.018ns
+    Source Clock Delay      (SCD):    0.012ns
+    Clock Pessimism Removal (CPR):    -0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk rise edge)        0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=3683, unset)         0.012     0.012    berexp_inst/cmp_exp_x/refill_uniform_buf_instance/hotbits[0].par2ser/clk
+    SLICE_X87Y327        FDRE                                         r  berexp_inst/cmp_exp_x/refill_uniform_buf_instance/hotbits[0].par2ser/count_reg[2]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X87Y327        FDRE (Prop_CFF_SLICEL_C_Q)
+                                                      0.039     0.051 r  berexp_inst/cmp_exp_x/refill_uniform_buf_instance/hotbits[0].par2ser/count_reg[2]/Q
+                         net (fo=9, routed)           0.030     0.081    berexp_inst/cmp_exp_x/refill_uniform_buf_instance/hotbits[0].par2ser/count_reg_n_0_[2]
+    SLICE_X87Y327        LUT5 (Prop_C6LUT_SLICEL_I2_O)
+                                                      0.014     0.095 r  berexp_inst/cmp_exp_x/refill_uniform_buf_instance/hotbits[0].par2ser/count[2]_i_2__8/O
+                         net (fo=1, routed)           0.017     0.112    berexp_inst/cmp_exp_x/refill_uniform_buf_instance/hotbits[0].par2ser/count[2]_i_2__8_n_0
+    SLICE_X87Y327        FDRE                                         r  berexp_inst/cmp_exp_x/refill_uniform_buf_instance/hotbits[0].par2ser/count_reg[2]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk rise edge)        0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=3683, unset)         0.018     0.018    berexp_inst/cmp_exp_x/refill_uniform_buf_instance/hotbits[0].par2ser/clk
+    SLICE_X87Y327        FDRE                                         r  berexp_inst/cmp_exp_x/refill_uniform_buf_instance/hotbits[0].par2ser/count_reg[2]/C
+                         clock pessimism              0.000     0.018    
+    SLICE_X87Y327        FDRE (Hold_CFF_SLICEL_C_D)
+                                                      0.046     0.064    berexp_inst/cmp_exp_x/refill_uniform_buf_instance/hotbits[0].par2ser/count_reg[2]
+  -------------------------------------------------------------------
+                         required time                         -0.064    
+                         arrival time                           0.112    
+  -------------------------------------------------------------------
+                         slack                                  0.048    
+
+Slack (MET) :             0.048ns  (arrival time - required time)
+  Source:                 berexp_inst/cmp_ccs/refill_uniform_buf_instance/out_buf_valid_reg[1]/C
+                            (rising edge-triggered cell FDRE clocked by clk  {rise@0.000ns fall@2.250ns period=4.500ns})
+  Destination:            berexp_inst/cmp_ccs/refill_uniform_buf_instance/out_buf_valid_reg[1]/D
+                            (rising edge-triggered cell FDRE clocked by clk  {rise@0.000ns fall@2.250ns period=4.500ns})
+  Path Group:             clk
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (clk rise@0.000ns - clk rise@0.000ns)
+  Data Path Delay:        0.100ns  (logic 0.054ns (54.121%)  route 0.046ns (45.879%))
+  Logic Levels:           1  (LUT6=1)
+  Clock Path Skew:        0.006ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    0.019ns
+    Source Clock Delay      (SCD):    0.013ns
+    Clock Pessimism Removal (CPR):    -0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk rise edge)        0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=3683, unset)         0.013     0.013    berexp_inst/cmp_ccs/refill_uniform_buf_instance/clk
+    SLICE_X85Y287        FDRE                                         r  berexp_inst/cmp_ccs/refill_uniform_buf_instance/out_buf_valid_reg[1]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X85Y287        FDRE (Prop_HFF_SLICEL_C_Q)
+                                                      0.039     0.052 r  berexp_inst/cmp_ccs/refill_uniform_buf_instance/out_buf_valid_reg[1]/Q
+                         net (fo=4, routed)           0.029     0.081    berexp_inst/cmp_ccs/refill_uniform_buf_instance/hotbits[1].par2ser/out_buf_valid_reg[7]_1[1]
+    SLICE_X85Y287        LUT6 (Prop_H6LUT_SLICEL_I3_O)
+                                                      0.015     0.096 r  berexp_inst/cmp_ccs/refill_uniform_buf_instance/hotbits[1].par2ser/out_buf_valid[1]_i_1__1/O
+                         net (fo=1, routed)           0.017     0.113    berexp_inst/cmp_ccs/refill_uniform_buf_instance/out_buf_valid20_out[1]
+    SLICE_X85Y287        FDRE                                         r  berexp_inst/cmp_ccs/refill_uniform_buf_instance/out_buf_valid_reg[1]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk rise edge)        0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=3683, unset)         0.019     0.019    berexp_inst/cmp_ccs/refill_uniform_buf_instance/clk
+    SLICE_X85Y287        FDRE                                         r  berexp_inst/cmp_ccs/refill_uniform_buf_instance/out_buf_valid_reg[1]/C
+                         clock pessimism              0.000     0.019    
+    SLICE_X85Y287        FDRE (Hold_HFF_SLICEL_C_D)
+                                                      0.046     0.065    berexp_inst/cmp_ccs/refill_uniform_buf_instance/out_buf_valid_reg[1]
+  -------------------------------------------------------------------
+                         required time                         -0.065    
+                         arrival time                           0.113    
+  -------------------------------------------------------------------
+                         slack                                  0.048    
+
+Slack (MET) :             0.048ns  (arrival time - required time)
+  Source:                 sample_valid_chain_reg[1]/C
+                            (rising edge-triggered cell FDRE clocked by clk  {rise@0.000ns fall@2.250ns period=4.500ns})
+  Destination:            sample_valid_chain_reg[2]/D
+                            (rising edge-triggered cell FDRE clocked by clk  {rise@0.000ns fall@2.250ns period=4.500ns})
+  Path Group:             clk
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (clk rise@0.000ns - clk rise@0.000ns)
+  Data Path Delay:        0.101ns  (logic 0.072ns (71.287%)  route 0.029ns (28.713%))
+  Logic Levels:           1  (LUT2=1)
+  Clock Path Skew:        0.006ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    0.018ns
+    Source Clock Delay      (SCD):    0.012ns
+    Clock Pessimism Removal (CPR):    -0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk rise edge)        0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=3683, unset)         0.012     0.012    clk
+    SLICE_X90Y127        FDRE                                         r  sample_valid_chain_reg[1]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X90Y127        FDRE (Prop_DFF_SLICEL_C_Q)
+                                                      0.039     0.051 r  sample_valid_chain_reg[1]/Q
+                         net (fo=1, routed)           0.023     0.074    sample_valid_chain_reg_n_0_[1]
+    SLICE_X90Y127        LUT2 (Prop_D5LUT_SLICEL_I0_O)
+                                                      0.033     0.107 r  sample_valid_chain[2]_i_1/O
+                         net (fo=1, routed)           0.006     0.113    sample_valid_chain[2]_i_1_n_0
+    SLICE_X90Y127        FDRE                                         r  sample_valid_chain_reg[2]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk rise edge)        0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=3683, unset)         0.018     0.018    clk
+    SLICE_X90Y127        FDRE                                         r  sample_valid_chain_reg[2]/C
+                         clock pessimism              0.000     0.018    
+    SLICE_X90Y127        FDRE (Hold_DFF2_SLICEL_C_D)
+                                                      0.047     0.065    sample_valid_chain_reg[2]
+  -------------------------------------------------------------------
+                         required time                         -0.065    
+                         arrival time                           0.113    
+  -------------------------------------------------------------------
+                         slack                                  0.048    
+
+Slack (MET) :             0.048ns  (arrival time - required time)
+  Source:                 berexp_inst/cmp_ccs/refill_uniform_buf_instance/refill_buf_reg[7][2]/C
+                            (rising edge-triggered cell FDRE clocked by clk  {rise@0.000ns fall@2.250ns period=4.500ns})
+  Destination:            berexp_inst/cmp_ccs/refill_uniform_buf_instance/out_buf_reg[7][2]/D
+                            (rising edge-triggered cell FDRE clocked by clk  {rise@0.000ns fall@2.250ns period=4.500ns})
+  Path Group:             clk
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (clk rise@0.000ns - clk rise@0.000ns)
+  Data Path Delay:        0.100ns  (logic 0.037ns (37.000%)  route 0.063ns (63.000%))
+  Logic Levels:           0  
+  Clock Path Skew:        0.006ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    0.019ns
+    Source Clock Delay      (SCD):    0.013ns
+    Clock Pessimism Removal (CPR):    -0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk rise edge)        0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=3683, unset)         0.013     0.013    berexp_inst/cmp_ccs/refill_uniform_buf_instance/clk
+    SLICE_X84Y289        FDRE                                         r  berexp_inst/cmp_ccs/refill_uniform_buf_instance/refill_buf_reg[7][2]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X84Y289        FDRE (Prop_FFF_SLICEM_C_Q)
+                                                      0.037     0.050 r  berexp_inst/cmp_ccs/refill_uniform_buf_instance/refill_buf_reg[7][2]/Q
+                         net (fo=1, routed)           0.063     0.113    berexp_inst/cmp_ccs/refill_uniform_buf_instance/refill_buf_reg[7]_17[2]
+    SLICE_X85Y289        FDRE                                         r  berexp_inst/cmp_ccs/refill_uniform_buf_instance/out_buf_reg[7][2]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk rise edge)        0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=3683, unset)         0.019     0.019    berexp_inst/cmp_ccs/refill_uniform_buf_instance/clk
+    SLICE_X85Y289        FDRE                                         r  berexp_inst/cmp_ccs/refill_uniform_buf_instance/out_buf_reg[7][2]/C
+                         clock pessimism              0.000     0.019    
+    SLICE_X85Y289        FDRE (Hold_GFF_SLICEL_C_D)
+                                                      0.046     0.065    berexp_inst/cmp_ccs/refill_uniform_buf_instance/out_buf_reg[7][2]
+  -------------------------------------------------------------------
+                         required time                         -0.065    
+                         arrival time                           0.113    
+  -------------------------------------------------------------------
+                         slack                                  0.048    
+
+Slack (MET) :             0.048ns  (arrival time - required time)
+  Source:                 z0_reg[b]/C
+                            (rising edge-triggered cell FDRE clocked by clk  {rise@0.000ns fall@2.250ns period=4.500ns})
+  Destination:            berexp_inst/z_delay/shiftreg_reg[7][b]_srl17/D
+                            (rising edge-triggered cell SRLC32E clocked by clk  {rise@0.000ns fall@2.250ns period=4.500ns})
+  Path Group:             clk
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (clk rise@0.000ns - clk rise@0.000ns)
+  Data Path Delay:        0.136ns  (logic 0.039ns (28.654%)  route 0.097ns (71.346%))
+  Logic Levels:           0  
+  Clock Path Skew:        0.026ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    0.039ns
+    Source Clock Delay      (SCD):    0.013ns
+    Clock Pessimism Removal (CPR):    -0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk rise edge)        0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=3683, unset)         0.013     0.013    clk
+    SLICE_X86Y126        FDRE                                         r  z0_reg[b]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X86Y126        FDRE (Prop_AFF2_SLICEM_C_Q)
+                                                      0.039     0.052 r  z0_reg[b]/Q
+                         net (fo=10, routed)          0.097     0.149    berexp_inst/z_delay/z0_reg[b]__0
+    SLICE_X88Y122        SRLC32E                                      r  berexp_inst/z_delay/shiftreg_reg[7][b]_srl17/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk rise edge)        0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=3683, unset)         0.039     0.039    berexp_inst/z_delay/clk
+    SLICE_X88Y122        SRLC32E                                      r  berexp_inst/z_delay/shiftreg_reg[7][b]_srl17/CLK
+                         clock pessimism              0.000     0.039    
+    SLICE_X88Y122        SRLC32E (Hold_H6LUT_SLICEM_CLK_D)
+                                                      0.062     0.101    berexp_inst/z_delay/shiftreg_reg[7][b]_srl17
+  -------------------------------------------------------------------
+                         required time                         -0.101    
+                         arrival time                           0.149    
+  -------------------------------------------------------------------
+                         slack                                  0.048    
+
+Slack (MET) :             0.049ns  (arrival time - required time)
+  Source:                 base_sampler/refill_uniform_buf_instance/hotbits[1].par2ser/shiftreg_reg[5]/C
+                            (rising edge-triggered cell FDRE clocked by clk  {rise@0.000ns fall@2.250ns period=4.500ns})
+  Destination:            base_sampler/refill_uniform_buf_instance/hotbits[1].par2ser/shiftreg_reg[4]/D
+                            (rising edge-triggered cell FDRE clocked by clk  {rise@0.000ns fall@2.250ns period=4.500ns})
+  Path Group:             clk
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (clk rise@0.000ns - clk rise@0.000ns)
+  Data Path Delay:        0.101ns  (logic 0.062ns (61.386%)  route 0.039ns (38.614%))
+  Logic Levels:           1  (LUT5=1)
+  Clock Path Skew:        0.006ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    0.018ns
+    Source Clock Delay      (SCD):    0.012ns
+    Clock Pessimism Removal (CPR):    -0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk rise edge)        0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=3683, unset)         0.012     0.012    base_sampler/refill_uniform_buf_instance/hotbits[1].par2ser/clk
+    SLICE_X85Y125        FDRE                                         r  base_sampler/refill_uniform_buf_instance/hotbits[1].par2ser/shiftreg_reg[5]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X85Y125        FDRE (Prop_AFF_SLICEL_C_Q)
+                                                      0.039     0.051 r  base_sampler/refill_uniform_buf_instance/hotbits[1].par2ser/shiftreg_reg[5]/Q
+                         net (fo=1, routed)           0.024     0.075    base_sampler/refill_uniform_buf_instance/hotbits[1].par2ser/shiftreg__0[5]
+    SLICE_X85Y125        LUT5 (Prop_B6LUT_SLICEL_I4_O)
+                                                      0.023     0.098 r  base_sampler/refill_uniform_buf_instance/hotbits[1].par2ser/shiftreg[4]_i_1__3/O
+                         net (fo=1, routed)           0.015     0.113    base_sampler/refill_uniform_buf_instance/hotbits[1].par2ser/shiftreg[4]_i_1__3_n_0
+    SLICE_X85Y125        FDRE                                         r  base_sampler/refill_uniform_buf_instance/hotbits[1].par2ser/shiftreg_reg[4]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk rise edge)        0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=3683, unset)         0.018     0.018    base_sampler/refill_uniform_buf_instance/hotbits[1].par2ser/clk
+    SLICE_X85Y125        FDRE                                         r  base_sampler/refill_uniform_buf_instance/hotbits[1].par2ser/shiftreg_reg[4]/C
+                         clock pessimism              0.000     0.018    
+    SLICE_X85Y125        FDRE (Hold_BFF_SLICEL_C_D)
+                                                      0.046     0.064    base_sampler/refill_uniform_buf_instance/hotbits[1].par2ser/shiftreg_reg[4]
+  -------------------------------------------------------------------
+                         required time                         -0.064    
+                         arrival time                           0.113    
+  -------------------------------------------------------------------
+                         slack                                  0.049    
+
+Slack (MET) :             0.049ns  (arrival time - required time)
+  Source:                 base_sampler/refill_uniform_buf_instance/refill_buf_reg[4][4]/C
+                            (rising edge-triggered cell FDRE clocked by clk  {rise@0.000ns fall@2.250ns period=4.500ns})
+  Destination:            base_sampler/refill_uniform_buf_instance/out_buf_reg[4][4]/D
+                            (rising edge-triggered cell FDRE clocked by clk  {rise@0.000ns fall@2.250ns period=4.500ns})
+  Path Group:             clk
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (clk rise@0.000ns - clk rise@0.000ns)
+  Data Path Delay:        0.103ns  (logic 0.039ns (37.864%)  route 0.064ns (62.136%))
+  Logic Levels:           0  
+  Clock Path Skew:        0.007ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    0.019ns
+    Source Clock Delay      (SCD):    0.012ns
+    Clock Pessimism Removal (CPR):    -0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk rise edge)        0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=3683, unset)         0.012     0.012    base_sampler/refill_uniform_buf_instance/clk
+    SLICE_X82Y114        FDRE                                         r  base_sampler/refill_uniform_buf_instance/refill_buf_reg[4][4]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X82Y114        FDRE (Prop_DFF_SLICEL_C_Q)
+                                                      0.039     0.051 r  base_sampler/refill_uniform_buf_instance/refill_buf_reg[4][4]/Q
+                         net (fo=1, routed)           0.064     0.115    base_sampler/refill_uniform_buf_instance/refill_buf_reg[4]_6[4]
+    SLICE_X83Y114        FDRE                                         r  base_sampler/refill_uniform_buf_instance/out_buf_reg[4][4]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk rise edge)        0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=3683, unset)         0.019     0.019    base_sampler/refill_uniform_buf_instance/clk
+    SLICE_X83Y114        FDRE                                         r  base_sampler/refill_uniform_buf_instance/out_buf_reg[4][4]/C
+                         clock pessimism              0.000     0.019    
+    SLICE_X83Y114        FDRE (Hold_AFF2_SLICEM_C_D)
+                                                      0.047     0.066    base_sampler/refill_uniform_buf_instance/out_buf_reg[4][4]
+  -------------------------------------------------------------------
+                         required time                         -0.066    
+                         arrival time                           0.115    
+  -------------------------------------------------------------------
+                         slack                                  0.049    
+
+Slack (MET) :             0.049ns  (arrival time - required time)
+  Source:                 berexp_inst/cmp_ccs/refill_uniform_buf_instance/hotbits[2].par2ser/shiftreg_reg[5]/C
+                            (rising edge-triggered cell FDRE clocked by clk  {rise@0.000ns fall@2.250ns period=4.500ns})
+  Destination:            berexp_inst/cmp_ccs/refill_uniform_buf_instance/hotbits[2].par2ser/shiftreg_reg[4]/D
+                            (rising edge-triggered cell FDRE clocked by clk  {rise@0.000ns fall@2.250ns period=4.500ns})
+  Path Group:             clk
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (clk rise@0.000ns - clk rise@0.000ns)
+  Data Path Delay:        0.101ns  (logic 0.062ns (61.386%)  route 0.039ns (38.614%))
+  Logic Levels:           1  (LUT5=1)
+  Clock Path Skew:        0.006ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    0.018ns
+    Source Clock Delay      (SCD):    0.012ns
+    Clock Pessimism Removal (CPR):    -0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk rise edge)        0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=3683, unset)         0.012     0.012    berexp_inst/cmp_ccs/refill_uniform_buf_instance/hotbits[2].par2ser/clk
+    SLICE_X82Y284        FDRE                                         r  berexp_inst/cmp_ccs/refill_uniform_buf_instance/hotbits[2].par2ser/shiftreg_reg[5]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X82Y284        FDRE (Prop_AFF_SLICEL_C_Q)
+                                                      0.039     0.051 r  berexp_inst/cmp_ccs/refill_uniform_buf_instance/hotbits[2].par2ser/shiftreg_reg[5]/Q
+                         net (fo=1, routed)           0.024     0.075    berexp_inst/cmp_ccs/refill_uniform_buf_instance/hotbits[2].par2ser/shiftreg__1[5]
+    SLICE_X82Y284        LUT5 (Prop_B6LUT_SLICEL_I2_O)
+                                                      0.023     0.098 r  berexp_inst/cmp_ccs/refill_uniform_buf_instance/hotbits[2].par2ser/shiftreg[4]_i_1__11/O
+                         net (fo=1, routed)           0.015     0.113    berexp_inst/cmp_ccs/refill_uniform_buf_instance/hotbits[2].par2ser/shiftreg[4]_i_1__11_n_0
+    SLICE_X82Y284        FDRE                                         r  berexp_inst/cmp_ccs/refill_uniform_buf_instance/hotbits[2].par2ser/shiftreg_reg[4]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk rise edge)        0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=3683, unset)         0.018     0.018    berexp_inst/cmp_ccs/refill_uniform_buf_instance/hotbits[2].par2ser/clk
+    SLICE_X82Y284        FDRE                                         r  berexp_inst/cmp_ccs/refill_uniform_buf_instance/hotbits[2].par2ser/shiftreg_reg[4]/C
+                         clock pessimism              0.000     0.018    
+    SLICE_X82Y284        FDRE (Hold_BFF_SLICEL_C_D)
+                                                      0.046     0.064    berexp_inst/cmp_ccs/refill_uniform_buf_instance/hotbits[2].par2ser/shiftreg_reg[4]
+  -------------------------------------------------------------------
+                         required time                         -0.064    
+                         arrival time                           0.113    
+  -------------------------------------------------------------------
+                         slack                                  0.049    
+
+Slack (MET) :             0.049ns  (arrival time - required time)
+  Source:                 berexp_inst/cmp_ccs/refill_uniform_buf_instance/hotbits[4].par2ser/shiftreg_reg[3]/C
+                            (rising edge-triggered cell FDRE clocked by clk  {rise@0.000ns fall@2.250ns period=4.500ns})
+  Destination:            berexp_inst/cmp_ccs/refill_uniform_buf_instance/hotbits[4].par2ser/shiftreg_reg[2]/D
+                            (rising edge-triggered cell FDRE clocked by clk  {rise@0.000ns fall@2.250ns period=4.500ns})
+  Path Group:             clk
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (clk rise@0.000ns - clk rise@0.000ns)
+  Data Path Delay:        0.101ns  (logic 0.061ns (60.396%)  route 0.040ns (39.604%))
+  Logic Levels:           1  (LUT6=1)
+  Clock Path Skew:        0.006ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    0.019ns
+    Source Clock Delay      (SCD):    0.013ns
+    Clock Pessimism Removal (CPR):    -0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk rise edge)        0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=3683, unset)         0.013     0.013    berexp_inst/cmp_ccs/refill_uniform_buf_instance/hotbits[4].par2ser/clk
+    SLICE_X87Y283        FDRE                                         r  berexp_inst/cmp_ccs/refill_uniform_buf_instance/hotbits[4].par2ser/shiftreg_reg[3]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X87Y283        FDRE (Prop_FFF_SLICEL_C_Q)
+                                                      0.039     0.052 r  berexp_inst/cmp_ccs/refill_uniform_buf_instance/hotbits[4].par2ser/shiftreg_reg[3]/Q
+                         net (fo=1, routed)           0.024     0.076    berexp_inst/cmp_ccs/refill_uniform_buf_instance/hotbits[4].par2ser/shiftreg__3[3]
+    SLICE_X87Y283        LUT6 (Prop_G6LUT_SLICEL_I3_O)
+                                                      0.022     0.098 r  berexp_inst/cmp_ccs/refill_uniform_buf_instance/hotbits[4].par2ser/shiftreg[2]_i_1__13/O
+                         net (fo=1, routed)           0.016     0.114    berexp_inst/cmp_ccs/refill_uniform_buf_instance/hotbits[4].par2ser/shiftreg[2]_i_1__13_n_0
+    SLICE_X87Y283        FDRE                                         r  berexp_inst/cmp_ccs/refill_uniform_buf_instance/hotbits[4].par2ser/shiftreg_reg[2]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk rise edge)        0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=3683, unset)         0.019     0.019    berexp_inst/cmp_ccs/refill_uniform_buf_instance/hotbits[4].par2ser/clk
+    SLICE_X87Y283        FDRE                                         r  berexp_inst/cmp_ccs/refill_uniform_buf_instance/hotbits[4].par2ser/shiftreg_reg[2]/C
+                         clock pessimism              0.000     0.019    
+    SLICE_X87Y283        FDRE (Hold_GFF_SLICEL_C_D)
+                                                      0.046     0.065    berexp_inst/cmp_ccs/refill_uniform_buf_instance/hotbits[4].par2ser/shiftreg_reg[2]
+  -------------------------------------------------------------------
+                         required time                         -0.065    
+                         arrival time                           0.114    
+  -------------------------------------------------------------------
+                         slack                                  0.049    
+
+
+
+

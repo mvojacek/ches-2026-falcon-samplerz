@@ -110,6 +110,8 @@ set obj [get_fileset constrs_ooc]
 add_files -fileset $obj -norecurse [larg {
     "../src/constr/outofcontext.xdc"
 }]
+# Conditional clock checks require Tcl evaluation rather than the XDC parser.
+set_property FILE_TYPE Tcl [get_files ../src/constr/outofcontext.xdc]
 
 set obj [get_fileset sim_1]
 add_files -fileset $obj -norecurse [larg {

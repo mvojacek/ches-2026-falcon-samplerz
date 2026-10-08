@@ -4,6 +4,10 @@ proc ::larg list {
     uplevel "list [string map {\n { }} $list]"
 }
 
+if {[version -short] ne "2025.1"} {
+    error "Supported Vivado version is 2025.1; found [version -short]"
+}
+
 set project_name falcon
 set project_dir "./"
 set src_dir "../src"
@@ -64,6 +68,16 @@ proc run_incomplete_runs {pattern} {
         launch_runs $runs {*}$::launch_runs_args
         wait_on_runs {*}$runs
     }
+    foreach run $runs { assert_run_complete $run }
+}
+
+proc assert_run_complete {run} {
+    set obj [get_runs $run]
+    set status [get_property STATUS $obj]
+    if {[get_property PROGRESS $obj] ne "100%" || ![string match "*Complete!*" $status] || [regexp -nocase {error|fail} $status]} {
+        error "Run $run failed or incomplete: $status ([get_property PROGRESS $obj])"
+    }
+    puts "VERIFIED_RUN $run: $status"
 }
 
 proc run_main {run {to_step ""}} {
@@ -79,4 +93,5 @@ proc run_main {run {to_step ""}} {
         }
         wait_on_runs $pending
     }
+    assert_run_complete $run
 }

@@ -8,15 +8,21 @@
 void track_doublesample_cycles(uint64_t cycles);
 void print_sample_statistics();
 
-void init_hw();
+#ifdef FALCON_HW_SAMPLERZ
+void init_hw(void);
+#endif
 
 int Zf(singleSampleSW)(void *ctx, fpr mu, fpr isigma);
 int Zf(singleSampleSWtimed)(void *ctx, fpr mu, fpr isigma);
+#ifdef FALCON_HW_SAMPLERZ
 int Zf(singleSampleHWtimed)(void *ctx, fpr mu, fpr isigma);
+#endif
 
 void Zf(doubleSampleSW)(void *ctx, fpr mu1, fpr mu2, fpr isigma, fpr* t1, fpr* t2);
 void Zf(doubleSampleSWtimed)(void *ctx, fpr mu1, fpr mu2, fpr isigma, fpr* t1, fpr* t2);
+#ifdef FALCON_HW_SAMPLERZ
 void Zf(doubleSampleHWtimed)(void *ctx, fpr mu1, fpr mu2, fpr isigma, fpr* t1, fpr* t2);
+#endif
 
 #ifdef FALCON_HW_SAMPLERZ
 #define doubleSample (Zf(doubleSampleHWtimed))

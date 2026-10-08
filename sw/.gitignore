@@ -1,4 +1,6 @@
 sampler_tests
+/build/
+/falcon_c/build/
 *.o
 *.s
 

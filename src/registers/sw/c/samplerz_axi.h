@@ -7,17 +7,16 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
-
 #include <stdint.h>
 #include <assert.h>
 
-// Reg - samplerz_axi::marker
+// reg - samplerz_axi::marker
 #define SAMPLERZ_AXI__MARKER__DATA_bm 0xffffffff
 #define SAMPLERZ_AXI__MARKER__DATA_bp 0
 #define SAMPLERZ_AXI__MARKER__DATA_bw 32
 #define SAMPLERZ_AXI__MARKER__DATA_reset 0x6663737a
 
-// Reg - samplerz_axi::control
+// reg - samplerz_axi::control
 #define SAMPLERZ_AXI__CONTROL__FALCON1024_bm 0x1
 #define SAMPLERZ_AXI__CONTROL__FALCON1024_bp 0
 #define SAMPLERZ_AXI__CONTROL__FALCON1024_bw 1
@@ -51,7 +50,7 @@ extern "C" {
 #define SAMPLERZ_AXI__CONTROL__RAND_FULL_bw 1
 #define SAMPLERZ_AXI__CONTROL__RAND_FULL_reset 0x0
 
-// Reg - samplerz_axi::busy_cycles
+// reg - samplerz_axi::busy_cycles
 #define SAMPLERZ_AXI__BUSY_CYCLES__LOW_bm 0xffffffff
 #define SAMPLERZ_AXI__BUSY_CYCLES__LOW_bp 0
 #define SAMPLERZ_AXI__BUSY_CYCLES__LOW_bw 32
@@ -61,7 +60,7 @@ extern "C" {
 #define SAMPLERZ_AXI__BUSY_CYCLES__HIGH_bw 32
 #define SAMPLERZ_AXI__BUSY_CYCLES__HIGH_reset 0x0
 
-// Reg - samplerz_axi::consumed_bits
+// reg - samplerz_axi::consumed_bits
 #define SAMPLERZ_AXI__CONSUMED_BITS__LOW_bm 0xffffffff
 #define SAMPLERZ_AXI__CONSUMED_BITS__LOW_bp 0
 #define SAMPLERZ_AXI__CONSUMED_BITS__LOW_bw 32
@@ -71,7 +70,7 @@ extern "C" {
 #define SAMPLERZ_AXI__CONSUMED_BITS__HIGH_bw 32
 #define SAMPLERZ_AXI__CONSUMED_BITS__HIGH_reset 0x0
 
-// Reg - samplerz_axi::sw2hw64
+// reg - samplerz_axi::sw2hw64
 #define SAMPLERZ_AXI__SW2HW64__LOW_bm 0xffffffff
 #define SAMPLERZ_AXI__SW2HW64__LOW_bp 0
 #define SAMPLERZ_AXI__SW2HW64__LOW_bw 32
@@ -79,17 +78,17 @@ extern "C" {
 #define SAMPLERZ_AXI__SW2HW64__HIGH_bp 32
 #define SAMPLERZ_AXI__SW2HW64__HIGH_bw 32
 
-// Reg - samplerz_axi::hw2sw32
+// reg - samplerz_axi::hw2sw32
 #define SAMPLERZ_AXI__HW2SW32__DATA_bm 0xffffffff
 #define SAMPLERZ_AXI__HW2SW32__DATA_bp 0
 #define SAMPLERZ_AXI__HW2SW32__DATA_bw 32
 
-// Reg - samplerz_axi::sw2hw32
+// reg - samplerz_axi::sw2hw32
 #define SAMPLERZ_AXI__SW2HW32__DATA_bm 0xffffffff
 #define SAMPLERZ_AXI__SW2HW32__DATA_bp 0
 #define SAMPLERZ_AXI__SW2HW32__DATA_bw 32
 
-// Reg - samplerz_axi::prng::counter
+// reg - samplerz_axi::prng::counter
 #define SAMPLERZ_AXI__PRNG__COUNTER__LOW_bm 0xffffffff
 #define SAMPLERZ_AXI__PRNG__COUNTER__LOW_bp 0
 #define SAMPLERZ_AXI__PRNG__COUNTER__LOW_bw 32
@@ -97,14 +96,14 @@ extern "C" {
 #define SAMPLERZ_AXI__PRNG__COUNTER__HIGH_bp 32
 #define SAMPLERZ_AXI__PRNG__COUNTER__HIGH_bw 32
 
-// Regfile - samplerz_axi::prng
+// regfile - samplerz_axi::prng
 typedef struct __attribute__ ((__packed__)) {
     uint32_t seed[11];
     uint8_t RESERVED_2c_2f[0x4];
     uint64_t counter;
 } samplerz_axi__prng_t;
 
-// Reg - samplerz_axi::hw2sw64
+// reg - samplerz_axi::hw2sw64
 #define SAMPLERZ_AXI__HW2SW64__LOW_bm 0xffffffff
 #define SAMPLERZ_AXI__HW2SW64__LOW_bp 0
 #define SAMPLERZ_AXI__HW2SW64__LOW_bw 32
@@ -112,14 +111,14 @@ typedef struct __attribute__ ((__packed__)) {
 #define SAMPLERZ_AXI__HW2SW64__HIGH_bp 32
 #define SAMPLERZ_AXI__HW2SW64__HIGH_bw 32
 
-// Regfile - samplerz_axi::sample_histogram
+// regfile - samplerz_axi::sample_histogram
 typedef struct __attribute__ ((__packed__)) {
     uint64_t histogram[40];
     uint32_t pivot_value;
     uint32_t pivot_index;
 } samplerz_axi__sample_histogram_t;
 
-// Addrmap - samplerz_axi
+// addrmap - samplerz_axi
 typedef struct __attribute__ ((__packed__)) {
     uint32_t marker;
     uint32_t control;

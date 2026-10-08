@@ -171,7 +171,7 @@ class samplerz_axi_hw2sw32_cls(RegReadOnly):
     
     
     
-class samplerz_axi_hw2sw32_data_0x0x78dc3a9c3a4_cls(FieldReadOnly):
+class samplerz_axi_hw2sw32_data_0x0x7f4e0b76e12_cls(FieldReadOnly):
     
     """
     Class to represent a register field in the register model
@@ -189,7 +189,7 @@ class samplerz_axi_hw2sw32_data_0x0x78dc3a9c3a4_cls(FieldReadOnly):
 
     
     
-class samplerz_axi_hw2sw32_0x0x78dc3a9c398_cls(RegReadOnly):
+class samplerz_axi_hw2sw32_0x0x7f4e0b7431d_cls(RegReadOnly):
     """
     Class to represent a register in the register model
 
@@ -215,7 +215,7 @@ class samplerz_axi_hw2sw32_0x0x78dc3a9c398_cls(RegReadOnly):
 
         # build the field attributes
         
-        self.__data:samplerz_axi_hw2sw32_data_0x0x78dc3a9c3a4_cls = samplerz_axi_hw2sw32_data_0x0x78dc3a9c3a4_cls(
+        self.__data:samplerz_axi_hw2sw32_data_0x0x7f4e0b76e12_cls = samplerz_axi_hw2sw32_data_0x0x7f4e0b76e12_cls(
             parent_register=self,
             size_props=FieldSizeProps(
                 width=32,
@@ -245,7 +245,7 @@ class samplerz_axi_hw2sw32_0x0x78dc3a9c398_cls(RegReadOnly):
     # build the properties for the fields
     
     @property
-    def data(self) -> samplerz_axi_hw2sw32_data_0x0x78dc3a9c3a4_cls:
+    def data(self) -> samplerz_axi_hw2sw32_data_0x0x7f4e0b76e12_cls:
         """
         Property to access data field of the register
 
@@ -469,7 +469,7 @@ class samplerz_axi_sample_histogram_cls(RegFile):
                                                                                       inst_name='histogram', parent=self)
         
             
-        self.__pivot_value:samplerz_axi_hw2sw32_0x0x78dc3a9c398_cls = samplerz_axi_hw2sw32_0x0x78dc3a9c398_cls(
+        self.__pivot_value:samplerz_axi_hw2sw32_0x0x7f4e0b7431d_cls = samplerz_axi_hw2sw32_0x0x7f4e0b7431d_cls(
                                                                      address=self.address+320,
                                                                      accesswidth=32,
                                                                      width=32,
@@ -500,7 +500,7 @@ class samplerz_axi_sample_histogram_cls(RegFile):
         return self.__histogram
     
     @property
-    def pivot_value(self) -> samplerz_axi_hw2sw32_0x0x78dc3a9c398_cls:
+    def pivot_value(self) -> samplerz_axi_hw2sw32_0x0x7f4e0b7431d_cls:
         """
         Property to access pivot_value 
 
@@ -978,7 +978,7 @@ class samplerz_axi_prng_cls(RegFile):
     
     
     
-class samplerz_axi_hw2sw32_data_0x0x78dc3a9c2c0_cls(FieldReadOnly):
+class samplerz_axi_hw2sw32_data_0x0x7f4e0b76db8_cls(FieldReadOnly):
     
     """
     Class to represent a register field in the register model
@@ -996,7 +996,7 @@ class samplerz_axi_hw2sw32_data_0x0x78dc3a9c2c0_cls(FieldReadOnly):
 
     
     
-class samplerz_axi_hw2sw32_0x0x78dc3a9c2ba_cls(RegReadOnly):
+class samplerz_axi_hw2sw32_0x0x7f4e0b742c3_cls(RegReadOnly):
     """
     Class to represent a register in the register model
 
@@ -1022,7 +1022,7 @@ class samplerz_axi_hw2sw32_0x0x78dc3a9c2ba_cls(RegReadOnly):
 
         # build the field attributes
         
-        self.__data:samplerz_axi_hw2sw32_data_0x0x78dc3a9c2c0_cls = samplerz_axi_hw2sw32_data_0x0x78dc3a9c2c0_cls(
+        self.__data:samplerz_axi_hw2sw32_data_0x0x7f4e0b76db8_cls = samplerz_axi_hw2sw32_data_0x0x7f4e0b76db8_cls(
             parent_register=self,
             size_props=FieldSizeProps(
                 width=32,
@@ -1052,7 +1052,7 @@ class samplerz_axi_hw2sw32_0x0x78dc3a9c2ba_cls(RegReadOnly):
     # build the properties for the fields
     
     @property
-    def data(self) -> samplerz_axi_hw2sw32_data_0x0x78dc3a9c2c0_cls:
+    def data(self) -> samplerz_axi_hw2sw32_data_0x0x7f4e0b76db8_cls:
         """
         Property to access data field of the register
 
@@ -1084,7 +1084,7 @@ class samplerz_axi_hw2sw32_0x0x78dc3a9c2ba_cls(RegReadOnly):
     
     
     
-class samplerz_axi_hw2sw32_data_0x0x78dc3a9c29c_cls(FieldReadOnly):
+class samplerz_axi_hw2sw32_data_0x0x7f4e0b76da9_cls(FieldReadOnly):
     
     """
     Class to represent a register field in the register model
@@ -1102,7 +1102,7 @@ class samplerz_axi_hw2sw32_data_0x0x78dc3a9c29c_cls(FieldReadOnly):
 
     
     
-class samplerz_axi_hw2sw32_0x0x78dc3a9c296_cls(RegReadOnly):
+class samplerz_axi_hw2sw32_0x0x7f4e0b742b1_cls(RegReadOnly):
     """
     Class to represent a register in the register model
 
@@ -1128,7 +1128,7 @@ class samplerz_axi_hw2sw32_0x0x78dc3a9c296_cls(RegReadOnly):
 
         # build the field attributes
         
-        self.__data:samplerz_axi_hw2sw32_data_0x0x78dc3a9c29c_cls = samplerz_axi_hw2sw32_data_0x0x78dc3a9c29c_cls(
+        self.__data:samplerz_axi_hw2sw32_data_0x0x7f4e0b76da9_cls = samplerz_axi_hw2sw32_data_0x0x7f4e0b76da9_cls(
             parent_register=self,
             size_props=FieldSizeProps(
                 width=32,
@@ -1158,7 +1158,7 @@ class samplerz_axi_hw2sw32_0x0x78dc3a9c296_cls(RegReadOnly):
     # build the properties for the fields
     
     @property
-    def data(self) -> samplerz_axi_hw2sw32_data_0x0x78dc3a9c29c_cls:
+    def data(self) -> samplerz_axi_hw2sw32_data_0x0x7f4e0b76da9_cls:
         """
         Property to access data field of the register
 
@@ -1340,7 +1340,7 @@ class samplerz_axi_sw2hw64_cls(RegReadWrite):
     
     
     
-class samplerz_axi_sw2hw64_high_0x0x78dc3a9c239_cls(FieldReadWrite):
+class samplerz_axi_sw2hw64_high_0x0x7f4e0b76d7c_cls(FieldReadWrite):
     
     """
     Class to represent a register field in the register model
@@ -1359,7 +1359,7 @@ class samplerz_axi_sw2hw64_high_0x0x78dc3a9c239_cls(FieldReadWrite):
     
     
     
-class samplerz_axi_sw2hw64_low_0x0x78dc3a9c21e_cls(FieldReadWrite):
+class samplerz_axi_sw2hw64_low_0x0x7f4e0b76d6d_cls(FieldReadWrite):
     
     """
     Class to represent a register field in the register model
@@ -1377,7 +1377,7 @@ class samplerz_axi_sw2hw64_low_0x0x78dc3a9c21e_cls(FieldReadWrite):
 
     
     
-class samplerz_axi_sw2hw64_0x0x78dc3a9c218_cls(RegReadWrite):
+class samplerz_axi_sw2hw64_0x0x7f4e0b7428d_cls(RegReadWrite):
     """
     Class to represent a register in the register model
 
@@ -1403,7 +1403,7 @@ class samplerz_axi_sw2hw64_0x0x78dc3a9c218_cls(RegReadWrite):
 
         # build the field attributes
         
-        self.__low:samplerz_axi_sw2hw64_low_0x0x78dc3a9c21e_cls = samplerz_axi_sw2hw64_low_0x0x78dc3a9c21e_cls(
+        self.__low:samplerz_axi_sw2hw64_low_0x0x7f4e0b76d6d_cls = samplerz_axi_sw2hw64_low_0x0x7f4e0b76d6d_cls(
             parent_register=self,
             size_props=FieldSizeProps(
                 width=32,
@@ -1416,7 +1416,7 @@ class samplerz_axi_sw2hw64_0x0x78dc3a9c218_cls(RegReadWrite):
                 is_volatile=False),
             logger_handle=logger_handle+'.low',
             inst_name='low')
-        self.__high:samplerz_axi_sw2hw64_high_0x0x78dc3a9c239_cls = samplerz_axi_sw2hw64_high_0x0x78dc3a9c239_cls(
+        self.__high:samplerz_axi_sw2hw64_high_0x0x7f4e0b76d7c_cls = samplerz_axi_sw2hw64_high_0x0x7f4e0b76d7c_cls(
             parent_register=self,
             size_props=FieldSizeProps(
                 width=32,
@@ -1447,7 +1447,7 @@ class samplerz_axi_sw2hw64_0x0x78dc3a9c218_cls(RegReadWrite):
     # build the properties for the fields
     
     @property
-    def low(self) -> samplerz_axi_sw2hw64_low_0x0x78dc3a9c21e_cls:
+    def low(self) -> samplerz_axi_sw2hw64_low_0x0x7f4e0b76d6d_cls:
         """
         Property to access low field of the register
 
@@ -1455,7 +1455,7 @@ class samplerz_axi_sw2hw64_0x0x78dc3a9c218_cls(RegReadWrite):
         """
         return self.__low
     @property
-    def high(self) -> samplerz_axi_sw2hw64_high_0x0x78dc3a9c239_cls:
+    def high(self) -> samplerz_axi_sw2hw64_high_0x0x7f4e0b76d7c_cls:
         """
         Property to access high field of the register
 
@@ -1490,7 +1490,7 @@ class samplerz_axi_sw2hw64_0x0x78dc3a9c218_cls(RegReadWrite):
     
     
     
-class samplerz_axi_sw2hw64_high_0x0x78dc3a9c1fa_cls(FieldReadWrite):
+class samplerz_axi_sw2hw64_high_0x0x7f4e0b76d5e_cls(FieldReadWrite):
     
     """
     Class to represent a register field in the register model
@@ -1509,7 +1509,7 @@ class samplerz_axi_sw2hw64_high_0x0x78dc3a9c1fa_cls(FieldReadWrite):
     
     
     
-class samplerz_axi_sw2hw64_low_0x0x78dc3a9c1df_cls(FieldReadWrite):
+class samplerz_axi_sw2hw64_low_0x0x7f4e0b76d4f_cls(FieldReadWrite):
     
     """
     Class to represent a register field in the register model
@@ -1527,7 +1527,7 @@ class samplerz_axi_sw2hw64_low_0x0x78dc3a9c1df_cls(FieldReadWrite):
 
     
     
-class samplerz_axi_sw2hw64_0x0x78dc3a9c1d9_cls(RegReadWrite):
+class samplerz_axi_sw2hw64_0x0x7f4e0b7427b_cls(RegReadWrite):
     """
     Class to represent a register in the register model
 
@@ -1553,7 +1553,7 @@ class samplerz_axi_sw2hw64_0x0x78dc3a9c1d9_cls(RegReadWrite):
 
         # build the field attributes
         
-        self.__low:samplerz_axi_sw2hw64_low_0x0x78dc3a9c1df_cls = samplerz_axi_sw2hw64_low_0x0x78dc3a9c1df_cls(
+        self.__low:samplerz_axi_sw2hw64_low_0x0x7f4e0b76d4f_cls = samplerz_axi_sw2hw64_low_0x0x7f4e0b76d4f_cls(
             parent_register=self,
             size_props=FieldSizeProps(
                 width=32,
@@ -1566,7 +1566,7 @@ class samplerz_axi_sw2hw64_0x0x78dc3a9c1d9_cls(RegReadWrite):
                 is_volatile=False),
             logger_handle=logger_handle+'.low',
             inst_name='low')
-        self.__high:samplerz_axi_sw2hw64_high_0x0x78dc3a9c1fa_cls = samplerz_axi_sw2hw64_high_0x0x78dc3a9c1fa_cls(
+        self.__high:samplerz_axi_sw2hw64_high_0x0x7f4e0b76d5e_cls = samplerz_axi_sw2hw64_high_0x0x7f4e0b76d5e_cls(
             parent_register=self,
             size_props=FieldSizeProps(
                 width=32,
@@ -1597,7 +1597,7 @@ class samplerz_axi_sw2hw64_0x0x78dc3a9c1d9_cls(RegReadWrite):
     # build the properties for the fields
     
     @property
-    def low(self) -> samplerz_axi_sw2hw64_low_0x0x78dc3a9c1df_cls:
+    def low(self) -> samplerz_axi_sw2hw64_low_0x0x7f4e0b76d4f_cls:
         """
         Property to access low field of the register
 
@@ -1605,7 +1605,7 @@ class samplerz_axi_sw2hw64_0x0x78dc3a9c1d9_cls(RegReadWrite):
         """
         return self.__low
     @property
-    def high(self) -> samplerz_axi_sw2hw64_high_0x0x78dc3a9c1fa_cls:
+    def high(self) -> samplerz_axi_sw2hw64_high_0x0x7f4e0b76d5e_cls:
         """
         Property to access high field of the register
 
@@ -2689,7 +2689,7 @@ class samplerz_axi_cls(AddressMap):
                                                                      inst_name='consumed_bits', parent=self)
         
             
-        self.__sginv:samplerz_axi_sw2hw64_0x0x78dc3a9c1d9_cls = samplerz_axi_sw2hw64_0x0x78dc3a9c1d9_cls(
+        self.__sginv:samplerz_axi_sw2hw64_0x0x7f4e0b7427b_cls = samplerz_axi_sw2hw64_0x0x7f4e0b7427b_cls(
                                                                      address=self.address+24,
                                                                      accesswidth=32,
                                                                      width=64,
@@ -2697,7 +2697,7 @@ class samplerz_axi_cls(AddressMap):
                                                                      inst_name='sginv', parent=self)
         
             
-        self.__mu1:samplerz_axi_sw2hw64_0x0x78dc3a9c218_cls = samplerz_axi_sw2hw64_0x0x78dc3a9c218_cls(
+        self.__mu1:samplerz_axi_sw2hw64_0x0x7f4e0b7428d_cls = samplerz_axi_sw2hw64_0x0x7f4e0b7428d_cls(
                                                                      address=self.address+32,
                                                                      accesswidth=32,
                                                                      width=64,
@@ -2713,7 +2713,7 @@ class samplerz_axi_cls(AddressMap):
                                                                      inst_name='mu2', parent=self)
         
             
-        self.__z1:samplerz_axi_hw2sw32_0x0x78dc3a9c296_cls = samplerz_axi_hw2sw32_0x0x78dc3a9c296_cls(
+        self.__z1:samplerz_axi_hw2sw32_0x0x7f4e0b742b1_cls = samplerz_axi_hw2sw32_0x0x7f4e0b742b1_cls(
                                                                      address=self.address+48,
                                                                      accesswidth=32,
                                                                      width=32,
@@ -2721,7 +2721,7 @@ class samplerz_axi_cls(AddressMap):
                                                                      inst_name='z1', parent=self)
         
             
-        self.__z2:samplerz_axi_hw2sw32_0x0x78dc3a9c2ba_cls = samplerz_axi_hw2sw32_0x0x78dc3a9c2ba_cls(
+        self.__z2:samplerz_axi_hw2sw32_0x0x7f4e0b742c3_cls = samplerz_axi_hw2sw32_0x0x7f4e0b742c3_cls(
                                                                      address=self.address+52,
                                                                      accesswidth=32,
                                                                      width=32,
@@ -2813,7 +2813,7 @@ class samplerz_axi_cls(AddressMap):
         return self.__consumed_bits
         
     @property
-    def sginv(self) -> samplerz_axi_sw2hw64_0x0x78dc3a9c1d9_cls:
+    def sginv(self) -> samplerz_axi_sw2hw64_0x0x7f4e0b7427b_cls:
         """
         Property to access sginv 
 
@@ -2822,7 +2822,7 @@ class samplerz_axi_cls(AddressMap):
         return self.__sginv
         
     @property
-    def mu1(self) -> samplerz_axi_sw2hw64_0x0x78dc3a9c218_cls:
+    def mu1(self) -> samplerz_axi_sw2hw64_0x0x7f4e0b7428d_cls:
         """
         Property to access mu1 
 
@@ -2840,7 +2840,7 @@ class samplerz_axi_cls(AddressMap):
         return self.__mu2
         
     @property
-    def z1(self) -> samplerz_axi_hw2sw32_0x0x78dc3a9c296_cls:
+    def z1(self) -> samplerz_axi_hw2sw32_0x0x7f4e0b742b1_cls:
         """
         Property to access z1 
 
@@ -2849,7 +2849,7 @@ class samplerz_axi_cls(AddressMap):
         return self.__z1
         
     @property
-    def z2(self) -> samplerz_axi_hw2sw32_0x0x78dc3a9c2ba_cls:
+    def z2(self) -> samplerz_axi_hw2sw32_0x0x7f4e0b742c3_cls:
         """
         Property to access z2 
 

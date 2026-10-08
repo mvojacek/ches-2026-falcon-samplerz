@@ -6,6 +6,7 @@
 #include <sys/mman.h>
 #include <stdbool.h>
 #include <string.h>
+#include <time.h>
 
 #include "../src/registers/sw/c/samplerz_axi_bitfield_little.h"
 #include "rdtsc.h"
@@ -209,11 +210,11 @@ bool samplerz_doublesample_timed(bool falcon1024, double sigma_inv, double mu1, 
 
     uint64_t post_read = rdtsc_barrier();
 
-    uint32_t freq = rdtsc_freq();
-    printf("Write time: %lu ns\n", (pre - pre_write) * 1000000000 / freq);
-    printf("Compute time: %lu ns\n", (post - pre) * 1000000000 / freq);
-    printf("Read time: %lu ns\n", (post_read - post) * 1000000000 / freq);
-    printf("Total time: %lu ns\n", (post_read - pre_write) * 1000000000 / freq);
+    uint64_t freq = rdtsc_freq();
+    printf("Write time: %.2Lf ns\n", rdtsc_nanoseconds(pre - pre_write, freq));
+    printf("Compute time: %.2Lf ns\n", rdtsc_nanoseconds(post - pre, freq));
+    printf("Read time: %.2Lf ns\n", rdtsc_nanoseconds(post_read - post, freq));
+    printf("Total time: %.2Lf ns\n", rdtsc_nanoseconds(post_read - pre_write, freq));
 
     return true;
 }

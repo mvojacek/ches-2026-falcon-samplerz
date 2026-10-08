@@ -1,11 +1,14 @@
 
 #include <stdio.h>
+#include <inttypes.h>
+#include "hw_samplerz.h"
+#ifdef FALCON_HW_SAMPLERZ
 #include <fcntl.h>
 #include <sys/mman.h>
 #include <stdbool.h>
 #include <unistd.h>
-#include "hw_samplerz.h"
 #include "../../src/registers/sw/c/samplerz_axi_bitfield_little.h"
+#endif
 
 uint64_t total_doublesamples = 0;
 uint64_t total_doublesample_cycles = 0;
@@ -24,17 +27,28 @@ void track_singlesample_cycles(uint64_t cycles)
     total_singlesample_cycles += cycles;
 }
 
-void print_sample_statistics()
+static void print_statistics(const char *kind, uint64_t count, uint64_t ticks,
+    uint64_t frequency)
 {
-    uint32_t freq = rdtsc_freq();
-    printf("Total singlesamples: %lu\n", total_singlesamples);
-    printf("Total singlesample cycles: %lu\n", total_singlesample_cycles);
-    printf("Average singlesample time: %lu ns\n", total_singlesample_cycles * 1000000000 / total_singlesamples / freq);
-    printf("Average singlesample time (cycles): %lu\n", total_singlesample_cycles / total_singlesamples);
-    printf("Total doublesamples: %lu\n", total_doublesamples);
-    printf("Total doublesample cycles: %lu\n", total_doublesample_cycles);
-    printf("Average doublesame time: %lu ns\n", total_doublesample_cycles * 1000000000 / total_doublesamples / freq);
-    printf("Average doublesample time (cycles): %lu\n", total_doublesample_cycles / total_doublesamples);
+    printf("Total %ssamples: %" PRIu64 "\n", kind, count);
+    printf("Total %ssample ticks: %" PRIu64 "\n", kind, ticks);
+    if (count == 0 || frequency == 0) {
+        printf("Average %ssample time: N/A\n", kind);
+        printf("Average %ssample time (ticks): N/A\n", kind);
+        return;
+    }
+    printf("Average %ssample time: %.2Lf ns\n", kind,
+        rdtsc_nanoseconds(ticks, frequency) / (long double)count);
+    printf("Average %ssample time (ticks): %.2Lf\n", kind,
+        (long double)ticks / (long double)count);
+}
+
+void print_sample_statistics(void)
+{
+    uint64_t frequency = rdtsc_freq();
+    printf("Timer: %s, %" PRIu64 " Hz\n", RDTSC_UNITS, frequency);
+    print_statistics("single", total_singlesamples, total_singlesample_cycles, frequency);
+    print_statistics("double", total_doublesamples, total_doublesample_cycles, frequency);
 }
 
 // int Zf(sampler)(void *ctx, fpr mu, fpr isigma);
@@ -69,6 +83,7 @@ void Zf(doubleSampleSWtimed)(void *ctx, fpr mu1, fpr mu2, fpr isigma, fpr* t1, f
     *t2 = fpr_of(z2);
 }
 
+#ifdef FALCON_HW_SAMPLERZ
 #define SAMPLERZ_AXI_BASE_ADDR 0x6000000000
 
 volatile samplerz_axi_t *dev = 0;
@@ -190,4 +205,5 @@ int Zf(singleSampleHWtimed)(void *ctx, fpr mu, fpr isigma)
     track_singlesample_cycles(post - pre);
     return sample;
 }
+#endif
 

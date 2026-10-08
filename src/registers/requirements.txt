@@ -1,0 +1,4 @@
+peakrdl==1.2.3
+peakrdl-cheader==1.1.0
+peakrdl-regblock[cli]==1.0.0
+peakrdl-python==1.1.0

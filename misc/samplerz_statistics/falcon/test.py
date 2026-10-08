@@ -4,17 +4,17 @@ This file implements tests for various parts of the Falcon.py library.
 Test the code with:
 > make test
 """
-from common import q, sqnorm
-from fft import add, sub, mul, div, neg, fft, ifft
-from ntt import mul_zq, div_zq
-from sampler import sampler_z
-from ffsampling import ffldl, ffldl_fft, ffnp, ffnp_fft
-from ffsampling import gram
+from falcon.common import q, sqnorm
+from falcon.fft import add, sub, mul, div, neg, fft, ifft
+from falcon.ntt import mul_zq, div_zq
+from falcon.sampler import sampler_z
+from falcon.ffsampling import ffldl, ffldl_fft, ffnp, ffnp_fft
+from falcon.ffsampling import gram
 from random import randint, random, gauss
 from math import pi, sqrt, floor, ceil, exp
-from ntrugen import karamul, ntru_gen, gs_norm
-from falcon import SecretKey, PublicKey
-from encoding import compress, decompress
+from falcon.ntrugen import karamul, ntru_gen, gs_norm
+from falcon.falcon import SecretKey, PublicKey
+from falcon.encoding import compress, decompress
 import sys
 if sys.version_info >= (3, 4):
     from importlib import reload  # Python 3.4+ only.
@@ -218,23 +218,24 @@ def test_covariance(n, iterations=100):
 
 def test(n, iterations=10):
     """A battery of tests."""
-    sys.stdout.write('Test FFT         : ')
-    print("OK" if test_fft(n, iterations) else "Not OK")
-    sys.stdout.write('Test NTT         : ')
-    print("OK" if test_ntt(n, iterations) else "Not OK")
-    sys.stdout.write('Test ntru_gen    : ')
-    print("OK" if test_ntrugen(n, iterations // 10) else "Not OK")
-    sys.stdout.write('Test ffnp        : ')
-    print("OK" if test_ffnp(n, iterations) else "Not OK")
-    sys.stdout.write('Test compression : ')
-    print("OK" if test_compress(n, iterations) else "Not OK")
-    sys.stdout.write('Test Falcon      : ')
-    print("OK" if test_falcon(n, iterations) else "Not OK")
+    passed = True
+    for name, function, count in [
+        ('FFT', test_fft, iterations), ('NTT', test_ntt, iterations),
+        ('ntru_gen', test_ntrugen, max(1, iterations // 10)),
+        ('ffnp', test_ffnp, iterations), ('compression', test_compress, iterations),
+        ('Falcon', test_falcon, iterations),
+    ]:
+        result = bool(function(n, count))
+        print(f'Test {name:12}: {"OK" if result else "Not OK"}')
+        passed &= result
+    return passed
 
 
 # Run all the tests
 if (__name__ == "__main__"):
+    passed = True
     for i in range(2, 8):
         n = (1 << i)
         print("Test battery for n = {n}".format(n=n))
-        test(n)
+        passed &= test(n)
+    sys.exit(0 if passed else 1)

@@ -3,7 +3,7 @@ _list:
 
 BIN := "/tmp/sampler_tests"
 
-build: && caps
+build:
     clang -O3 -o sampler_tests sampler_tests.c
     cp -f sampler_tests {{BIN}}
 
@@ -33,4 +33,4 @@ load:
     cp -a ../out/* {{tmpdir}}/
     cd {{tmpdir}} && sudo fpgautil -b samplerz.bit.bin -o samplerz.dtbo
 
-all: perms load brun
+all: build caps perms load run

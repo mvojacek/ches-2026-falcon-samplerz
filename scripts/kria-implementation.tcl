@@ -13,10 +13,10 @@ if {[llength [get_filesets $con -quiet]] == 0} {
     create_fileset -constrset $con
 }
 if {[llength [get_runs $syn -quiet]] == 0} {
-    create_run $syn -flow {Vivado Synthesis 2024} -constrset $con -part $part_name
+    create_run $syn -flow {Vivado Synthesis 2025} -constrset $con -part $part_name
 }
 if {[llength [get_runs $imp -quiet]] == 0} {
-    create_run $imp -flow {Vivado Implementation 2024} -constrset $con -part $part_name -parent_run $syn
+    create_run $imp -flow {Vivado Implementation 2025} -constrset $con -part $part_name -parent_run $syn
 }
 
 current_run [get_runs $imp]
